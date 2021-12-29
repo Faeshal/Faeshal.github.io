@@ -1,11 +1,15 @@
 ---
-title: How Much Software Engineer Salary ?
-date: 2021-12-29 12:28:44
+title: How Much Do Software Engineer Really Make ?
+date: 2019-02-23 12:28:44
 tags:
+- developer
+- salary
+categories:
+- career
 ---
 ![](https://faeshal.com/storage/posts/February2019/salary-png-6.png)
 
-##### How Much Do Software Engineer Really Make ?
+##### Intro
 
 Today Information technology, very important in any business. without the necessary software applications to connect with their customers and partners will soon be irrelevant, which is why software engineering and other tech-related jobs are promising career paths for future. The Answers for this question is always depend with 4 main indicator :
 

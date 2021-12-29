@@ -4,8 +4,9 @@ date: 2021-12-14 18:30:30
 tags:
 - docker
 - vm
+- container
 categories: 
-- DevOps
+- devops
 ---
 
 {% youtuber video Gjnup-PuquQ %}{% endyoutuber %}

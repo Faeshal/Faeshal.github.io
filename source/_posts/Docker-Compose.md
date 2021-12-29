@@ -4,8 +4,9 @@ date: 2021-12-14 20:19:05
 tags: 
 - docker
 - vm
+- container
 categories: 
-- DevOps
+- devops
 ---
 
 ![](https://i.postimg.cc/J0D6n7FZ/banner-dockercompose.jpg)
