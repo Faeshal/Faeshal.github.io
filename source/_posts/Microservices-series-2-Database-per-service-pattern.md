@@ -27,7 +27,7 @@ with microservices, the way we store & access data is little bit strange compare
 for example service A direct access to service B database for getting user name data, the developer team from service A handle it with field called "name". At some point, the developer team at service B changed the "name" field to "firstName" and forgot to inform the developer from service A, this 100% will break service A, service A will go down.
 
 ![https://i.postimg.cc/Hs53Pnn5/Screen-Shot-2022-01-01-at-12-58-11-PM.pngfor](https://i.postimg.cc/Hs53Pnn5/Screen-Shot-2022-01-01-at-12-58-11-PM.png)
-another use case is, if service A doing direct access to service B, what happen if service B was down ? we're dead.
+another use case is, if service A doing direct access to service B database, what happen if service B was down ? we're dead.
 
 Service A & B will crash at the same time, because it depends on other service. What's the point of building microservices if there are still big dependencies on each service, right? That's why the dependencies between services is the thing we must eliminate in microservice architecture.
 
