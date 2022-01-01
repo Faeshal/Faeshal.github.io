@@ -24,7 +24,7 @@ with microservices, the way we store & access data is little bit strange compare
 
 ![https://i.postimg.cc/D0GQDpvF/Screen-Shot-2022-01-01-at-1-33-09-PM.pngfor](https://i.postimg.cc/D0GQDpvF/Screen-Shot-2022-01-01-at-1-33-09-PM.png)
 
-for example service A direct access to service B for getting user name data, the developer team from service A handle it with field called "name". At some point, the developer team at service B changed the "name" field to "firstName" and forgot to inform the developer from service A, this 100% will break service A, service A will go down.
+for example service A direct access to service B database for getting user name data, the developer team from service A handle it with field called "name". At some point, the developer team at service B changed the "name" field to "firstName" and forgot to inform the developer from service A, this 100% will break service A, service A will go down.
 
 ![https://i.postimg.cc/Hs53Pnn5/Screen-Shot-2022-01-01-at-12-58-11-PM.pngfor](https://i.postimg.cc/Hs53Pnn5/Screen-Shot-2022-01-01-at-12-58-11-PM.png)
 another use case is, if service A doing direct access to service B, what happen if service B was down ? we're dead.
