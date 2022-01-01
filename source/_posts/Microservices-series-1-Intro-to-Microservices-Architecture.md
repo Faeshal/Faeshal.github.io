@@ -8,12 +8,18 @@ category:
   - backend
 ---
 
-### Introduction
+## Introduction
 
-This Series is talked all about microservices architecure with nodejs implementation. For side note i learn this from Stephen Grider, so if some information / keywords is for documenting my journey playing with express. First of all in this series i'm not talking about what express is , what express can do , how to install it , etc .
+This is the beginning series of microservices architecure and the implementation in node.js. First thing first i wanna say thank you & give credit to [Stephen Grider](https://www.linkedin.com/in/stephengrider/), one of the best coding instructor out there. I learn a lot about microservices from him & i'm using some of his diagram pictures for this series.
 
-### monolitich architecture
+Before we dive into microservice architecture, we must know what is monolitich architecure really is and what problems arise from this architecture, this is the most common software architecture that we always use, right ?
 
-### microservices architecture
+## monolitich architecture
 
-### pro & cons monolitich vs microservices
+![mono](https://i.postimg.cc/BbQWqFzj/Screen-Shot-2022-01-01-at-10-08-25-AM.png)
+
+## microservices architecture
+
+![mc](https://i.postimg.cc/9XsJpZmC/Screen-Shot-2022-01-01-at-10-09-33-AM.png)
+
+## pro & cons monolitich vs microservices
