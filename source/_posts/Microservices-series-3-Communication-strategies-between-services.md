@@ -10,6 +10,6 @@ category:
 
 ### Data in microservices
 
-in microservices of course we want seemles communication
+Microservice sounds easy right? You just have to separate the features, then create a separate service and that's it. **Unfortunately it's not that simple**. The bigggest challange with microservices architecture is **Data Management between services**.
 
 ### Database Per Service Patern
