@@ -1,12 +1,13 @@
 ---
 title: How Much Do Software Engineer Really Make ?
-date: 2019-02-23 12:28:44
+date: 2019-01-02 12:28:44
 tags:
-- developer
-- salary
+  - developer
+  - salary
 categories:
-- career
+  - career
 ---
+
 ![](https://faeshal.com/storage/posts/February2019/salary-png-6.png)
 
 ##### Intro
@@ -16,7 +17,7 @@ Today Information technology, very important in any business. without the necess
 1.  How big is the company where you work for? is that Startup,Unicorn,Enterprise etc
 2.  Your Skill & Experience
 3.  Trainig & Education
-4.  The most important is Where is your work location ? 
+4.  The most important is Where is your work location ?
 
 That point will answer this question.For Example The Average Software Enginner Salary in **United States** According to the Glassdoor.com is **$103,035/year**.
 
@@ -34,4 +35,4 @@ Top 5 Cities with Highest Software Engineer Salary :
 
 ##### Conclusion
 
-For Conclusion i think forest knight (software engineer who have youtube channel (video above)) will give clear explanation how much do software engineer really make , again its depends on location and dont forget to calculation tax , pay living etc, for better view to get a dream software engineer job.Hope This Post will answer your curiosity.Thank You
+For Conclusion i think forest knight will give clear explanation how much do software engineer really make, again its depends on location and dont forget to calculation tax, cost of living etc, for better view to get a dream software engineer job. Hope This Post will answer your curiosity. Thank You

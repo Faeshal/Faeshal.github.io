@@ -2,13 +2,14 @@
 title: Node JS with MongoDB Atlas
 date: 2019-05-25 12:37:42
 tags:
-- database
-- mongodb
-- express.js
+  - database
+  - mongodb
+  - express.js
 categories:
-- backend
-- node.js
+  - backend
+  - node.js
 ---
+
 ![](https://i.postimg.cc/8kdQ5yL8/nodemongoose.jpg)
 
 ##### Introduction
@@ -23,36 +24,36 @@ And What is Mongoose ? **Mongoose is an object data modeling** **(ODM) library*
 
 Let's straight to the point , today i',m gonna build same project like previous post simple CRUD App in this case is fruit shop with mongodb Atlas+Mongoose,yes the cloud is here! and this is technology and tools i use for :
 
-| Technology | Name |
-| --- | --- |
-| Back End | NodeJS |
-| Framework | Express & Bootstrap 4 |
-| DBMS | Mongodb Atlas |
-| NPM | Mongodb & Body Parser & Nodemon & Mongoose |
-| Template Engine | EJS |
+| Technology      | Name                                       |
+| --------------- | ------------------------------------------ |
+| Back End        | NodeJS                                     |
+| Framework       | Express & Bootstrap 4                      |
+| DBMS            | Mongodb Atlas                              |
+| NPM             | Mongodb & Body Parser & Nodemon & Mongoose |
+| Template Engine | EJS                                        |
 
 ##### Develop Step
 
 First, Create Mongodb Atlas Account & Create a Cluster, Remember we build database with Atlas **it's mean Mongodb in the Cloud !** For that mongodb give us very clear documentation.link down below.
 
-* **[Getting Started with Mongodb Atlas](https://docs.atlas.mongodb.com/getting-started/)**
+- **[Getting Started with Mongodb Atlas](https://docs.atlas.mongodb.com/getting-started/)**
 
 Second create Folder and then _Npm init_
 
 Next Install All Npm Package above
 
-* npm install --save nodemon
-* npm install --save express
-* npm install --save mongoose
-* npm install --save ejs
+- npm install --save nodemon
+- npm install --save express
+- npm install --save mongoose
+- npm install --save ejs
 
 Next ,Create MVC folder schema it's up to you for name but this is mine :
 
-* controller
-* models
-* routes
-* views
-    * includes
+- controller
+- models
+- routes
+- views
+  - includes
 
 Next Create server & database connection ,require all package from app.js (our main route). **Important please use your MongoDB Atlas string and fill it with your password.** :
 
@@ -62,12 +63,12 @@ Next Create server & database connection ,require all package from app.js (our m
     const mongoose = require("mongoose");
     const adminRoutes = require("./routes/admin");
     const app = express();
-    
+
     app.set("view engine", "ejs");
     app.set("views", "views");
     app.use(bodyParser.urlencoded({ extended: false }));
     app.use(adminRoutes);
-    
+
     mongoose
       .connect(
         "mongodb+srv://:@clusterfruit-gtqj8.mongodb.net/shop?retryWrites=true"
@@ -78,12 +79,11 @@ Next Create server & database connection ,require all package from app.js (our m
       .catch(err => {
         console.log(err);
       });
-    
 
 Next the most important create controller name admin.js inside controller folder.Controller use for connect model and view and bring functionality
 
     const Product = require("../models/product");
-    
+
     exports.getAddProduct = (req, res, next) => {
       res.render("add", {
         pageTitle: "Add Product",
@@ -91,7 +91,7 @@ Next the most important create controller name admin.js inside controller folder
         editing: false
       });
     };
-    
+
     exports.postAddProduct = (req, res, next) => {
       const title = req.body.title;
       const imageUrl = req.body.imageUrl;
@@ -115,7 +115,7 @@ Next the most important create controller name admin.js inside controller folder
           console.log(err);
         });
     };
-    
+
     exports.getEditProduct = (req, res, next) => {
       const editMode = req.query.edit;
       if (!editMode) {
@@ -136,7 +136,7 @@ Next the most important create controller name admin.js inside controller folder
         })
         .catch(err => console.log(err));
     };
-    
+
     exports.postEditProduct = (req, res, next) => {
       const prodId = req.body.productId;
       const updatedTitle = req.body.title;
@@ -144,7 +144,7 @@ Next the most important create controller name admin.js inside controller folder
       const updatedStock = req.body.stock;
       const updatedImageUrl = req.body.imageUrl;
       const updatedDesc = req.body.description;
-    
+
       Product.findById(prodId)
         .then(product => {
           product.title = updatedTitle;
@@ -160,7 +160,7 @@ Next the most important create controller name admin.js inside controller folder
         })
         .catch(err => console.log(err));
     };
-    
+
     exports.getProducts = (req, res, next) => {
       Product.find()
         .then(products => {
@@ -172,7 +172,7 @@ Next the most important create controller name admin.js inside controller folder
         })
         .catch(err => console.log(err));
     };
-    
+
     exports.postDeleteProduct = (req, res, next) => {
       const prodId = req.body.productId;
       Product.findByIdAndRemove(prodId)
@@ -182,29 +182,27 @@ Next the most important create controller name admin.js inside controller folder
         })
         .catch(err => console.log(err));
     };
-    
 
 Next create admin.js again inside _routes_ folder and create routing & call from controller
 
     const express = require("express");
     const adminController = require("../controller/admin");
     const router = express.Router();
-    
+
     router.get("/add", adminController.getAddProduct);
     router.get("/", adminController.getProducts);
     router.post("/add", adminController.postAddProduct);
     router.get("/edit/:productId", adminController.getEditProduct);
     router.post("/edit", adminController.postEditProduct);
     router.post("/delete", adminController.postDeleteProduct);
-    
-    module.exports = router;    
-    
+
+    module.exports = router;
 
 Next , Create product.js inside models folder for manage database structure
 
     const mongoose = require("mongoose");
     const Schema = mongoose.Schema;
-    
+
     const productSchema = new Schema({
       title: {
         type: String,
@@ -227,9 +225,8 @@ Next , Create product.js inside models folder for manage database structure
         required: true
       }
     });
-    
+
     module.exports = mongoose.model("Product", productSchema);
-    
 
 Next we build the view. I will separate header and footer inside _views/includes_ for use by 3 main file inside views which is index.ejs(for main page),add.ejs(for add product page),edit.ejs(for edit product).So this is good for modularity and clean code. Ok this is head.ejs inside _views/includes_:
 
@@ -243,7 +240,7 @@ Next we build the view. I will separate header and footer inside _views/includes
               name="viewport"
               content="width=device-width, initial-scale=1, shrink-to-fit=no"
             />
-        
+
             <!-- Bootstrap CSS -->
             <link
               rel="stylesheet"
@@ -254,7 +251,7 @@ Next we build the view. I will separate header and footer inside _views/includes
           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"></link>
           </head>
           <body>
-        
+
             <!-- NAVBAR -->
           <nav class="navbar navbar-light bg-light">
             <a class="navbar-brand" href="/">
@@ -264,7 +261,6 @@ Next we build the view. I will separate header and footer inside _views/includes
             <a class="navbar-brand ml-auto" href="https://www.instagram.com/faeshal_/" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
             <a class="navbar-brand" href="https://github.com/faeshal" target="_blank"><i class="fab fa-github fa-lg"></i></a>
           </nav>
-    
 
 and this is the end.ejs
 
@@ -286,7 +282,6 @@ and this is the end.ejs
         ></script>
       </body>
     </html>
-    
 
 And the main view , index.ejs
 
@@ -312,12 +307,12 @@ And the main view , index.ejs
                   <p class="card-text">
                     <%-product.description%>
                   </p>
-        
+
                   <form id="myForm" method="POST" action="/delete">
                     <a
                       href="/edit/<%= product._id %>?edit=true"
                       class="btn btn-warning mr-3"
-    
+
                       >Update</a
                     >
                     <input type="hidden" value="<%= product._id %>" name="productId" />
@@ -332,7 +327,7 @@ And the main view , index.ejs
               </div>
             </div>
             <% } %>
-        
+
             <!-- END CARD -->
             <% } else { %>
             <h6 class="text-center">No Product</h6>
@@ -340,9 +335,8 @@ And the main view , index.ejs
           </div>
         </div>
         <!--  -->
-        
+
         <%-include("includes/end.ejs")%>
-    
 
 This is Add.ejs
 
@@ -410,10 +404,9 @@ This is Add.ejs
             </div>
           </div>
         </div>
-        
+
         <!--  -->
-        <%-include("includes/end.ejs")%>    
-    
+        <%-include("includes/end.ejs")%>
 
 This is Edit.ejs
 
@@ -490,10 +483,9 @@ This is Edit.ejs
         </div>
         </div>
         </div>
-        
+
         <!--  -->
-        <%-include("includes/end.ejs")%>    
-    
+        <%-include("includes/end.ejs")%>
 
 ##### Result
 
@@ -513,10 +505,8 @@ You can check your data for ensure your data push to the MongoDB Atlas.
 
 Hope you understand the Important thing is you know the differences work flow using MySQL and MongoDB so you can pick one DBMS that fit with your project requirement . Dont forget to check documentation for details as always link down below.
 
-* **[Mongoose](https://mongoosejs.com/)**
-* **[Express](https://expressjs.com/)**
-* **[Body Parser](https://www.npmjs.com/package/body-parser)**
-* **[EJS](https://ejs.co/)**
-* **[Mongodb - Documentation](https://docs.mongodb.com/)**
-
-If you have a question feel free to comment down below . for the last but not least stay curious and never stop learning. Sallam!
+- **[Mongoose](https://mongoosejs.com/)**
+- **[Express](https://expressjs.com/)**
+- **[Body Parser](https://www.npmjs.com/package/body-parser)**
+- **[EJS](https://ejs.co/)**
+- **[Mongodb - Documentation](https://docs.mongodb.com/)**

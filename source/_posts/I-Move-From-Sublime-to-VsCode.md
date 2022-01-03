@@ -2,12 +2,13 @@
 title: I Move From Sublime to VsCode
 date: 2019-03-17 12:37:23
 tags:
-- vscode
-- sublime
-- text editor
+  - vscode
+  - sublime
+  - text editor
 categories:
-- tools
+  - tools
 ---
+
 ![](https://i.postimg.cc/jqzymDfC/maxresdefault.jpg)
 
 ##### What's Wrong With Sublime Text ?
@@ -16,12 +17,12 @@ First of all, this is just my opinion for **7 years experience with sublime text
 
 ##### Quick Comparison
 
-| Point | VsCode | Sublime |
-| --- | --- | --- |
-| First Release | April 29, 2015 | January 18, 2008 |
-| Cost | Free | $80 with free trial |
-| Developer | Microsoft | Jon Skinner (Google Engineer) |
-| Platforms | OSX, Windows, Linux | OSX, Windows, Linux |
+| Point         | VsCode              | Sublime                       |
+| ------------- | ------------------- | ----------------------------- |
+| First Release | April 29, 2015      | January 18, 2008              |
+| Cost          | Free                | $80 with free trial           |
+| Developer     | Microsoft           | Jon Skinner (Google Engineer) |
+| Platforms     | OSX, Windows, Linux | OSX, Windows, Linux           |
 
 ##### So , Why I Move to VsCode ?
 
@@ -33,7 +34,7 @@ It's really slow if i use windows cmd and very annoying if i must cd.. cd\ cd.. 
 
 ![](https://faeshal.com/storage/posts/March2019/sublime-01.jpeg)
 
-And This is My VSCode with built-in terminal 
+And This is My VSCode with built-in terminal
 
 ![](https://faeshal.com/storage/posts/March2019/Screenshot_2.png)
 
@@ -65,7 +66,7 @@ And so much more,anyway you can download extension inside the vscode by type **c
 
 On the long time I have tried so much text editors or IDE outside there like Atom, Brackets, Sublime, Bluefish, Vim, Web Storm, PHPStorm, PyCharm, EMEditor all that stuff but it doesn't match with my coding style. Anyway you can try VsCode and find lots of usefull extension , link down below :
 
-* **[VsCode Download (49 MB)](https://code.visualstudio.com/)**
-* **[VsCode Marketplace - Extensions](https://marketplace.visualstudio.com/)**
+- **[VsCode Download (49 MB)](https://code.visualstudio.com/)**
+- **[VsCode Marketplace - Extensions](https://marketplace.visualstudio.com/)**
 
-The last i found VsCode and i said this is the answer of my research.For me and for now VsCode is the best code editor i can use for daily day code and for handle my entire software development project.
+The last i found VsCode and i said this is the answer of my research. For me and for now VsCode is the best code editor i can use for daily day code and for handle my entire software development project.

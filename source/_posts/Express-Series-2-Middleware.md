@@ -1,12 +1,13 @@
 ---
-title: 'Express Series 2 : Middleware'
+title: "Express Series 2 : Middleware"
 date: 2019-07-12 12:38:16
 tags:
-- express.js
-- express series
+  - express.js
+  - express series
 category:
-- node.js
+  - node.js
 ---
+
 ![](https://i.postimg.cc/6QPnF9gc/bannermiddlware.jpg)
 
 ##### Introduction
@@ -19,11 +20,11 @@ If the current middleware function does not end , it must call **next() **to te
 
 We can use middleware that we create by our self or we can use third party middlware that express support it like body-parser, cookie parser etc. Generally middleware is put inside **app.use()** or **router.use()** method . This is some type of express middleware :
 
-| Description | Middleware |
-| --- | --- |
-| Error handling middleware | app.use(**err**,req,res,next) |
-| Built-in middleware | express.static, express.json , express.urlencoded |
-| Thirdparty middleware | bodyparser , cookieparser etc. |
+| Description               | Middleware                                        |
+| ------------------------- | ------------------------------------------------- |
+| Error handling middleware | app.use(**err**,req,res,next)                     |
+| Built-in middleware       | express.static, express.json , express.urlencoded |
+| Thirdparty middleware     | bodyparser , cookieparser etc.                    |
 
 ##### Writting Middleware
 
@@ -31,10 +32,10 @@ Before we writing a middleware , the most important thing is we must know the ap
 
 ###### app.use("path",callback(http methods))
 
-| Argument | Description |
-| --- | --- |
-| Path | A string representing a path |
-| callback | A middleware function |
+| Argument | Description                  |
+| -------- | ---------------------------- |
+| Path     | A string representing a path |
+| callback | A middleware function        |
 
 ###### Writing Third party Middleware
 
@@ -45,16 +46,15 @@ Pretty Easy if you writing third party middleware , after you install & require 
     const cookieParser = require("cookie-parser")
     const cors=require("cors")
     const bodyparser=require("body")
-    
+
     // load the middleware
     app.use(cookieParser())
     app.use(cors())
     app.use(bodyParser.urlencoded({ extended: false }));
-    
 
 That's it very easy , and if you see why bodyparser have a parameters, it's because body parser having that ability , too see what parameters or what third party middleware that express have you can check express offical , link down below :
 
-* **[Express - Middleware](https://expressjs.com/en/resources/middleware.html)**
+- **[Express - Middleware](https://expressjs.com/en/resources/middleware.html)**
 
 ###### Writing Custom Middleware
 
@@ -67,17 +67,16 @@ For Custom middleware i will show you 2 ways to do that , first inside same file
       console.log(req);
       next();
     });
-      
+
     app.use((req, res, next) => {
       let date = new Date(Date.now()).toLocaleString();
       console.log(date);
       next();
     });
-      
+
     app.get("/", (req, res) => {
       res.send("Welcome Home");
     });
-    
 
 For making more modular we can write in diferent file and export it , for example we have 2 file , index.js (for server) & midd.js (for main middleware).
 
@@ -89,13 +88,12 @@ midd.js
         let hh=today.getHours();
         let nn=today.getMinutes();
         let ss=today.getSeconds();
-    
+
         let time=hh+':'+nn+':'+ss;
-    
+
         console.log(time);
       }
     }
-    
 
 index.js
 
@@ -104,13 +102,10 @@ index.js
       app.use("/",(req,res)=>{
         res.send("Welcome To HomePage")
      })
-    
 
 ##### Last Word
 
 That's all about basic middleware , this is very important , because we will use middleware all the time in node js for convert our logic and problem solving , i Hope you understand the basic , As always dont forget to check the documentation :
 
-* **[Express Basic Middleware - Docs](https://expressjs.com/en/guide/writing-middleware.html)**
-* **[Express ThirdParty Middleware - Docs](https://expressjs.com/en/resources/middleware.html)**
-
-See you on the next express series , stay curious and never stop learning. Sallam!
+- **[Express Basic Middleware - Docs](https://expressjs.com/en/guide/writing-middleware.html)**
+- **[Express ThirdParty Middleware - Docs](https://expressjs.com/en/resources/middleware.html)**

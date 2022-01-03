@@ -20,15 +20,13 @@ nav:
   search: /search/
   # projects: projects_url
 
-
-
 # Links to your social media accounts.
 # The keys should correspond to Fontawesome icon names
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
 # only 'mail' is an exception.
 social_links:
   github: https://github.com/faeshal
-  linkedin: /
+  linkedin: https://www.linkedin.com/in/faeshal/
   mail: mailto:faeshal@outlook.com
 
 # Customize the overview with displaying a tagcloud on the index page.
@@ -117,7 +115,6 @@ colorscheme: dark
 # Maximal width of the page in rem units.
 page_width: 51
 
-
 ##############################################################################
 # Miscellaneous
 ##############################################################################
@@ -132,7 +129,6 @@ open_graph:
   twitter_id:
   google_plus:
 
-
 ##############################################################################
 # Plugins
 ##############################################################################
@@ -140,7 +136,7 @@ open_graph:
 # Enable MathJax support for Latex
 mathjax:
   enabled: false
-  
+
 # Fill in your Disqus Comments Shortname to enable Disqus comments.
 disqus:
   enabled: false

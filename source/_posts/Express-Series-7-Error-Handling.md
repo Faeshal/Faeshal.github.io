@@ -1,12 +1,13 @@
 ---
-title: 'Express Series 7 : Error Handling'
+title: "Express Series 7 : Error Handling"
 date: 2019-07-19 12:38:06
 tags:
-- express.js
-- express series
+  - express.js
+  - express series
 category:
-- node.js
+  - node.js
 ---
+
 ![](https://i.postimg.cc/VNqZxbXK/error.png)
 
 ##### Introduction
@@ -35,28 +36,28 @@ Error handling originally created for handle this things. Logical Error can occu
 
 When you using error handling better you specify the http code , so that's other developer / user exactly know what is the network status is . For The Complete Http status code you can check to documentation link down below, But this is the most common things :
 
-| Code | Status |
-| --- | --- |
-| 1×× Informational |     |
-| 100 | Continue |
-| 102 | Processing |
-| 2×× Success |     |
-| 200 | Ok  |
-| 201 | Created |
-| 202 | Accepted |
-| 3×× Redirection |     |
-| 307 | Temporary Redirect |
-| 308 | Permanent Redirect |
-| 4×× Client Error |     |
-| 400 | Unauthorize |
-| 401 | Permanent Redirect |
-| 402 | Payment Required |
-| 403 | Forbidden |
-| 404 | Not Found |
-| 5×× Client Error |     |
-| 500 | Internal Service Error |
-| 502 | Bad Gateway |
-| 503 | Service Unavailable |
+| Code              | Status                 |
+| ----------------- | ---------------------- |
+| 1×× Informational |                        |
+| 100               | Continue               |
+| 102               | Processing             |
+| 2×× Success       |                        |
+| 200               | Ok                     |
+| 201               | Created                |
+| 202               | Accepted               |
+| 3×× Redirection   |                        |
+| 307               | Temporary Redirect     |
+| 308               | Permanent Redirect     |
+| 4×× Client Error  |                        |
+| 400               | Unauthorize            |
+| 401               | Permanent Redirect     |
+| 402               | Payment Required       |
+| 403               | Forbidden              |
+| 404               | Not Found              |
+| 5×× Client Error  |                        |
+| 500               | Internal Service Error |
+| 502               | Bad Gateway            |
+| 503               | Service Unavailable    |
 
 ##### Handling Error
 
@@ -70,14 +71,13 @@ For Handling Errors we using express error middleware or without , means we hand
           throw new Error("Invalid object");
         }
       };
-    
+
       try {
         validateObject("123");
       } catch (err) {
         console.log("Thrown: " + err.message);
       }
     });
-    
 
 ###### With Express Error Middleware
 
@@ -98,7 +98,6 @@ Controller.js
           return next(error);
         });
     };
-    
 
 App.js
 
@@ -110,13 +109,10 @@ App.js
         isAuthenticated: req.session.isLoggedIn
       });
     });
-    
 
 ##### Last Word
 
 That's it about error handling , Dont Forget to check documentation for detail and more example as always link down below :
 
-* **[Express Error Handling - Docs](http://expressjs.com/en/guide/error-handling.html)**
-* **[Http Error Code - Docs](https://www.restapitutorial.com/httpstatuscodes.html)**
-
-For the last but not least stay curious & never stop learning, Sallam!
+- **[Express Error Handling - Docs](http://expressjs.com/en/guide/error-handling.html)**
+- **[Http Error Code - Docs](https://www.restapitutorial.com/httpstatuscodes.html)**

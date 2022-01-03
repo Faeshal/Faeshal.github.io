@@ -1,12 +1,13 @@
 ---
-title: 'Express Series 5 : Cookie , Session & Authentication'
+title: "Express Series 5 : Cookie , Session & Authentication"
 date: 2019-07-16 12:38:06
 tags:
-- express.js
-- express series
+  - express.js
+  - express series
 category:
-- node.js
+  - node.js
 ---
+
 ![](https://i.postimg.cc/63TwMjdd/banner-template.jpg)
 
 ##### Introduction
@@ -41,12 +42,12 @@ Authentication is the process of identifying an individual, usually based on a 
 
 Let's Straight to the point , we wanna try add authentication into my previous project , you can download at my github . After that we will install some package and here dependecy that i'm adding :
 
-| No  | Package | Description |
-| --- | --- | --- |
-| 1   | Express-Session | Add Express Session Middleware |
+| No  | Package                 | Description                         |
+| --- | ----------------------- | ----------------------------------- |
+| 1   | Express-Session         | Add Express Session Middleware      |
 | 2   | Connect-Mongodb-Session | Store Session into Mongodb Database |
-| 3   | Connect-Flash | Giving user feedback (alert) |
-| 4   | bcrypt | Encrypt user Password |
+| 3   | Connect-Flash           | Giving user feedback (alert)        |
+| 4   | bcrypt                  | Encrypt user Password               |
 
 First , Call the package that we install from our app.js , and add little bit configuration
 
@@ -54,29 +55,29 @@ First , Call the package that we install from our app.js , and add little bit co
     const bodyParser = require("body-parser");
     const mongoose = require("mongoose");
     const PORT = 3000;
-    
+
     const session = require("express-session");
     const MongoDBStore = require("connect-mongodb-session")(session);
     const flash = require("connect-flash");
     const app = express();
-    
+
     const adminRoutes = require("./routes/admin");
-    
+
     const MONGODB_URI = "mongodb+srv://:@.mongodb.net/";
-    
-    
+
+
     app.set("view engine", "ejs");
     app.set("views", "views");
-    
+
     app.use(flash());
-    
+
     const store = new MongoDBStore({
       uri: MONGODB_URI,
       collection: "sessions"
     });
-    
+
     app.use(bodyParser.urlencoded({ extended: false }));
-    
+
     app.use(
       session({
         secret: "my secret",
@@ -85,9 +86,9 @@ First , Call the package that we install from our app.js , and add little bit co
         store: store
       })
     );
-    
+
     app.use(adminRoutes);
-    
+
     mongoose
       .connect(MONGODB_URI, { useNewUrlParser: true })
       .then(result => {
@@ -97,13 +98,12 @@ First , Call the package that we install from our app.js , and add little bit co
       .catch(err => {
         console.log(err);
       });
-    
 
 Second, Add User Models & Create Mongoose Schema
 
     const mongoose = require("mongoose");
     const Schema = mongoose.Schema;
-    
+
     const userSchema = new Schema({
       email: {
         type: String,
@@ -114,14 +114,14 @@ Second, Add User Models & Create Mongoose Schema
         required: true
       }
     });
-    
+
     module.exports = mongoose.model("User", userSchema);
 
 Next Step, and the most important , add Auth Controller
 
     const bcrypt = require("bcrypt");
     const User = require("../models/user");
-    
+
     exports.getLogin = (req, res, next) => {
       let message = req.flash("error");
       if (message.length > 0) {
@@ -136,7 +136,7 @@ Next Step, and the most important , add Auth Controller
         errorMessage: message
       });
     };
-    
+
     exports.postLogin = (req, res, next) => {
       const email = req.body.email;
       const password = req.body.password;
@@ -167,7 +167,7 @@ Next Step, and the most important , add Auth Controller
         })
         .catch(err => console.log(err));
     };
-    
+
     exports.getSignup = (req, res, next) => {
       let message = req.flash("error");
       if (message.length > 0) {
@@ -182,7 +182,7 @@ Next Step, and the most important , add Auth Controller
         errorMessage: message
       });
     };
-    
+
     exports.postSignup = (req, res, next) => {
       const email = req.body.email;
       const password = req.body.password;
@@ -211,14 +211,13 @@ Next Step, and the most important , add Auth Controller
           console.log(err);
         });
     };
-    
+
     exports.postLogout = (req, res, next) => {
       req.session.destroy(err => {
         console.log(err);
         res.redirect("/");
       });
     };
-    
 
 Next , Create folder (optional) called middleware and create is-auth (the name is up to you). This is security middleware for protect our route
 
@@ -228,40 +227,38 @@ Next , Create folder (optional) called middleware and create is-auth (the name i
       }
       next();
     };
-    
 
 Next , Add Routes and is-auth middleware beside the the routes that we wanna protect
 
     const express = require("express");
     const router = express.Router();
-    
+
     const adminController = require("../controller/admin");
     const authController = require("../controller/auth");
     const isAuth = require("../middleware/is-auth");
-    
+
     router.get("/", adminController.getProducts);
-    
+
     router.get("/add", isAuth, adminController.getAddProduct);
     router.post("/add", isAuth, adminController.postAddProduct);
     router.get("/edit/:productId", isAuth, adminController.getEditProduct);
     router.post("/edit", isAuth, adminController.postEditProduct);
     router.post("/delete", isAuth, adminController.postDeleteProduct);
-    
+
     router.get("/signup", authController.getSignup);
     router.post("/signup", authController.postSignup);
-    
+
     router.get("/login", authController.getLogin);
     router.post("/login", authController.postLogin);
-    
+
     router.post("/logout", isAuth, authController.postLogout);
-    
+
     module.exports = router;
-    
 
 Next , add Login View
 
     <%-include("includes/head.ejs")%>
-    
+
     <div class="container" class="mt-4 ml-2 mr-2">
       <br />
       <h4 class="text-center mt-4 mb-4">LOGIN</h4>
@@ -293,12 +290,12 @@ Next , add Login View
                 id="password"
                 required
               />
-    
+
             </div>
             <br />
             <div class="form-group text-center mx-auto">
            <button
-                class="btn btn-lg btn-outline-primary mt-2 mr-2" 
+                class="btn btn-lg btn-outline-primary mt-2 mr-2"
               >
                  <a href="/signup" style="text-decoration:none;color: currentColor;"> SIGNUP</a>
               </button>
@@ -313,14 +310,13 @@ Next , add Login View
         </div>
       </div>
     </div>
-    
+
     <%-include("includes/end.ejs")%>
-    
 
 The Last but not least , Signup View
 
     <%-include("includes/head.ejs")%>
-    
+
     <div class="container" class="mt-4 ml-2 mr-2">
       <br />
       <h4 class="text-center mt-4 mb-4">REGISTER</h4>
@@ -363,18 +359,15 @@ The Last but not least , Signup View
         </div>
       </div>
     </div>
-    
+
     <%-include("includes/end.ejs")%>
-    
 
 ##### Last Word
 
 That's it, i'm trying to give very very simple example so you can easy understand this tricky topic . The Project is on my github if you wanna try your own go ahead. Dont Forget to check the documentation , as always link down below.
 
-* **[Github Project](https://github.com/Faeshal/NodeJS-Mongoose-Auth)**
-* **[Bcrypt JS](https://www.npmjs.com/package/bcrypt)**
-* **[Express Session](https://www.npmjs.com/package/express-sessio)**
-* **[Connect Mongodb Session](https://www.npmjs.com/package/connect-mongodb-session)**
-* **[Connect Flash](https://www.npmjs.com/package/connect-flash)**
-
-For The Last but not Least stay curious and never stop learning. Sallam!
+- **[Github Project](https://github.com/Faeshal/NodeJS-Mongoose-Auth)**
+- **[Bcrypt JS](https://www.npmjs.com/package/bcrypt)**
+- **[Express Session](https://www.npmjs.com/package/express-sessio)**
+- **[Connect Mongodb Session](https://www.npmjs.com/package/connect-mongodb-session)**
+- **[Connect Flash](https://www.npmjs.com/package/connect-flash)**

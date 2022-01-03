@@ -2,19 +2,20 @@
 title: Weight Converter with JavaScript
 date: 2019-03-09 12:36:48
 tags:
-- practical
-- converter
+  - practical
+  - converter
 categories:
-- javascript
+  - javascript
 ---
+
 ![](https://i.postimg.cc/KzNQQDfD/converter.jpg)
 
 ##### Introduction The Concept
 
 The Weight of an object is the force of gravity currently being exerted on that object. **Weight is different from mass** because, while the mass of an object is always the same regardless of the object’s location, the weight will be different depending on ow much gravity there is at that location.You can get details information from here:
 
-* **[Pound Wikipedia](https://en.wikipedia.org/wiki/Pound_(mass))**
-* **[Mass Vs Weight](https://www.thoughtco.com/mass-and-weight-differences-606116)**
+- **[Pound Wikipedia](<https://en.wikipedia.org/wiki/Pound_(mass)>)**
+- **[Mass Vs Weight](https://www.thoughtco.com/mass-and-weight-differences-606116)**
 
 The pound mass is a fundamental unit within the Imperial system. It is equal to exactly 0.45359237 kilograms.In this section we build simple app for convert between kg and pound with other derivatives using vanilla.js(pure javascript) in very easy way.
 
@@ -38,51 +39,49 @@ First , Build form for input the value.Again use your creativity for design the 
     		</div>
     	</div>
     </form>
-    
 
 Second,Build Box for result of the convertion value,again this is mine
 
     <div id="output">
-    
+
     	<div class="card mt-2 bg-info pl-2">
     		<div class="card-block">
     			<h4>Pound:</h4>
     			<div id="poundOutput"></div>
     		</div>
     	</div>
-    
+
     	<div class="card mt-2 bg-success pl-2">
     		<div class="card-block">
     			<h4>Grams:</h4>
     			<div id="gramsOutput"></div>
     		</div>
     	</div>
-    
+
     	<div class="card bg-warning mt-2">
     		<div class="card-block pl-2">
     			<h4>Ounces:</h4>
     			<div id="ozOutput"></div>
     		</div>
     	</div>
-    
+
     	<div class="card mt-2 bg-danger pl-2">
     		<div class="card-block">
     			<h4>KiloGrams:</h4>
     			<div id="kgOutput"></div>
     		</div>
     	</div>
-    
+
     </div>
-    
 
 Next,it's time for build functionality using javascript.I'm trying to make this as simple as i can,so i just make 2 function. The formula function for place formula and calculation and the reset function for reset all value back to default.
 
     //created by Faeshal Bin Sulaiman
-    
+
     function formula() {
     	var select = document.getElementById('selectOption');
      	var selectOption = select.options[select.selectedIndex].value;
-    
+
         if(selectOption === "pound") {
         		reset();
         		document.getElementById("output").style.visibility="visible";
@@ -93,7 +92,7 @@ Next,it's time for build functionality using javascript.I'm trying to make this 
     			document.getElementById('gramsOutput').innerHTML = (lbs * 453.592).toFixed(2);
     			document.getElementById('ozOutput').innerHTML = (lbs * 16).toFixed(2);
     		})
-    
+
         } else if(selectOption === "kg") {
         		reset();
         		document.getElementById("output").style.visibility="visible";
@@ -104,12 +103,11 @@ Next,it's time for build functionality using javascript.I'm trying to make this 
     			document.getElementById('gramsOutput').innerHTML = (lbs * 1000).toFixed(2);
     			document.getElementById('ozOutput').innerHTML = (lbs * 35.274).toFixed(2);
     		})
-    
+
         } else if(selectOption === "default"){
         	document.getElementById("output").style.visibility="hidden";
         	}
     }
-    
 
 And the last the reset function
 
@@ -117,7 +115,6 @@ And the last the reset function
     	document.getElementById("lbsInput").value="";
     	document.getElementById("lbsInput") .focus();
     }
-    
 
 That's it,very simple, dont forget to call formula function below reset function.This is the Result:
 
@@ -125,6 +122,4 @@ That's it,very simple, dont forget to call formula function below reset function
 
 Hope you understand my code and You can recreate and modify that to build better UI and give more feature for the app.By the way you can download my source code , as always link down below:
 
-* [**Javascript - Simple Weight Converter**](https://1drv.ms/u/s!AlZwoX1-EZKghwGfLv7y7NyFbuTz)
-
-If you have a question or any suggestion for next app feel free to comment down below.for the last but not least stay curious and never stop learning. Sallam !
+- [**Javascript - Simple Weight Converter**](https://1drv.ms/u/s!AlZwoX1-EZKghwGfLv7y7NyFbuTz)

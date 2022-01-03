@@ -1,12 +1,13 @@
 ---
-title: 'Express Series 6 : Validation & Sanitization'
+title: "Express Series 6 : Validation & Sanitization"
 date: 2019-07-18 12:38:06
 tags:
-- express.js
-- express series
+  - express.js
+  - express series
 category:
-- node.js
+  - node.js
 ---
+
 ![](https://i.postimg.cc/ZqVJ1hCg/banner-template.jpg)
 
 **Introduction**
@@ -15,8 +16,8 @@ We Deep dive into add more security layer inside form , Validation Basically is 
 
 What about sanitizing ? Sanitizing is **process that will modifies the input to ensure that it is valid** such as doubling single quotes , clear white spacing etc. You would normally combine these two techniques to provide in-depth defense to your application. In this series we wanna using **Server Side** Validation & Sanitization because **it's more secure **using third party express middleware called Express Validator.
 
-* **[Express Validator - Docs](https://express-validator.github.io/docs/)**
-* **[Express Validator - NpmJS](https://www.npmjs.com/package/express-validator)**
+- **[Express Validator - Docs](https://express-validator.github.io/docs/)**
+- **[Express Validator - NpmJS](https://www.npmjs.com/package/express-validator)**
 
 ##### Validation
 
@@ -26,66 +27,66 @@ Say you have a POST endpoint that accepts the name, email and age parameters:
 
 How do you server side validate those result to make :
 
-* name is a string of at least 3 character ?
-* email is a real email ?
-* age is a number , between 0 - 110 ?
+- name is a string of at least 3 character ?
+- email is a real email ?
+- age is a number , between 0 - 110 ?
 
-That's why we need Express Validator to handle this case . For using express validator simply just 
+That's why we need Express Validator to handle this case . For using express validator simply just
 
     npm install express-validator --save
 
 call the package , you can call all parametes too in one require (body/check + validationResult).
 
-In the controller: 
+In the controller:
 
     const { validationResult } = require("express-validator");
 
-In th the routes: 
+In th the routes:
 
     const { body } = require("express-validator");
 
 You can see how to implement express vaidator in the project at the project section below. But the most important things is validator methods , This is most common validator methods that i'm using :
 
-| No  | Methods | Description |
-| --- | --- | --- |
-| 1   | isAlphanumeric() | check if the string contains only letters and numbers. |
-| 2   | isCreditCard() | check if the string is a credit card. |
-| 3   | isDecimal() | check if the string represents a decimal number, such as 0.1, 4.0, etc. |
-| 4   | isEmail() | check if the string is an email. |
-| 5   | isFloat() | check if the string is a float. |
-| 6   | isLenght() | check if the string's length falls in a range. |
-| 7   | isUppercase() | Check if the string is uppercase. |
-| 8   | isLowercase() | check if the string is lowercase. |
-| 9   | isEmpty() | check if the string has a length of zero. |
-| 10  | isURL() | check if the string is an URL. |
-| 11  | isMobilePhone() | check if the string is mobile number. |
-| 12  | isURL() | check if the string is an URL. |
+| No  | Methods          | Description                                                             |
+| --- | ---------------- | ----------------------------------------------------------------------- |
+| 1   | isAlphanumeric() | check if the string contains only letters and numbers.                  |
+| 2   | isCreditCard()   | check if the string is a credit card.                                   |
+| 3   | isDecimal()      | check if the string represents a decimal number, such as 0.1, 4.0, etc. |
+| 4   | isEmail()        | check if the string is an email.                                        |
+| 5   | isFloat()        | check if the string is a float.                                         |
+| 6   | isLenght()       | check if the string's length falls in a range.                          |
+| 7   | isUppercase()    | Check if the string is uppercase.                                       |
+| 8   | isLowercase()    | check if the string is lowercase.                                       |
+| 9   | isEmpty()        | check if the string has a length of zero.                               |
+| 10  | isURL()          | check if the string is an URL.                                          |
+| 11  | isMobilePhone()  | check if the string is mobile number.                                   |
+| 12  | isURL()          | check if the string is an URL.                                          |
 
 ##### Sanitization
 
 There's one thing you quickly learn when you deploy app into server : **never trust the input**  you need to sanitize make sure that people can't enter weird things using client-side code and this is most common sanitize methods that express validator have :
 
-| No  | Methods | Description |
-| --- | --- | --- |
-| 1   | normalizeEmail() | canonicalizes an email address. |
-| 2   | isCreditCard() | check if the string is a credit card. |
-| 3   | toDate() | convert the input string to a date, or null if the input is not a date. |
-| 4   | toFloat() | convert the input string to a float, or NaN if the input is not a float. |
-| 5   | trim() | trim characters (whitespace by default) from both sides of the input. |
-| 6   | blacklist() | remove characters that appear in the blacklist. Ex : blacklist(input, '\\\\[\\\\]'). |
+| No  | Methods          | Description                                                                          |
+| --- | ---------------- | ------------------------------------------------------------------------------------ |
+| 1   | normalizeEmail() | canonicalizes an email address.                                                      |
+| 2   | isCreditCard()   | check if the string is a credit card.                                                |
+| 3   | toDate()         | convert the input string to a date, or null if the input is not a date.              |
+| 4   | toFloat()        | convert the input string to a float, or NaN if the input is not a float.             |
+| 5   | trim()           | trim characters (whitespace by default) from both sides of the input.                |
+| 6   | blacklist()      | remove characters that appear in the blacklist. Ex : blacklist(input, '\\\\[\\\\]'). |
 
 ##### Project
 
-Let's add Validation & Sanitization to our previous project (**[Fruit Shop](https://github.com/Faeshal/NodeJS-Mongoose-Auth)**) 
+Let's add Validation & Sanitization to our previous project (**[Fruit Shop](https://github.com/Faeshal/NodeJS-Mongoose-Auth)**)
 
-first install express validator with npm install dont forget to require after that 
+first install express validator with npm install dont forget to require after that
 
-Next , in Auth Controller 
+Next , in Auth Controller
 
     const bcrypt = require("bcrypt");
     const User = require("../models/user");
     const { validationResult } = require("express-validator");
-    
+
     exports.getLogin = (req, res, next) => {
       let message = req.flash("error");
       if (message.length > 0) {
@@ -105,11 +106,11 @@ Next , in Auth Controller 
         validationErrors: []
       });
     };
-    
+
     exports.postLogin = (req, res, next) => {
       const email = req.body.email;
       const password = req.body.password;
-    
+
       const errors = validationResult(req);
       if (!errors.isEmpty()) {
         return res.status(422).render("login", {
@@ -124,7 +125,7 @@ Next , in Auth Controller 
           validationErrors: errors.array()
         });
       }
-    
+
       User.findOne({ email: email })
         .then(user => {
           if (!user) {
@@ -152,7 +153,7 @@ Next , in Auth Controller 
         })
         .catch(err => console.log(err));
     };
-    
+
     exports.getSignup = (req, res, next) => {
       let message = req.flash("error");
       if (message.length > 0) {
@@ -160,7 +161,7 @@ Next , in Auth Controller 
       } else {
         message = null;
       }
-    
+
       res.render("signup", {
         pageTitle: "signup",
         path: "/signup",
@@ -174,11 +175,11 @@ Next , in Auth Controller 
         validationErrors: []
       });
     };
-    
+
     exports.postSignup = (req, res, next) => {
       const email = req.body.email;
       const password = req.body.password;
-    
+
       const errors = validationResult(req);
       if (!errors.isEmpty()) {
         console.log(errors.array());
@@ -195,7 +196,7 @@ Next , in Auth Controller 
           validationErrors: errors.array()
         });
       }
-    
+
       bcrypt
         .hash(password, 12)
         .then(hashedPassword => {
@@ -214,27 +215,25 @@ Next , in Auth Controller 
           console.log(err);
         });
     };
-    
+
     exports.postLogout = (req, res, next) => {
       req.session.destroy(err => {
         console.log(err);
         res.redirect("/");
       });
     };
-    
 
 Next , In Auth Routes
 
-    
     const express = require("express");
     const router = express.Router();
     const authController = require("../controller/auth");
     const isAuth = require("../middleware/is-auth");
     const User = require("../models/user");
     const { body } = require("express-validator");
-    
+
     router.get("/signup", authController.getSignup);
-    
+
     router.post(
       "/signup",
       [
@@ -264,7 +263,7 @@ Next , In Auth Routes
       ],
       authController.postSignup
     );
-    
+
     router.get("/login", authController.getLogin);
     router.post(
       "/login",
@@ -280,11 +279,10 @@ Next , In Auth Routes
       ],
       authController.postLogin
     );
-    
+
     router.post("/logout", isAuth, authController.postLogout);
-    
+
     module.exports = router;
-    
 
 Little bit change on Login View
 
@@ -320,12 +318,12 @@ Little bit change on Login View
                 id="password"
                 value="<%=oldInput.password%>"
               />
-    
+
             </div>
             <br />
             <div class="form-group text-center mx-auto">
            <button
-                class="btn btn-lg btn-outline-primary mt-2 mr-2" 
+                class="btn btn-lg btn-outline-primary mt-2 mr-2"
               >
                  <a href="/signup" style="text-decoration:none;color: currentColor;"> SIGNUP</a>
               </button>
@@ -340,9 +338,8 @@ Little bit change on Login View
         </div>
       </div>
     </div>
-    
+
     <%-include("includes/end.ejs")%>
-    
 
 Last on the Signup View
 
@@ -358,7 +355,7 @@ Last on the Signup View
                   <%= errorMessage %>
                </div>
           <% } %>
-    
+
           <form action="/signup" method="POST" novalidate>
             <div class="form-group mt-4">
               <input
@@ -368,7 +365,7 @@ Last on the Signup View
                 name="email"
                 id="email"
                 value="<%=oldInput.email%>"
-                 
+
               />
             </div>
             <div class="form-group">
@@ -379,7 +376,7 @@ Last on the Signup View
                 name="password"
                 id="password"
                 value="<%=oldInput.password%>"
-                
+
               />
             </div>
              <div class="form-group">
@@ -402,16 +399,13 @@ Last on the Signup View
         </div>
       </div>
     </div>
-    
+
     <%-include("includes/end.ejs")%>
-    
 
 ##### Last Word
 
 That's  all about basic validation and sanitization using express validator . I really like this package because it help much for rapid development and security . Don't forget to explore all the method that express validator have , as always link down below
 
-* **[Express Validator - Docs](https://express-validator.github.io/docs/)**
-* **[Express Validator - Github Repo](https://github.com/validatorjs/validator.js)**
-* **[Fruit Shop - Github Repo](https://github.com/Faeshal/NodeJS-Mongoose-Auth)**
-
-Last but not least stay curious and never stop learning,Sallam!
+- **[Express Validator - Docs](https://express-validator.github.io/docs/)**
+- **[Express Validator - Github Repo](https://github.com/validatorjs/validator.js)**
+- **[Fruit Shop - Github Repo](https://github.com/Faeshal/NodeJS-Mongoose-Auth)**

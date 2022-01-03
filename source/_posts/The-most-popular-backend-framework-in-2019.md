@@ -2,14 +2,14 @@
 title: The most popular backend framework in 2019
 date: 2019-02-23 12:34:02
 tags:
-- framework
+  - framework
 categories:
-- backend
+  - backend
 ---
+
 ![](https://faeshal.com/storage/posts/February2019/web-development-services-pranamya.jpg)
 
-Best Web Dev Backend Frameworks in 2019
-=======================================
+# Best Web Dev Backend Frameworks in 2019
 
 Frameworks have become an essential part of web development, as the standards of web applications are always rising, so does the complexity of the technology needed.Since There's a massive number of web development frameworks available currently,it can be an intimidating task for you to choose the most suitable one for your next web development project.
 
