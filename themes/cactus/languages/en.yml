@@ -16,9 +16,9 @@ footer:
 
 index:
   find_me_on: Find me on
-  enum_comma: ','
+  enum_comma: ","
   enum_and: and
-  articles: Last Post
+  articles: Latest Post
   projects: Projects
   topics: Topics
   most_recent: Most recent
