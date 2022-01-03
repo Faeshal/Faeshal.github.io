@@ -22,12 +22,6 @@ There are two general strategies in microservices, they call **Synchronos or Syn
 
 ![https://i.postimg.cc/nrRY8rMJ/Screen-Shot-2022-01-02-at-12-02-06-PM.png2](https://i.postimg.cc/nrRY8rMJ/Screen-Shot-2022-01-02-at-12-02-06-PM.png)
 
-2. **Asynchronous or Async Communication**
-   meaning service communicate with other using **events**.
-   With asynchronous communication, a middleman is added to infrastructure, asynchronous is using something called a **message broker** technology, such as Apache Kafka, RabbitMQ etc, to act as a middleman between services.
-
-![https://i.postimg.cc/h4p0Qys5/Screen-Shot-2022-01-02-at-12-03-54-PM.png](https://i.postimg.cc/h4p0Qys5/Screen-Shot-2022-01-02-at-12-03-54-PM.png)
-
 The advantages of sync communication is :
 
 - Easy to understand
@@ -40,6 +34,12 @@ The downside of sync communication is :
 - if any inter-service request fails, the overal request fails
 - The entire request is only as fast as the slowest request
 - Can easily introduce webs of request (deep nested request to many services)
+
+2. **Asynchronous or Async Communication**
+   meaning service communicate with other using **events**.
+   With asynchronous communication, a middleman is added to infrastructure, asynchronous is using something called a **message broker** technology, such as Apache Kafka, RabbitMQ etc, to act as a middleman between services.
+
+![https://i.postimg.cc/h4p0Qys5/Screen-Shot-2022-01-02-at-12-03-54-PM.png](https://i.postimg.cc/h4p0Qys5/Screen-Shot-2022-01-02-at-12-03-54-PM.png)
 
 The advantages of async communication is :
 
