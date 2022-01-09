@@ -37,9 +37,11 @@ Cons :
 
 ![mc](https://i.postimg.cc/9XsJpZmC/Screen-Shot-2022-01-01-at-10-09-33-AM.png)
 
-according to the book of **Building Microservices : Aligning Principles, Practices & Culture**
-"Microservices are small & autonomous services that work together" - Sam Newman
-"Loosely coupled service-oriented architecture with bounded contexts" - Adrian Cockcroft, Battery Ventures
+According to the book of **Building Microservices: Aligning Principles, Practices & Culture**
+
+> Microservices are small & autonomous services that work together - Sam Newman
+
+> Loosely coupled service-oriented architecture with bounded contexts - Adrian Cockcroft, Battery Ventures
 
 They both emphasize some level of independence, limited scope, and interoperability. In general Microservice architecture or simply microservices is an approach of building large enterprise application with multiple small unit called service, each service develop, test, deploy and run individually.
 
