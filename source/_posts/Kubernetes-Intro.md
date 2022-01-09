@@ -33,54 +33,6 @@ It’s not enough to run containers, you need to be able to:
 
 You might ask aren’t containers supposed to do all that? The answer is that containers are only a low-level piece of the puzzle. The real benefits are obtained with tools that sit on top of containers — like Kubernetes. These tools are today known as container orchestrator.
 
-## Kubernetes Architecure
-
-![](https://www.simplilearn.com/ice9/free_resources_article_thumb/kubernetes_architecture.png)
-
-**Master**
-
-The master node is the most vital component of Kubernetes architecture. It is the entry point of all administrative tasks. There is always one node to check for fault tolerance.The master node has various components, such as:
-
-1. ETCD
-   This component stores the configuration details and essential values
-   It communicates with all other components to receive the commands to perform an action.
-   Manages network rules and post-forwarding activity
-2. Controller Manager
-   A daemon (server) that runs in a continuous loop and is responsible for gathering information and sending it to the API Server
-   Works to get the shared set of clusters and change them to the desired state of the server
-   The key controllers are the replication controllers, endpoint controller, namespace controllers, and service account controllers
-   The controller manager runs controllers to administer nodes and endpoints
-3. Scheduler
-   The scheduler assigns the tasks to the slave nodes
-   It is responsible for distributing the workload and stores resource usage information on every node
-   Tracks how the working load is used on clusters and places the workload on available resources.
-4. API Server
-   Kubernetes uses the API server to perform all operations on the cluster
-   It is a central management entity that receives all REST requests for modifications, serving as a frontend to the cluster
-   Implements an interface, which enables different tools and libraries to communicate effectively
-5. Kubectl
-   Kubectl controls the Kubernetes cluster manager
-   Syntax - kubectl [flags]
-
-**Slave**
-
-The slave node has the following components:
-
-1. Pod
-   A pod is one or more containers controlled as a single application
-   It encapsulates application containers, storage resources, and is tagged by a unique network ID and other configurations that regulate the operation of containers
-2. Container (such as Docker)
-   Container runs the configured pods. It is responsible for pulling down and running containers from Docker images
-3. Kubelet
-   Service responsible for conveying information to and from to the control plane service
-   It gets the configuration of a pod from the API server and ensures that the containers are working efficiently
-   The kubelet process is responsible for maintaining the work status and the node server
-4. Kubernetes Proxy
-   Acts as a load balancer and network proxy to perform service on a single worker node
-   Manages pods on nodes, volumes, secrets, the creation of new containers, health check-ups, etc.
-   A proxy service that runs on every node that makes services available to the external host
-   After going through the Kubernetes architecture, let us next understand its uses in the enterprise.
-
 ## Basic Terminology
 
 There are a lot of terminology, but I'll list just a few, the most frequently mentioned.
