@@ -11,7 +11,7 @@ tags:
 
 ## Introduction 🍹
 
-I wrote this note after exploring JWT with RSA key pair for my office project today and i'm thinking why not i write the recap here. So quick introduction JSON Web Token or JWT, is an open standard used to share security information between two parties - a client and a server. Each JWT contains encoded JSON objects, including a set of claims. JWTs are signed using a cryptographic algorithm to ensure that the claims cannot be altered after the token is issued.
+I wrote this post after exploring JWT with RSA key pair for my office project today and i'm thinking why not i write simple recap here. So quick introduction JSON Web Token or JWT, is an open standard used to share security information between two parties - a client and a server. Each JWT contains encoded JSON objects, including a set of claims. JWTs are signed using a cryptographic algorithm to ensure that the claims cannot be altered after the token is issued.
 
 ## Way to generate token 🔑
 
@@ -161,4 +161,4 @@ message: "unauthorized",
 
 ```
 
-That's it, ready to use in every service. Hope this simple recap useful for you and for me personally because sometimes i forget this basic theory. Thanks 👋
+That's it, ready to use in every service. Hope this recap useful. Stay safe & Bye 👋
