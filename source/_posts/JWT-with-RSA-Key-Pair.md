@@ -1,5 +1,5 @@
 ---
-title: Implementing JWT with RSA Key Pair in Node.JS
+title: JWT with RSA Key Pair in Node.JS
 date: 2022-06-08 17:01:14
 tags:
   - jwt
@@ -161,4 +161,4 @@ message: "unauthorized",
 
 ```
 
-That's it, ready to use in every service. Hope this recap useful for you and for me personally because sometimes i forget this basic theory. Thanks 👋
+That's it, ready to use in every service. Hope this simple recap useful for you and for me personally because sometimes i forget this basic theory. Thanks 👋
