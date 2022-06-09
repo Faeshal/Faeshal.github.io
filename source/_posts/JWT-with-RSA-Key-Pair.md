@@ -15,7 +15,7 @@ I wrote this post after exploring JWT with RSA key pair for my office project to
 
 ## Way to generate token 🔑
 
-Basically there is 2 way to generate & verify the token, we can using :
+Basically there is 2 way to generate & verify the token, we can use :
 
 ### 1. Symmetric Algorithm
 
