@@ -31,7 +31,7 @@ All Backend services using Node.JS (some service use JavaScript & some use TypeS
 
 📰 Description:
 
-My first project in my next company called Deeeplabs. Deeeplabs is an IT Consultant Company from Singapore and we got client called [Ming Movers](https://mingmovers.com.sg/), it's Delivery & Logistic company. We build 2 platform, web and mobile applications. The mobile application is used by truck drivers to report the movement of items inside the truck & also used by customers to track the position of their items. The web app is used by admin to manage client items, analytics and reporting stuff.
+My first project in my next company called [Deeeplabs](https://deeeplabs.com/). Deeeplabs is an IT Consultant Company from Singapore and we got client called [Ming Movers](https://mingmovers.com.sg/), it's Delivery & Logistic company. We build 2 platform, web and mobile applications. The mobile application is used by truck drivers to report the movement of items inside the truck & also used by customers to track the position of their items. The web app is used by admin to manage client items, analytics and reporting stuff.
 
 ⭐ Responsibility:
 
