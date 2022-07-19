@@ -3,7 +3,8 @@ title: projects
 date: 2022-07-11 21:29:40
 ---
 
-## Project History
+# Project History
+
 This is all projects that i've been working on my entire career as a Backend Engineer. To note, In this list, i only include **Office Projects with production level NOT freelance projects or personal projects** to be more focused & relevant.
 
 ## 1.Daily Act (Social Media App) 🌟
