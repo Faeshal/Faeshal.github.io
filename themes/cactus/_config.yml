@@ -18,7 +18,7 @@ nav:
   # about: /about/
   articles: /posts/
   search: /search/
-  # projects: projects_url
+  projects: /projects/
 
 # Links to your social media accounts.
 # The keys should correspond to Fontawesome icon names
