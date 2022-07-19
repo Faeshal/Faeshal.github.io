@@ -6,7 +6,7 @@ date: 2022-07-11 21:29:40
 ## Project History
 This is all projects that i've been working on my entire career as a Backend Engineer. To note, In this list, i only include **Office Projects with production level NOT freelance projects or personal projects** to be more focused & relevant.
 
-## 1.Daily Act (Social Media) 🌟
+## 1.Daily Act (Social Media App) 🌟
 
 📰 Description:
 
@@ -22,7 +22,7 @@ As a Backend Engineer when i join the development team, their Backend is already
 * Build automation script, unit testing and stress testing 
 
 
-⚒️ Stack:
+🔥 Stack:
 
 All Backend services using Node.JS (some service use JavaScript & some use TypeScript), Express, Fastify, Nest, Redis, Elastic Search, DataDog, Digital Ocean, MongoDB Atlas, MariaDB, Mocha, Chai, Supertest, Docker, AWS, Nginx, React Native (Mobile App), React.JS (Internal Web App & Company Profile)
 
@@ -36,7 +36,7 @@ My first project in my next company called Deeeplabs. Deeeplabs is an IT Consult
 
 As a Backend Engineer, i build all the Backend System & Functionality **from scratch** based on requirement.
 
-⚙️ Stack:
+🔥 Stack:
 
 Node.JS, Express, Redis, MariaDB, Firebase, Mocha, Chai, Twilio, Docker, AWS, Nginx, Flutter (Mobile App), Laravel (Admin Web App)
 
@@ -50,7 +50,7 @@ Omnichanel marketplace for our Singapore Client [Magnetiseme](https://www.magnet
 
 As a Backend Engineer, i build all the Backend System & Functionality **from scratch** and fully responsible to making decisions regarding what technology stack to be used in the Backend to achieve the best performance.
 
-⚙️ Stack:
+🔥 Stack:
 
 Node.JS, Express, Bull.js, Redis, MariaDB, Mocha, Chai, Twilio, Mailgun, Docker, AWS, Nginx, Flutter (Mobile App), Laravel (Admin Web App)
 
@@ -64,7 +64,7 @@ POC Blockchain system for the Singapore Government tender project using [Bigchai
 
 As a Backend Engineer, i build all the Backend System & Functionality **from scratch** and fully responsible to making decisions regarding what technology stack to be used in the Backend to achieve the best performance.
 
-⚙️ Stack:
+🔥 Stack:
 
 Node.JS, Express, BigChainDB, Tendermint, MongoDB, Mocha, Supertest, Docker, AWS, Nginx, React.JS (Web App)
 
@@ -78,6 +78,6 @@ UME is Online Dating App for our Singapore Client. The idea is for people to fin
 
 As a Backend Engineer, i build all the Backend System & Functionality **from scratch** and fully responsible to making decisions regarding what technology stack to be used in the Backend to achieve the best performance.
 
-⚙️ Stack:
+🔥 Stack:
 
 Node.JS, Express, Bull.js, Redis, MariaDB, Mocha, Chai, Twilio, Mailgun, Connectycube, Firebase, Docker, Microsoft Azure VM, Azure Cognitive-Services Computer Vision, Azure Face Recognition, Nginx, Flutter (Mobile App), React (Admin Web App)
