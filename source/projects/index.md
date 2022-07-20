@@ -25,7 +25,7 @@ As a Backend Engineer when i join the development team, their Backend is already
 
 🔥 Stack:
 
-All Backend services using Node.JS (some service use JavaScript & some use TypeScript), Express, Fastify, Nest, Redis, Elastic Search, DataDog, Digital Ocean, MongoDB Atlas, MariaDB, Mocha, Chai, Supertest, Docker, AWS, Nginx, React Native (Mobile App), React.JS (Internal Web App & Company Profile)
+All Backend services using Node.JS (some service use JavaScript & some use TypeScript), Express, Fastify, Nest, PM2, Redis, Elastic Search, DataDog, Digital Ocean, MongoDB Atlas, MariaDB, Mocha, Chai, Supertest, Docker, AWS, Nginx, React Native (Mobile App), React.JS (Internal Web App & Company Profile)
 
 ## 2.Ming Movers (Asset Tracking System) 🚚
 
@@ -39,7 +39,7 @@ As a Backend Engineer, i build all the Backend System & Functionality **from scr
 
 🔥 Stack:
 
-Node.JS, Express, Redis, MariaDB, Firebase, Mocha, Chai, Twilio, Docker, AWS, Nginx, Flutter (Mobile App), Laravel (Admin Web App)
+Node.JS, Express, PM2, Redis, MariaDB, Firebase, Mocha, Chai, Artillery, Twilio, Docker, AWS, Nginx, Flutter (Mobile App), Laravel (Admin Web App)
 
 ## 3.Octofaya (Omnichanel Marketplace System) 💰
 
@@ -53,7 +53,7 @@ As a Backend Engineer, i build all the Backend System & Functionality **from scr
 
 🔥 Stack:
 
-Node.JS, Express, Bull.js, Redis, MariaDB, Mocha, Chai, Twilio, Mailgun, Docker, AWS, Nginx, Flutter (Mobile App), Laravel (Admin Web App)
+Node.JS, Express, PM2, Bull.js, Redis, MariaDB, Mocha, Chai, Artillery, Twilio, Mailgun, Docker, AWS, Nginx, Flutter (Mobile App), Laravel (Admin Web App)
 
 ## 4.Bigchain POC (Mini Blockhain system) 🕸️
 
@@ -67,13 +67,13 @@ As a Backend Engineer, i build all the Backend System & Functionality **from scr
 
 🔥 Stack:
 
-Node.JS, Express, BigChainDB, Tendermint, MongoDB, Mocha, Supertest, Docker, AWS, Nginx, React.JS (Web App)
+Node.JS, Express, PM2, BigChainDB, Tendermint, MongoDB, Mocha, Supertest, Artillery, Docker, AWS, Nginx, React.JS (Web App)
 
 ## 5.UME (Dating App) 👫
 
 📰 Description:
 
-UME is Online Dating App for our Singapore Client. The idea is build for people to find and contact each other through the mobile app to arrange a date, play a game together to get or exchange point. Kinda like Tinder. I'm handle all the Backend of this system from scratch and build critical feature like nude image detection to prevent pornography post, facial recognition feature to detect gender & auto generate avatar based on user face, Swipe right-left recomendation etc.
+UME is Singapore Dating App. This is for people to find and contact each other through the mobile app to arrange a date, play a game together to get or exchange point. Kinda like Tinder. I'm handle all the Backend from scratch and build critical feature like nude image detection to prevent pornography post, facial recognition feature to detect gender, auto generate avatar based on user face & Swipe right-left recomendation etc.
 
 ⭐ Responsibility:
 
@@ -81,4 +81,4 @@ As a Backend Engineer, i build all the Backend System & Functionality **from scr
 
 🔥 Stack:
 
-Node.JS, Express, Bull.js, Redis, MariaDB, Mocha, Chai, Twilio, Mailgun, Connectycube, Firebase, Docker, Microsoft Azure VM, Azure Cognitive-Services Computer Vision, Azure Face Recognition, Nginx, Flutter (Mobile App), React (Admin Web App)
+Node.JS, Express, PM2, Bull.js, Redis, MariaDB, Mocha, Chai, Artillery, Twilio, Mailgun, Connectycube, Firebase, Docker, Microsoft Azure VM, Azure Cognitive-Services Computer Vision, Azure Face Recognition, Nginx, Flutter (Mobile App), React (Admin Web App)
