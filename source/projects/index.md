@@ -11,7 +11,7 @@ This is all projects that i've been working on my entire career as a Backend Eng
 
 📰 Description:
 
-Daily Act is a startup company located in Tangerang, Banten with Social Media App as a main products. This is my first office where i got hired before graduated from college. Like social media app in general, daily act also has features such as feeds, explorer, gallery, chat, voice & video call, stories etc, kind of Instagram for short explanation. 
+Daily Act is a startup company located in Tangerang, Banten with Social Media App as a main product. This is my first office where i got hired before graduated from college. Like social media app in general, daily act also has features such as feeds, explorer, gallery, chat, voice & video call, stories etc, kind of Instagram for short explanation. 
 
 ⭐ Responsibility:
 
@@ -73,7 +73,7 @@ Node.JS, Express, BigChainDB, Tendermint, MongoDB, Mocha, Supertest, Docker, AWS
 
 📰 Description:
 
-UME is Online Dating App for our Singapore Client. The idea is for people to find and contact each other through the mobile app to arrange a date or play a game together, get & exchange point. Usually with the goal of developing a personal and romantic relationship. I'm handle all the Backend of this system from scratch and build critical feature like nude image detection to prevent pornography post & facial recognition feature to detect gender to generate avatar based on real user face, Swipe left right Recomendation system etc. Short answer this app is kinda like Tinder.
+UME is Online Dating App for our Singapore Client. The idea is build for people to find and contact each other through the mobile app to arrange a date, play a game together to get or exchange point. Kinda like Tinder. I'm handle all the Backend of this system from scratch and build critical feature like nude image detection to prevent pornography post, facial recognition feature to detect gender & auto generate avatar based on user face, Swipe right-left recomendation etc.
 
 ⭐ Responsibility:
 
