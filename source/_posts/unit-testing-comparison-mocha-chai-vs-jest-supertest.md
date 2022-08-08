@@ -22,7 +22,7 @@ Advantages to unit testing include:
 
 ## What is Mocha-Chai & Jest-Supertest ? 🪴
 
-**[Mocha](https://mochajs.org/) similiar with [Jest](https://jestjs.io/) is basically a JavaScript Test Framework** running on Node. js and in the browser. it allows asynchronous testing, test coverage reports and use of any assertion library.Whereas **[Chai](https://www.chaijs.com/) & [https://www.npmjs.com/package/supertest] Supertest is an assertion library** for NodeJS and the browser that can be delightfully paired with any javascript testing framework. So in short **you can use any assertion library and combine it with testing framework like mocha, jest etc** as long as has the ability to call http service. But in general the biggest combo name in the unit testing field for REST API is Mocha combine with Chai and Jest combine with Supertest.
+**[Mocha](https://mochajs.org/) similiar with [Jest](https://jestjs.io/) is basically a JavaScript Test Framework** running on Node. js and in the browser. it allows asynchronous testing, test coverage reports and use of any assertion library.Whereas **[Chai](https://www.chaijs.com/) & [Supertest](https://www.npmjs.com/package/supertest) is an assertion library** for NodeJS and the browser that can be delightfully paired with any javascript testing framework. So in short **you can use any assertion library and combine it with testing framework like mocha, jest etc** as long as has the ability to call http service. But in general the biggest combo name in the unit testing field for REST API is Mocha combine with Chai and Jest combine with Supertest.
 
 ## Unit Test Implementation 🚜
 
