@@ -4,7 +4,7 @@ date: 2022-08-12 21:09:56
 tags:
   - golang
   - linux
-  - Nginx
+  - nginx
 categories:
   - devops
 ---
@@ -13,11 +13,11 @@ categories:
 
 ## Quick Intro 🪴
 
-Deploying Golang supposed to be simple & straight forward, compare with other language like Java, Node etc. I dont understand why a lot of article on the internet make it's looks very complicated & not straight to the point 🤦‍♂️. So i write this note to give you some insight about how Golang deploy on top of Ubuntu Server with Nginx as Reverse Proxy + SSL HTTPS certificate.
+Deploying Golang supposed to be simple & straight forward, compare with other language like Java, PHP etc. I dont understand why a lot of article on the internet make it's looks very complicated & not straight to the point. So i write this note to give you some insight about how Golang deploy on top of Ubuntu Server with Nginx as Reverse Proxy + SSL HTTPS certificate.
 
 ## Deployment Step ✨
 
-## Clone project to server 🌿
+## Clone Project to Server 🌿
 
 1. First step is pretty simple, just [SSH your linux server](https://www.linode.com/docs/guides/connect-to-server-over-ssh-on-linux/) with root access & move to **/var/www** directory. Clone your go project, like this:
 
@@ -145,7 +145,7 @@ but this is not a good & secure way. We need to hide the port & put Golang behin
 
 ## Setup Nginx as Reverse Proxy 🌵
 
-A reverse proxy is a server that typically sits behind the firewall & in front of backend service. Nginx is one of the best reverse proxy in town. It will directing client requests to the appropriate backend service. Reverse proxies are typically implemented to help increase security, performance, and reliability🛡️
+A reverse proxy is an application that typically sits between firewall & backend service. Nginx is one of the best reverse proxy in town. It will directing requests to the appropriate backend. Reverse proxies are typically implemented to increase security, performance, and reliability 🥇
 
 Btw, i already have domain from **[Domainesia](https://www.domainesia.com/)** & for this app i will pointing to subdomain **go.faeshal.com**. Dont forget to add "A record" on your domain provider dashboard & fill it with your server IP.
 ![dns](https://i.postimg.cc/k5XgLZpk/Screen-Shot-2022-08-13-at-3-49-08-PM.png)
@@ -156,26 +156,26 @@ Btw, i already have domain from **[Domainesia](https://www.domainesia.com/)** & 
 apt-get install Nginx
 ```
 
-2. duplicate deafult Nginx setting, just in case
+2. copy default Nginx setting, just in case
 
 ```
 sudo cp /etc/Nginx/sites-available/default /etc/Nginx/sites-available/go.faeshal.com
 ```
 
-3. create config file. Remember because we use proxy pass, you must comment listen port 80, enter valid root path based on project directory, server name based on your domain & proxy pass based on your app port. Dont forget to save the config.
+3. create config file. Remember because we use proxy pass, you must comment listen port 80. Enter valid root path based on project directory, server name based on your domain & proxy pass based on your app port. Dont forget to save the config.
 
 ![config](https://i.postimg.cc/Nfg7CGxD/Screen-Shot-2022-08-13-at-2-03-17-PM.png)
 
-3. restart & check Nginx configuration, if you fail on this step don't continue. Just check your Nginx configuration again maybe there is a typo.
+4. restart & check Nginx configuration, if you fail on this step don't continue. Just check your Nginx configuration again, maybe there is a typo.
 
 ```
 service Nginx restart
-Nginx -t
+nginx -t
 ```
 
 ![img](https://i.postimg.cc/022DdW8H/Screen-Shot-2022-08-13-at-2-13-10-PM.png)
 
-4. done, now Golang is run behind Nginx, but we need one last thing. Setup SSL so we can have https connection.
+5. done, now Golang is run behind Nginx, but we need one last thing. Setup SSL so we can have Https connection.
 
 ![img](https://i.postimg.cc/L4k3Vgjh/Screen-Shot-2022-08-13-at-2-05-26-PM.png)
 
@@ -202,7 +202,7 @@ sudo certbot --Nginx -d go.faeshal.com
 certbot renew --dry-run
 ```
 
-4. done, we got a ready to use https connection. Very simple right ?
+4. done, we got https connection. Very simple isn't it ?
 
 ![](https://i.postimg.cc/SQVzs6WL/Screen-Shot-2022-08-13-at-2-29-53-PM.png)
 
