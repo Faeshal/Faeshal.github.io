@@ -4,7 +4,7 @@ date: 2022-08-12 21:09:56
 tags:
   - golang
   - linux
-  - deployment
+  - nginx
 categories:
   - devops
 ---
@@ -13,25 +13,25 @@ categories:
 
 ## Quick Intro 🪴
 
-Deploying Golang supposed to be simple & straight forward, compare with other language like Java, PHP, Node, Pyhton etc. I dont understand why a lot of article on the internet make it's looks very complicated & not straight to the point. So i write this note to give you some insight about basic Golang deployment on top of Linux Ubuntu Server with Nginx as reverse proxy + SSL HTTPS certificates.
+Deploying Golang supposed to be simple & straight forward, compare with other language like Java, Node etc. I dont understand why a lot of article on the internet make it's looks very complicated & not straight to the point. So i write this note to give you some insight about how Golang deploy on top of Ubuntu Server with Nginx as Reverse Proxy + SSL HTTPS certificate.
 
 ## Deployment Step ✨
 
-## Clone project repo to server 🥦
+## Clone project to server 🥦
 
-1. First step is pretty simple, just [SSH your linux server](https://www.linode.com/docs/guides/connect-to-server-over-ssh-on-linux/) with root access & move to **/var/www** directory. Clone your go project, for example
+1. First step is pretty simple, just [SSH your linux server](https://www.linode.com/docs/guides/connect-to-server-over-ssh-on-linux/) with root access & move to **/var/www** directory. Clone your go project, like this:
 
 ```
 git clone https://github.com/Faeshal/crowdfunding
 ```
 
-2. as always dont forget to create & setup .env file, if you have it.
+2. As always dont forget to create & setup .env file, if you have it.
 
 ![env](https://i.postimg.cc/j5mLrcVt/Screen-Shot-2022-08-13-at-10-09-18-AM.png)
 
 ## Installing Golang on server 🦚
 
-This is optional step, **you can deploy without installing Golang on the server** as long as you have built your Golang code, because remember what the server will run is native Golang binaries NOT raw Golang code (.go extension). But the recommended way is still installing Golang on the server so we can setup auto build CI/CD later.
+This is optional step, **you can deploy without installing Golang on the server** as long as you already build your Golang code, because remember what the server will run is native Golang binaries NOT raw Golang code (.go extension). But the recommended way is still installing Golang on the server so we can setup auto build CI/CD later.
 
 1. go to **[Golang download page](https://go.dev/dl/)** to copy download link from linux OS section
 
@@ -55,13 +55,13 @@ tar -C /usr/local -xvf go1.19.linux-amd64.tar.gz
 
 ![img2](https://i.postimg.cc/3Rdd66ct/Screen-Shot-2022-08-13-at-10-07-06-AM.png)
 
-6. Setup GO PATH, so when you type "go" on server terminal, linux will recognize the command.
+6. Setup GO PATH, so when you type "go" on server terminal, linux will recognize your command.
 
 ```
 nano ~/.bashrc
 ```
 
-7. do not care about other texts. You just need to add the path on the last line, save & exit.
+7. do not care about other texts. Just focus on the last line. You need to add the path on the last line, save it & exit.
 
 ```
 export PATH=$PATH:/usr/local/go/bin
@@ -93,7 +93,7 @@ go build -o funding-server
 
 ![build](https://i.postimg.cc/vHD3hHhn/Screen-Shot-2022-08-13-at-11-32-49-AM.png)
 
-## Creating an Ubuntu Systemd Service
+## Creating an Ubuntu Systemd Service 🥬
 
 Systemd is a service manager for Linux operating systems. We need it for managing our Golang app that we already build, so when our server is restart or crash for example and the server is up again, our Golang app will run automatically. The step is pretty easy:
 
@@ -141,7 +141,7 @@ systemctl status funding-server.service
 
 ![port](https://i.postimg.cc/P5Tc4kLn/Screen-Shot-2022-08-13-at-1-38-48-PM.png)
 
-but this is not a good & secure way. We need to hide the port & put Golang behind a Reverse Proxy. Please welcome **[NGINX](https://www.nginx.com/)**.
+but this is not a good & secure way. We need to hide the port & put Golang behind a Reverse Proxy. That's why we need **[NGINX](https://www.nginx.com/)** to do that.
 
 ## Setup Nginx as Reverse Proxy 🌵
 
