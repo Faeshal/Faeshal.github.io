@@ -4,7 +4,7 @@ date: 2022-08-12 21:09:56
 tags:
   - golang
   - linux
-  - nginx
+  - Nginx
 categories:
   - devops
 ---
@@ -93,7 +93,7 @@ go build -o funding-server
 
 ![build](https://i.postimg.cc/vHD3hHhn/Screen-Shot-2022-08-13-at-11-32-49-AM.png)
 
-## Creating an Ubuntu Systemd Service 🥬
+## Creating Linux Systemd Service 🥬
 
 Systemd is a service manager for Linux operating systems. We need it for managing our Golang app that we already build, so when our server is restart or crash for example and the server is up again, our Golang app will run automatically. The step is pretty easy:
 
@@ -141,31 +141,36 @@ systemctl status funding-server.service
 
 ![port](https://i.postimg.cc/P5Tc4kLn/Screen-Shot-2022-08-13-at-1-38-48-PM.png)
 
-but this is not a good & secure way. We need to hide the port & put Golang behind a Reverse Proxy. That's why we need **[NGINX](https://www.nginx.com/)** to do that.
+but this is not a good & secure way. We need to hide the port & put Golang behind a Reverse Proxy. That's why we need **[NGINX](https://www.Nginx.com/)** to do that.
 
 ## Setup Nginx as Reverse Proxy 🌵
 
-1. install nginx
+A reverse proxy is a server that typically sits behind the firewall & in front of backend service. Nginx is one of the best reverse proxy in town. Nginx will directing client requests to the appropriate backend service. Reverse proxies are typically implemented to help increase security, performance, and reliability🛡️
+
+Btw, i already have domain from **[Domainesia](https://www.domainesia.com/)** & for this app i will pointing to subdomain **go.faeshal.com**. Dont forget to add "A record" on your domain provider dashboard & fill it with your server IP.
+![dns](https://i.postimg.cc/k5XgLZpk/Screen-Shot-2022-08-13-at-3-49-08-PM.png)
+
+1. install Nginx
 
 ```
-apt-get install nginx
+apt-get install Nginx
 ```
 
-2. duplicate deafult nginx setting, just in case
+2. duplicate deafult Nginx setting, just in case
 
 ```
-sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/go.faeshal.com
+sudo cp /etc/Nginx/sites-available/default /etc/Nginx/sites-available/go.faeshal.com
 ```
 
 3. create config file. Remember because we use proxy pass, you must comment listen port 80, enter valid root path based on project directory, server name based on your domain & proxy pass based on your app port. Dont forget to save the config.
 
 ![config](https://i.postimg.cc/Nfg7CGxD/Screen-Shot-2022-08-13-at-2-03-17-PM.png)
 
-3. restart & check nginx configuration, if you fail on this step don't continue. Just check your nginx configuration again maybe there is a typo.
+3. restart & check Nginx configuration, if you fail on this step don't continue. Just check your Nginx configuration again maybe there is a typo.
 
 ```
-service nginx restart
-nginx -t
+service Nginx restart
+Nginx -t
 ```
 
 ![img](https://i.postimg.cc/022DdW8H/Screen-Shot-2022-08-13-at-2-13-10-PM.png)
@@ -182,13 +187,13 @@ HTTPS is the secure version of HTTP, which is the primary protocol used to send 
 
 ```
 apt-get install certbot
-apt-get install python3-certbot-nginx
+apt-get install python3-certbot-Nginx
 ```
 
 2. target to our domain name
 
 ```
-sudo certbot --nginx -d go.faeshal.com
+sudo certbot --Nginx -d go.faeshal.com
 ```
 
 3. auto renew https
