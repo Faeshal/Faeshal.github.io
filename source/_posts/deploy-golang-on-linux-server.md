@@ -29,7 +29,7 @@ git clone https://github.com/Faeshal/crowdfunding
 
 ![env](https://i.postimg.cc/j5mLrcVt/Screen-Shot-2022-08-13-at-10-09-18-AM.png)
 
-## Installing Golang on server 🍀
+## Installing Golang on Server 🍀
 
 This is optional step, **you can deploy without installing Golang on the server** as long as you already build your Golang code, because remember what the server will run is native Golang binaries NOT raw Golang code (.go extension). But the recommended way is still installing Golang on the server so we can setup auto build CI/CD later.
 
@@ -75,7 +75,7 @@ export PATH=$PATH:/usr/local/go/bin
 source ~/.bashrc
 ```
 
-9. done, you can check be typing "go version". Linux will recognize the command.
+9. done, you can check by typing "go version". Linux will recognize the command.
 
 ![go](https://i.postimg.cc/wTH0KQ9h/Screen-Shot-2022-08-13-at-1-49-38-PM.png)
 
@@ -141,7 +141,7 @@ systemctl status funding-server.service
 
 ![port](https://i.postimg.cc/P5Tc4kLn/Screen-Shot-2022-08-13-at-1-38-48-PM.png)
 
-but this is not a good & secure way. We need to hide the port & put Golang behind a Reverse Proxy. That's why we need **[NGINX](https://www.Nginx.com/)** to do that.
+🔥 but this is NOT a good & secure way. We need to hide the port & put Golang behind a Reverse Proxy. That's why we need **[NGINX](https://www.Nginx.com/)** to do that.
 
 ## Setup Nginx as Reverse Proxy 🌵
 
