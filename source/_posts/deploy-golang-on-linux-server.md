@@ -45,23 +45,23 @@ wget https://go.dev/dl/go1.19.linux-amd64.tar.gz
 
 🚧 **watch out the version!**. If you wanna install spesific Golang version be careful on that.
 
-4. you can make sure the file was downloaded by typing "ls" & to extract the file just type:
+3. you can make sure the file was downloaded by typing "ls" & to extract the file just type:
 
 ```
 tar -C /usr/local -xvf go1.19.linux-amd64.tar.gz
 ```
 
-5. As you can see go folder will appear & if you want, you can delete go tar.gz that you download before.
+4. As you can see go folder will appear & if you want, you can delete go tar.gz that you download before.
 
 ![img2](https://i.postimg.cc/3Rdd66ct/Screen-Shot-2022-08-13-at-10-07-06-AM.png)
 
-6. Setup GO PATH, so when you type "go" on server terminal, linux will recognize your command.
+5. Setup GO PATH, so when you type "go" on server terminal, linux will recognize your command.
 
 ```
 nano ~/.bashrc
 ```
 
-7. do not care about other texts. Just focus on the last line. You need to add the path on the last line, save it & exit.
+6. do not care about other texts. Just focus on the last line. You need to add the path on the last line, save it & exit.
 
 ```
 export PATH=$PATH:/usr/local/go/bin
@@ -69,23 +69,23 @@ export PATH=$PATH:/usr/local/go/bin
 
 ![exp](https://i.postimg.cc/8P8jKZBb/Screen-Shot-2022-08-13-at-10-13-56-AM.png)
 
-8. refresh it by typing:
+7. refresh it by typing:
 
 ```
 source ~/.bashrc
 ```
 
-9. done, you can check by typing "go version". Linux will recognize the command.
+8. done, you can check by typing "go version". Linux will recognize the command.
 
 ![go](https://i.postimg.cc/wTH0KQ9h/Screen-Shot-2022-08-13-at-1-49-38-PM.png)
 
-10. after that move to your Golang project for build your GO app by typing **"go build -o app-name"** for example i will name it "funding-server".
+9. after that move to your Golang project for build your GO app by typing **"go build -o app-name"** for example i will name it "funding-server".
 
 ```
 go build -o funding-server
 ```
 
-11. to run the program, very simple just type:
+10. to run the program, very simple just type:
 
 ```
 ./funding-server
@@ -176,7 +176,7 @@ nano go.faeshal.com
 
 ![config](https://i.postimg.cc/Nfg7CGxD/Screen-Shot-2022-08-13-at-2-03-17-PM.png)
 
-4. restart & check Nginx configuration, if you fail on this step don't continue. Just check your Nginx configuration again, maybe there is a typo.
+5. restart & check Nginx configuration, if you fail on this step don't continue. Just check your Nginx configuration again, maybe there is a typo.
 
 ```
 service Nginx restart
@@ -185,7 +185,7 @@ nginx -t
 
 ![img](https://i.postimg.cc/022DdW8H/Screen-Shot-2022-08-13-at-2-13-10-PM.png)
 
-5. done, now Golang is run behind Nginx, but we need one last thing. Setup SSL so we can have Https connection.
+6. done, now Golang is run behind Nginx, but we need one last thing. Setup SSL so we can have Https connection.
 
 ![img](https://i.postimg.cc/L4k3Vgjh/Screen-Shot-2022-08-13-at-2-05-26-PM.png)
 
