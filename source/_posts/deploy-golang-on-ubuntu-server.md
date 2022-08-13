@@ -13,11 +13,11 @@ categories:
 
 ## Quick Intro 🪴
 
-Deploying Golang supposed to be simple & straight forward, compare with other language like Java, Node etc. I dont understand why a lot of article on the internet make it's looks very complicated & not straight to the point. So i write this note to give you some insight about how Golang deploy on top of Ubuntu Server with Nginx as Reverse Proxy + SSL HTTPS certificate.
+Deploying Golang supposed to be simple & straight forward, compare with other language like Java, Node etc. I dont understand why a lot of article on the internet make it's looks very complicated & not straight to the point 🤦‍♂️. So i write this note to give you some insight about how Golang deploy on top of Ubuntu Server with Nginx as Reverse Proxy + SSL HTTPS certificate.
 
 ## Deployment Step ✨
 
-## Clone project to server 🥦
+## Clone project to server 🌿
 
 1. First step is pretty simple, just [SSH your linux server](https://www.linode.com/docs/guides/connect-to-server-over-ssh-on-linux/) with root access & move to **/var/www** directory. Clone your go project, like this:
 
@@ -29,7 +29,7 @@ git clone https://github.com/Faeshal/crowdfunding
 
 ![env](https://i.postimg.cc/j5mLrcVt/Screen-Shot-2022-08-13-at-10-09-18-AM.png)
 
-## Installing Golang on server 🦚
+## Installing Golang on server 🍀
 
 This is optional step, **you can deploy without installing Golang on the server** as long as you already build your Golang code, because remember what the server will run is native Golang binaries NOT raw Golang code (.go extension). But the recommended way is still installing Golang on the server so we can setup auto build CI/CD later.
 
@@ -145,7 +145,7 @@ but this is not a good & secure way. We need to hide the port & put Golang behin
 
 ## Setup Nginx as Reverse Proxy 🌵
 
-A reverse proxy is a server that typically sits behind the firewall & in front of backend service. Nginx is one of the best reverse proxy in town. Nginx will directing client requests to the appropriate backend service. Reverse proxies are typically implemented to help increase security, performance, and reliability🛡️
+A reverse proxy is a server that typically sits behind the firewall & in front of backend service. Nginx is one of the best reverse proxy in town. It will directing client requests to the appropriate backend service. Reverse proxies are typically implemented to help increase security, performance, and reliability🛡️
 
 Btw, i already have domain from **[Domainesia](https://www.domainesia.com/)** & for this app i will pointing to subdomain **go.faeshal.com**. Dont forget to add "A record" on your domain provider dashboard & fill it with your server IP.
 ![dns](https://i.postimg.cc/k5XgLZpk/Screen-Shot-2022-08-13-at-3-49-08-PM.png)
