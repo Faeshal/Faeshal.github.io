@@ -13,7 +13,7 @@ categories:
 
 ## Quick Intro 🪴
 
-Deploying Golang supposed to be simple & straight forward, compare with other language like Java, PHP etc. I dont understand why a lot of article on the internet make it's looks very complicated & not straight to the point. So i write this note to give you some insight about how Golang deploy on top of Ubuntu Server with Nginx as Reverse Proxy + SSL HTTPS certificate.
+Deploying **[Golang](https://go.dev/)** supposed to be simple & straight forward, compare with other language like Java, PHP etc. I dont understand why a lot of article on the internet make it's looks very complicated & not straight to the point. So i write this note to give you some insight about how Golang deploy on top of Ubuntu Server with Nginx as Reverse Proxy + SSL HTTPS certificate.
 
 ## Deployment Step ✨
 
@@ -95,7 +95,7 @@ go build -o funding-server
 
 ## Creating Linux Systemd Service 🥬
 
-Systemd is a service manager for Linux operating systems. We need it for managing our Golang app that we already build, so when our server is restart or crash for example and the server is up again, our Golang app will run automatically. The step is pretty easy:
+Systemd is a service manager for Linux operating systems. We need it for managing our Golang app that we already build, so when our server is restart or crash and the server is up again, our Golang app will run automatically. The step is pretty easy:
 
 1. move to directory **/etc/systemd/system** & create service file based on your Golang app name.
 
@@ -156,13 +156,23 @@ Btw, i already have domain from **[Domainesia](https://www.domainesia.com/)** & 
 apt-get install Nginx
 ```
 
-2. copy default Nginx setting, just in case
+2. move to **/etc/nginx/sites-available** directory. Copy default Nginx config & create a new one, just in case
 
 ```
 sudo cp /etc/Nginx/sites-available/default /etc/Nginx/sites-available/go.faeshal.com
 ```
 
-3. create config file. Remember because we use proxy pass, you must comment listen port 80. Enter valid root path based on project directory, server name based on your domain & proxy pass based on your app port. Dont forget to save the config.
+3. linking new nginx config to sites-enabled
+
+```
+sudo ln -s /etc/nginx/sites-available/go.faeshal.com /etc/nginx/sites-enabled/go.faeshal.com
+```
+
+4. Open config file with nano. 🚨 Remember because we use proxy pass, you must comment "listen port 80". Enter valid root path based on project directory, server name based on your domain & proxy pass based on your app port. Dont forget to save the config.
+
+```
+nano go.faeshal.com
+```
 
 ![config](https://i.postimg.cc/Nfg7CGxD/Screen-Shot-2022-08-13-at-2-03-17-PM.png)
 

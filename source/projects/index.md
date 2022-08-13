@@ -5,7 +5,7 @@ date: 2022-07-11 21:29:40
 
 # Project History
 
-This is all projects that i've been working on my entire career as a Backend Engineer. To note, In this list, i only include **Office Projects with production level & full development team NOT personal freelance projects** to be more focused & relevant.
+This is all projects that i've been working on my entire career as a Backend Engineer. To note, In this list, i only include **Office Projects with production level & full development team ⛔ NOT personal freelance projects** to be more focused & relevant.
 
 ## 1.Daily Act (Social Media App) 🌟
 
@@ -34,7 +34,7 @@ My first project in my next company called [Deeeplabs](https://deeeplabs.com/). 
 
 ⭐ Responsibility:
 
-As a Backend Engineer, i build all the Backend System & Functionality **from scratch** based on requirement.
+As a Backend Engineer, i build all the Backend System & Functionality **from scratch** and fully responsible to making decisions regarding what technology stack to be used in the Backend to achieve the best performance.
 
 🔥 Stack:
 
