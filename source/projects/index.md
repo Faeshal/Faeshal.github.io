@@ -5,23 +5,22 @@ date: 2022-07-11 21:29:40
 
 # Project History
 
-This is all projects that i've been working on my entire career as a Backend Engineer. To note, In this list, i only include **Office Projects with production level NOT freelance projects or personal projects** to be more focused & relevant.
+This is all projects that i've been working on my entire career as a Backend Engineer. To note, In this list, i only include **Office Projects with production level & full development team NOT personal freelance projects** to be more focused & relevant.
 
 ## 1.Daily Act (Social Media App) 🌟
 
 📰 Description:
 
-Daily Act is a startup company located in Tangerang, Banten with Social Media App as a main product. This is my first office where i got hired before graduated from college. Like social media app in general, daily act also has features such as feeds, explorer, gallery, chat, voice & video call, stories etc, kind of Instagram for short explanation. 
+Daily Act is a startup company located in Tangerang, Banten with Social Media App as a main product. This is my first office where i got hired before graduated from college. Like social media app in general, daily act also has features such as feeds, explorer, gallery, chat, voice & video call, stories etc, kind of Instagram for short explanation.
 
 ⭐ Responsibility:
 
 As a Backend Engineer when i join the development team, their Backend is already using Microservices Architecture. So mostly my job is to optimize their service instead of building from scratch or migrating from monolithic architecture. But the recap is:
 
-* Handle refactoring Express & Fastify REST API for some service to use [Clean Code Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
-* Migrate some service to Typescript & pack to Docker Container
-* Maintain & Optimize the performance of Email, Location & Feed Services
-* Build automation script, unit testing and stress testing 
-
+- Handle refactoring Express & Fastify REST API for some service to use [Clean Code Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+- Migrate some service to Typescript & pack to Docker Container
+- Maintain & Optimize the performance of Email, Location & Feed Services
+- Build automation script, unit testing and stress testing
 
 🔥 Stack:
 
@@ -45,7 +44,7 @@ Node.JS, Express, PM2, Redis, MariaDB, Firebase, Mocha, Chai, Artillery, Twilio,
 
 📰 Description:
 
-Omnichanel marketplace for our Singapore Client [Magnetiseme](https://www.magnetiseme.com/). Octofaya is A Web & Mobile application for e-commerce seller to manage items, stock & order from various marketplaces inside one platform. Fully Integrated with Lazada, Shopee, Magento, Shopify & Xero Accounting. 
+Omnichanel marketplace for our Singapore Client [Magnetiseme](https://www.magnetiseme.com/). Octofaya is A Web & Mobile application for e-commerce seller to manage items, stock & order from various marketplaces inside one platform. Fully Integrated with Lazada, Shopee, Magento, Shopify & Xero Accounting.
 
 ⭐ Responsibility:
 
