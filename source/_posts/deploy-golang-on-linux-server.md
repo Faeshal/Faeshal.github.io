@@ -116,6 +116,7 @@ After=multi-user.target
 [Service]
 User=root
 Group=root
+WorkingDirectory=/var/www/crowdfunding
 ExecStart=/var/www/crowdfunding/funding-server
 
 [Install]
