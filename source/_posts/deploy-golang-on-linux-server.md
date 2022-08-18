@@ -136,6 +136,8 @@ systemctl enable funding-server.service
 systemctl status funding-server.service
 ```
 
+🚧 **if you change the config, dont forget to reload:** "systemctl daemon-reload"
+
 ![done](https://i.postimg.cc/3xZM5wMw/Screen-Shot-2022-08-13-at-1-35-22-PM.png)
 
 5. until this step, basically you can access your Golang app by typing **server-ip:port**, because i set 7070 for my app, so the result is:
