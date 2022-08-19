@@ -116,6 +116,7 @@ After=multi-user.target
 [Service]
 User=root
 Group=root
+Restart=always
 WorkingDirectory=/var/www/crowdfunding
 ExecStart=/var/www/crowdfunding/funding-server
 
