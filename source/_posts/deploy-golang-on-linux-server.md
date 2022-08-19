@@ -178,7 +178,7 @@ sudo ln -s /etc/nginx/sites-available/go.faeshal.com /etc/nginx/sites-enabled/go
 nano go.faeshal.com
 ```
 
-![config](https://i.postimg.cc/Nfg7CGxD/Screen-Shot-2022-08-13-at-2-03-17-PM.png)
+![config](https://i.postimg.cc/L5cz0FBp/edit.png)
 
 5. restart & check Nginx configuration, if you fail on this step don't continue. Just check your Nginx configuration again, maybe there is a typo.
 
