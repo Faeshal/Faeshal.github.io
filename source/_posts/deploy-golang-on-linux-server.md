@@ -13,7 +13,7 @@ categories:
 
 ## Quick Intro 🪴
 
-Deploying **[Golang](https://go.dev/)** supposed to be very simple & straight forward, compare with other language like Java, PHP etc. But i find a lot of article on the internet make looks very complicated & not straight to the point. So i write this note to give you some insight about how Golang deploy on top of Ubuntu Server with Nginx as Reverse Proxy + SSL HTTPS certificate.
+Deploying **[Golang](https://go.dev/)** supposed to be very simple & straight forward, compare with other language like Java, PHP etc, but i found a lot of article on the internet make looks very complicated & not straight to the point. So i write this note to give you some insight about how Golang deploy on top of Ubuntu Server with Nginx as Reverse Proxy + SSL HTTPS certificate.
 
 ## Deployment Step ✨
 
