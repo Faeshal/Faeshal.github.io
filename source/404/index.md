@@ -3,6 +3,4 @@ title: 404
 permalink: /404.html
 ---
 
-# 404 👻
-
-## Page Not Found
+![https://media.giphy.com/media/xT9IgFWN8DXgWvqvBK/giphy.gif](https://media.giphy.com/media/xT9IgFWN8DXgWvqvBK/giphy.gif)
