@@ -1,0 +1,8 @@
+---
+title: 404
+permalink: /404.html
+---
+
+# 404 👻
+
+## Page Not Found
