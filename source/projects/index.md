@@ -11,7 +11,7 @@ This is all projects that i've been working on my entire career as a Backend Eng
 
 📰 Description:
 
-Daily Act is a startup company located in Tangerang, Banten with Social Media App as a main product. This is my first office where i got hired before graduated from college. Like social media app in general, daily act also has features such as feeds, explorer, gallery, chat, voice & video call, stories etc, kind of Instagram for short explanation.
+[Daily Act](https://jalantikus.com/news/26555/daily-act-sosial-media-baru-positif-inovatif-buatan-anak-bangsa/) is a startup company located in Tangerang, Banten with Social Media App as a main product. This is my first office where i got hired before graduated from college. Like social media app in general, daily act also has features such as feeds, explorer, gallery, chat, voice & video call, stories etc, kind of Instagram for short explanation.
 
 ⭐ Responsibility:
 
