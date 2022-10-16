@@ -9,7 +9,7 @@ categories:
   - devops
 ---
 
-![](https://1drv.ms/u/s!AlZwoX1-EZKgsBF5UWe2BveJXKzC?e=ZAMRJA)
+![](https://1drv.ms/u/s!AlZwoX1-EZKgsBPG9sS4-leKrWcX?e=SmzIpB)
 
 ## Docker File
 
