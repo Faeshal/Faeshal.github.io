@@ -103,3 +103,12 @@ theme: cactus
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ""
+
+# minify
+neat_enable: true
+neat_html:
+  logger: false
+neat_css:
+  logger: false
+neat_js:
+  logger: false
