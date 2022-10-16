@@ -112,3 +112,10 @@ neat_css:
   logger: false
 neat_js:
   logger: false
+
+cdn:
+  server: https://images.weserv.nl
+  use_webp: false
+  native: false # use cloudflare native image resize
+  max_width:
+  exclude_domains:
