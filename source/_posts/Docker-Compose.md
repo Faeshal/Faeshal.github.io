@@ -9,7 +9,7 @@ categories:
   - devops
 ---
 
-![](https://1drv.ms/u/s!AlZwoX1-EZKgsBPG9sS4-leKrWcX?e=SmzIpB)
+![](https://res.cloudinary.com/faeshal/image/upload/v1665906694/faeshalcom/banner-dockercompose_n5iuds.jpg)
 
 ## Docker File
 
