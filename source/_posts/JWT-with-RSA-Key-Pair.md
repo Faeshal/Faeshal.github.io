@@ -7,7 +7,7 @@ tags:
   - security
 ---
 
-![](https://i.postimg.cc/przdB56m/jwt3.png)
+![](https://res.cloudinary.com/faeshal/image/upload/v1666021447/faeshalcom/jwt3_dltkx2.png)
 
 ## Introduction 🍹
 
@@ -29,7 +29,7 @@ In an Asymmetric Algorithm, two keys are used to encrypt and decrypt messages. a
 
 Today we gonna focusing on Asymmetric Algo or using RSA style, **usually this approach is use in Microservices Architecure** when we build auth service and need to verify in another service in secure way. So the TODO list is:
 
-![](https://i.postimg.cc/sXtXS4wF/jwk.png)
+![](https://res.cloudinary.com/faeshal/image/upload/v1666021467/faeshalcom/jwk_uasrvo.png)
 
 1. We need setup nodejs project (a REST API server) doesn't matter what framework you use, it's up to you.
 
@@ -111,9 +111,9 @@ console.log(jwk);
 
 After that, we just execute the file with node filename.js and will print out the JWK on the console. Grab that JWK object, save as a json file and put on your trusted place, for the simple way i'm storing on Google Cloud Storage and expose the token so our microservice can grab the token with axios or another http call library.
 
-![](https://i.postimg.cc/Bn1KVtPB/Screen-Shot-2022-06-08-at-7-48-12-PM.png)
+![](https://res.cloudinary.com/faeshal/image/upload/v1666021535/faeshalcom/Screen-Shot-2022-06-08-at-7-48-12-PM_gag7jp.png)
 
-![](https://i.postimg.cc/rFjnwnfP/Screen-Shot-2022-06-08-at-7-41-20-PM.png)
+![](https://res.cloudinary.com/faeshal/image/upload/v1666021546/faeshalcom/Screen-Shot-2022-06-08-at-7-41-20-PM_a5v7u3.png)
 
 6. Verify the JWK 🚪
 

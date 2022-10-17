@@ -7,7 +7,7 @@ tags:
   - CI/CD
 ---
 
-![ut2](https://i.postimg.cc/Wp9wmQSZ/unittest.png)
+![ut2](https://res.cloudinary.com/faeshal/image/upload/v1666021343/faeshalcom/unittest_croeub.png)
 
 ## Intro Unit Testing ✨
 
