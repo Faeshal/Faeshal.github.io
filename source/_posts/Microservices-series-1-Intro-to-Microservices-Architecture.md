@@ -16,7 +16,7 @@ Before we dive into microservice architecture, we must know what is monolitich a
 
 ## monolitich architecture
 
-![mono](https://i.postimg.cc/BbQWqFzj/Screen-Shot-2022-01-01-at-10-08-25-AM.png)
+![](https://res.cloudinary.com/faeshal/image/upload/v1666022234/faeshalcom/Screen-Shot-2022-01-01-at-10-08-25-AM_a8agsp.png)
 
 Monolithic architecture is traditional approach of building software which use a single code base with multiple modules/features and is tightly coupled. It has single build system which build entire application and/or dependency. It also has single entry point or deployable binary
 
@@ -35,7 +35,7 @@ Cons :
 
 ## microservices architecture
 
-![mc](https://i.postimg.cc/9XsJpZmC/Screen-Shot-2022-01-01-at-10-09-33-AM.png)
+![](https://res.cloudinary.com/faeshal/image/upload/v1666022260/faeshalcom/Screen-Shot-2022-01-01-at-10-09-33-AM_sottm5.png)
 
 According to the book of **Building Microservices: Aligning Principles, Practices & Culture**
 
