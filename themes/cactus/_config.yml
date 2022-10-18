@@ -97,10 +97,10 @@ favicon:
     url: "https://res.cloudinary.com/faeshal/image/upload/v1665925482/faeshalcom/date_bpzweo.ico"
     gravatar: false
   android:
-    url: /images/date-192x192.png
+    url: "https://res.cloudinary.com/faeshal/image/upload/v1666061366/faeshalcom/date-192x912_rb0osu.png"
     gravatar: false
   apple:
-    url: /images/date-192x192.png
+    url: "https://res.cloudinary.com/faeshal/image/upload/v1666061366/faeshalcom/date-192x912_rb0osu.png"
     gravatar: false
 
 # The color scheme that should be used to highlight codeblocks.
