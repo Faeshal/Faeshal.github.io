@@ -27,7 +27,7 @@ git clone https://github.com/Faeshal/crowdfunding
 
 2. As always dont forget to create & setup .env file, if you have it.
 
-![env](https://i.postimg.cc/j5mLrcVt/Screen-Shot-2022-08-13-at-10-09-18-AM.png)
+![env](https://res.cloudinary.com/faeshal/image/upload/v1666057030/faeshalcom/Screen-Shot-2022-08-13-at-10-09-18-AM_kbnxkn.png)
 
 ## Installing Golang on Server 🍀
 
@@ -35,7 +35,7 @@ This is optional step, **you can deploy without installing Golang on the server*
 
 1. go to **[Golang download page](https://go.dev/dl/)** to copy download link from linux OS section
 
-![download2](https://i.postimg.cc/QxSw70QS/Screen-Shot-2022-08-12-at-9-15-48-PM.png)
+![download2](https://res.cloudinary.com/faeshal/image/upload/v1666057087/faeshalcom/Screen-Shot-2022-08-12-at-9-15-48-PM_qcet95.png)
 
 2. go to your server again & move to directory **/usr/local** to download the file by typing:
 
@@ -53,7 +53,7 @@ tar -C /usr/local -xvf go1.19.linux-amd64.tar.gz
 
 4. As you can see go folder will appear & if you want, you can delete go tar.gz that you download before.
 
-![img2](https://i.postimg.cc/3Rdd66ct/Screen-Shot-2022-08-13-at-10-07-06-AM.png)
+![img2](https://res.cloudinary.com/faeshal/image/upload/v1666057103/faeshalcom/Screen-Shot-2022-08-13-at-10-07-06-AM_ig36cy.png)
 
 5. Setup GO PATH, so when you type "go" on server terminal, linux will recognize your command.
 
@@ -67,7 +67,7 @@ nano ~/.bashrc
 export PATH=$PATH:/usr/local/go/bin
 ```
 
-![exp](https://i.postimg.cc/8P8jKZBb/Screen-Shot-2022-08-13-at-10-13-56-AM.png)
+![exp](https://res.cloudinary.com/faeshal/image/upload/v1666057151/faeshalcom/Screen-Shot-2022-08-13-at-10-13-56-AM_mo61tc.png)
 
 7. refresh it by typing:
 
@@ -77,7 +77,7 @@ source ~/.bashrc
 
 8. done, you can check by typing "go version". Linux will recognize the command.
 
-![go](https://i.postimg.cc/wTH0KQ9h/Screen-Shot-2022-08-13-at-1-49-38-PM.png)
+![go](https://res.cloudinary.com/faeshal/image/upload/v1666057162/faeshalcom/Screen-Shot-2022-08-13-at-1-49-38-PM_qhglem.png)
 
 9. after that move to your Golang project for build your GO app by typing **"go build -o app-name"** for example i will name it "funding-server".
 
@@ -91,7 +91,7 @@ go build -o funding-server
 ./funding-server
 ```
 
-![build](https://i.postimg.cc/vHD3hHhn/Screen-Shot-2022-08-13-at-11-32-49-AM.png)
+![build](https://res.cloudinary.com/faeshal/image/upload/v1666057202/faeshalcom/Screen-Shot-2022-08-13-at-11-32-49-AM_azgfo7.png)
 
 ## Creating Linux Systemd Service 🥬
 
@@ -104,7 +104,7 @@ touch funding-server.service
 nano /etc/systemd/system/funding-server.service
 ```
 
-![img](https://i.postimg.cc/0yzShzKY/Screen-Shot-2022-08-13-at-12-03-39-PM.png)
+![img](https://res.cloudinary.com/faeshal/image/upload/v1666057237/faeshalcom/Screen-Shot-2022-08-13-at-12-03-39-PM_fvqpkn.png)
 
 2. copy this code, make sure you give correct ExecStart path based on your Golang **build executable**. Dont forget to save & exit.
 
@@ -139,11 +139,11 @@ systemctl status funding-server.service
 
 🚧 **if you change the config, dont forget to reload:** "systemctl daemon-reload"
 
-![done](https://i.postimg.cc/3xZM5wMw/Screen-Shot-2022-08-13-at-1-35-22-PM.png)
+![done](https://res.cloudinary.com/faeshal/image/upload/v1666057249/faeshalcom/Screen-Shot-2022-08-13-at-1-35-22-PM_ow3riy.png)
 
 5. until this step, basically you can access your Golang app by typing **server-ip:port**, because i set 7070 for my app, so the result is:
 
-![port](https://i.postimg.cc/P5Tc4kLn/Screen-Shot-2022-08-13-at-1-38-48-PM.png)
+![port](https://res.cloudinary.com/faeshal/image/upload/v1666057297/faeshalcom/Screen-Shot-2022-08-13-at-1-38-48-PM_cngskp.png)
 
 🔥 but this is NOT a good & secure way. We need to hide the port & put Golang behind a Reverse Proxy. That's why we need **[NGINX](https://www.Nginx.com/)** to do that.
 
@@ -152,7 +152,7 @@ systemctl status funding-server.service
 A reverse proxy is an application that typically sits between firewall & backend service. Nginx is one of the best reverse proxy in town. It will directing requests to the appropriate backend. Reverse proxies are typically implemented to increase security, performance, and reliability 🥇
 
 Btw, i already have domain from **[Domainesia](https://www.domainesia.com/)** & for this app i will pointing to subdomain **go.faeshal.com**. Dont forget to add "A record" on your domain provider dashboard & fill it with your server IP.
-![dns](https://i.postimg.cc/k5XgLZpk/Screen-Shot-2022-08-13-at-3-49-08-PM.png)
+![dns](https://res.cloudinary.com/faeshal/image/upload/v1666057320/faeshalcom/Screen-Shot-2022-08-13-at-3-49-08-PM_uzgebl.png)
 
 1. install Nginx
 
@@ -178,7 +178,7 @@ sudo ln -s /etc/nginx/sites-available/go.faeshal.com /etc/nginx/sites-enabled/go
 nano go.faeshal.com
 ```
 
-![config](https://i.postimg.cc/L5cz0FBp/edit.png)
+![config](https://res.cloudinary.com/faeshal/image/upload/v1666057343/faeshalcom/edit_ifcbzp.png)
 
 5. restart & check Nginx configuration, if you fail on this step don't continue. Just check your Nginx configuration again, maybe there is a typo.
 
@@ -187,11 +187,11 @@ service Nginx restart
 nginx -t
 ```
 
-![img](https://i.postimg.cc/022DdW8H/Screen-Shot-2022-08-13-at-2-13-10-PM.png)
+![img](https://res.cloudinary.com/faeshal/image/upload/v1666057407/faeshalcom/Screen-Shot-2022-08-13-at-2-13-10-PM_ozkhxd.png)
 
 6. done, now Golang is run behind Nginx, but we need one last thing. Setup SSL so we can have Https connection.
 
-![img](https://i.postimg.cc/L4k3Vgjh/Screen-Shot-2022-08-13-at-2-05-26-PM.png)
+![img](https://res.cloudinary.com/faeshal/image/upload/v1666057414/faeshalcom/Screen-Shot-2022-08-13-at-2-05-26-PM_jnmsmb.png)
 
 ## Setup SSL HTTPS 🔰
 
@@ -218,6 +218,6 @@ certbot renew --dry-run
 
 4. done, we got https connection. Very simple isn't it ?
 
-![](https://i.postimg.cc/SQVzs6WL/Screen-Shot-2022-08-13-at-2-29-53-PM.png)
+![](https://res.cloudinary.com/faeshal/image/upload/v1666057381/faeshalcom/Screen-Shot-2022-08-13-at-2-29-53-PM_fdyoyt.png)
 
 Hope this basic Golang deployment useful, many things that you can improved, such as adding firewall or adding caching mechanism. Anyway stay safe & stay secure, peace out 🖐️
