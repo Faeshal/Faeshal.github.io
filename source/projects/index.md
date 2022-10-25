@@ -5,13 +5,13 @@ date: 2022-07-11 21:29:40
 
 # Project History
 
-This is all projects that i've been working on my entire career as a Backend Engineer. To note, In this list, i only include **Office Projects with Private Repository, Production level & Full Development Team ⛔ NOT personal freelance projects** to be more focused & relevant.
+This is all projects that i've been working on my entire career as a Backend Engineer. To note, In this list, i only include **Office Projects with Private Repository & Full Development Team ⛔ NOT personal freelance projects** to be more focused & relevant.
 
 ## 1.Daily Act (Social Media App) 🌟
 
 📰 Description:
 
-[Daily Act](https://jalantikus.com/news/26555/daily-act-sosial-media-baru-positif-inovatif-buatan-anak-bangsa/) is a startup company located in Tangerang, Banten with Social Media App as a main product. This is my first office where i got hired before graduated from college. Like social media app in general, daily act also has features such as feeds, explorer, gallery, chat, voice & video call, stories etc, kind of Instagram for short explanation.
+[Daily Act](https://jalantikus.com/news/26555/daily-act-sosial-media-baru-positif-inovatif-buatan-anak-bangsa/) is a startup company located in Tangerang, Banten with Social Media App as a main product. Like social media app in general, daily act also has features such as feeds, explorer, gallery, chat, voice & video call, stories etc, kind of Instagram for short explanation.
 
 ⭐ Responsibility:
 
@@ -34,7 +34,7 @@ My first project in my next company called [Deeeplabs](https://deeeplabs.com/). 
 
 ⭐ Responsibility:
 
-As a Backend Engineer, i build all the Backend System & Functionality **from scratch** and fully responsible to making decisions regarding what technology stack to be used in the Backend to achieve the best performance.
+As a Backend Engineer, i build all the Backend System & Functionality **from scratch** based on requirements.
 
 🔥 Stack:
 
@@ -48,13 +48,13 @@ Omnichanel marketplace for our Singapore Client [Magnetiseme](https://www.magnet
 
 ⭐ Responsibility:
 
-As a Backend Engineer, i build all the Backend System & Functionality **from scratch** and fully responsible to making decisions regarding what technology stack to be used in the Backend to achieve the best performance.
+As a Backend Engineer, i build all the Backend System & Functionality **from scratch** based on requirements.
 
 🔥 Stack:
 
 Node.JS, Express, PM2, Bull.js, Redis, MariaDB, Mocha, Chai, Artillery, Twilio, Mailgun, Docker, AWS, Nginx, Flutter (Mobile App), Laravel (Admin Web App)
 
-## 4.Bigchain POC (Mini Blockhain system) 🕸️
+## 4.Bigchain POC (POC Blockhain system) 🕸️
 
 📰 Description:
 
@@ -62,7 +62,7 @@ POC Blockchain system for the Singapore Government tender project using [Bigchai
 
 ⭐ Responsibility:
 
-As a Backend Engineer, i build all the Backend System & Functionality **from scratch** and fully responsible to making decisions regarding what technology stack to be used in the Backend to achieve the best performance.
+As a Backend Engineer, i build all the Backend System & Functionality **from scratch** based on requirements.
 
 🔥 Stack:
 
@@ -76,7 +76,7 @@ UME is Singapore Dating App. This is for people to find and contact each other t
 
 ⭐ Responsibility:
 
-As a Backend Engineer, i build all the Backend System & Functionality **from scratch** and fully responsible to making decisions regarding what technology stack to be used in the Backend to achieve the best performance.
+As a Backend Engineer, i build all the Backend System & Functionality **from scratch** based on requirements.
 
 🔥 Stack:
 
