@@ -25,7 +25,6 @@ nav:
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
 # only 'mail' is an exception.
 social_links:
-  github: https://github.com/faeshal
   linkedin: https://www.linkedin.com/in/faeshal/
   mail: mailto:faeshal@outlook.com
 
