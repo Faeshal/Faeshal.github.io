@@ -81,3 +81,16 @@ As a Backend Engineer, i build all the Backend System & Functionality **from scr
 🔥 Stack:
 
 Node.JS, Express, PM2, Bull.js, Redis, MariaDB, Mocha, Chai, Artillery, Twilio, Mailgun, Connectycube, Firebase, Docker, Microsoft Azure VM, Azure Cognitive-Services Computer Vision, Azure Face Recognition, Nginx, Flutter (Mobile App), React (Admin Web App)
+
+## 6.RMBEX (International Money Transfer System)💸
+
+📰 Description:
+RMBEX is our new client from China & recently opened a new office in Singapore. RMBEX is enterprise platform for transfering money between 5 region (Singapore - China - United States - Hongkong - Europe) with very secure and seamless process. The project started earlier this year and has a very wide range of features. The project is still in the development stage until now.
+
+⭐ Responsibility:
+
+As a Backend Engineer, i build all the Backend System & Functionality **from scratch** based on requirements.
+
+🔥 Stack:
+
+Node.JS, Alibaba & Microsoft Azure ecosystem etc [still development, it could change]....
