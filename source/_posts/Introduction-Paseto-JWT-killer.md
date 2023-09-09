@@ -56,17 +56,17 @@ What about paseto version ? until this post was released paseto have 4 version, 
 
 ## Paseto In Action 🍀
 
-Very simple to uing paseto library, you just need to use "sign" to generate token & "verify" to consume it. Example using Nodejs library:
+Very simple to using paseto library, if you're using public strategy you just need to use "sign" to generate token & "verify" to consume it. If you're using local strategy just use "encypt" & "decrypt". Example using Nodejs library:
 
 ```
 const paseto = require('paseto')
 const { V3 } = paseto // set the version
 
 const privateKey = <your private key location>
-const publicKey = <your public key location> // you dont need this if you choose local strategy, just use privateKey again to verify the token
+const publicKey = <your public key location>
 
 
-// Producing tokens
+// Producing tokens (Public Strategy)
 (async () => {
   {
     const token = await sign({ name: "faeshal", role: "admin" }, privateKey,{expiresIn: "1d",})
@@ -74,13 +74,38 @@ const publicKey = <your public key location> // you dont need this if you choose
   }
 })()
 
-// Consuming tokens
-(async () => {
+// Consuming tokens (Public Strategy)
+(async (token) => {
   {
     const payload = await verify(token, publicKey)
     // { name: "faeshal", role: "admin" , iat: '2022-07-01T15:22:47.982Z' }
   }
 })()
+
+// Producing tokens (Local Strateg)
+(async () => {
+  {
+    
+    // generate secret key for the first time only then you store to env for use on every request (PASETO_SECRET_KEY)
+    // const genSecret = await V3.generateKey("local", { format: "paserk" });
+    // console.log("secret key string:", genSecret);
+
+    // local paseto strategy
+    const token = await V3.encrypt({payload:"some payload data"}, process.env.PASETO_SECRET_KEY, {
+      expiresIn: "1d",
+    });
+    // v3.local.eyJzdWIiOiJqb2huZG9lIiwiaWF0IjoiMjAyMS0wOC0wM1QwNTozOTozNy42NzNaIn3AW3ri7P5HpdakJmZvhqssz7Wtzi2Rb3JafwKplLoCWuMkITYOo5KNNR5NMaeAR6ePZ3xWUcbO0R11YLb02awO
+  }
+})()
+
+// Consuming tokens (Local Strategy)
+(async (token) => {
+  {
+    const decoded = await V3.decrypt(token, process.env.PASETO_SECRET_KEY);
+  }
+})()
+
+
 ```
 
 ## Final Words 🦚
