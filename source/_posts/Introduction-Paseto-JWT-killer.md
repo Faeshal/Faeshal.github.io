@@ -5,6 +5,7 @@ tags:
   - paseto
   - security
   - token
+  - jwt
 categories:
   - backend
 ---
@@ -85,7 +86,7 @@ const publicKey = <your public key location>
 // Producing tokens (Local Strateg)
 (async () => {
   {
-    
+
     // generate secret key for the first time only then you store to env for use on every request (PASETO_SECRET_KEY)
     // const genSecret = await V3.generateKey("local", { format: "paserk" });
     // console.log("secret key string:", genSecret);
