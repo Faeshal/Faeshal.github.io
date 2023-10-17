@@ -56,5 +56,4 @@ I did all the exams online, not at the test center. AWS use [**PearsonVue**](htt
 
 ![](https://i.postimg.cc/y6t05vqB/awsarchitect.jpg)
 
-Next year my target is to get 2 [**Azure**](https://learn.microsoft.com/en-us/credentials/)
-certifications cause my current company is very massive using Azure technology lately. Hope the target achieved so i can share about azure exam here too. Hope you also pass whatever certification you are going to take, the important thing is don't forget to set your target, keep learning & keep adapting in IT industry. Good luck 💪👋
+Next year my target is to get 2 [**Azure**](https://learn.microsoft.com/en-us/credentials/) certifications cause my current company is very massive using Azure technology lately. Hope the target achieved so i can share about azure exam here too. Hope you also pass whatever certification you are going to take, the important thing is don't forget to set your target, keep learning & keep adapting in IT industry. Good luck 💪👋
