@@ -6,10 +6,10 @@
 title: faeshal.com
 subtitle: "Engineering Notes"
 description: "I'm Faeshal, a Software Engineer. Certified AWS Developer, Solutions Architect & Google Cloud Engineer. Most of the time working on the Back End using Node.JS ecosystem. Interested with Golang, Cloud Native Technology & Microservices Architecture. Share my learning & experiment here, especially server side."
-keywords:
+keywords: faeshal
 author: Faeshal
 language: en
-timezone: ""
+timezone: "Asia/Jakarta"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'

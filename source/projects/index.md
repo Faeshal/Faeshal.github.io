@@ -94,3 +94,16 @@ As a Backend Engineer, i build all the Backend System & Functionality **from scr
 🔥 Stack:
 
 Node.JS, Alibaba & Microsoft Azure ecosystem etc [still development, it could change]....
+
+## 7.SG Tender Scrapper (Telegram BOT)🔈
+
+📰 Description:
+Telegram bot which is useful for scraping tender data from the Singapore government site. Users who subscribe to the bot can get the latest notifications if new tenders are published, view detail tender, subscribe to selected tenders to get notifications regarding data changes as well as alerts regarding tender closing times & much more.
+
+⭐ Responsibility:
+
+As a Backend Engineer, i build all the Backend System & Functionality **from scratch** based on requirements.
+
+🔥 Stack:
+
+Node.JS, Telegraf, MariaDB, AWS Serverless Stack etc....
