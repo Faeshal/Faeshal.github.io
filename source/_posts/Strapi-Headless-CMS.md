@@ -59,7 +59,7 @@ Also if you look at the repository, the team is very active maintaining the code
 
 ## Code Customization 👋
 
-##### Quick setup
+#### Quick setup
 
 I just breakdown the main part cause too many things that can be customized. You can look at the official docs for details. First i will start with how to setup strapi. It start with pretty simple command:
 
@@ -85,33 +85,96 @@ go to admin url & voila you get full feature backend admin panel ready to use.
 
 ![](https://i.postimg.cc/NMzHSrkN/Screenshot-2023-11-24-at-7-35-50-PM.png)
 
-##### Add Resource
-
-xxxxx
+#### Add Resource
 
 Every time you want to create a new resource / table structure you don't need to bother setup SQL manually, just go to the content type builder menu & use the ui. You can even set database relationships with content type builder. This features is pretty handy, everything is automatic.
 
-https://i.postimg.cc/Kj3M2v9m/Screenshot-2023-11-24-at-7-50-26-PM.pn
+![](https://i.postimg.cc/s216h5xm/Screenshot-2023-11-24-at-10-26-22-PM.png)
 
-For example i will create category table & when i finish creating the structure & save it. Strapi will automatically create the table including CRUD (create, read, update & delete) functionality for us, so we don't need coding to create a basic CRUD on the /categories endpoint. everything has been made by strapi. Cool isn't it ?. Anyway this is the dafault structure for /categories API that already create.
+For example i will create **product** table & when i finish creating the structure & save it. Strapi will automatically create the table including CRUD (create, read, update & delete) functionality for us, so we don't need coding to create a basic CRUD on the **/products** endpoint. everything has been made by strapi. Cool isn't it ?. Anyway this is the dafault structure for /products API that already create.
 
-controller
-
-```'use strict';/** * category controller */const { createCoreController } = require('@strapi/strapi').factories; module.exports = createCoreController('api::category.category');
+- controller
 
 ```
+const { createCoreController } = require("@strapi/strapi").factories;
+module.exports = createCoreController("api::product.product");
+```
 
-service
+- service
 
-route
+```
+const { createCoreService } = require('@strapi/strapi').factories;
+module.exports = createCoreService('api::product.product');
+```
 
-##### Add Endpoint on existing Resource
+- route
 
-xxxxx
+```
+const { createCoreRouter } = require('@strapi/strapi').factories;
+module.exports = createCoreRouter('api::contact.contact');
+```
 
-##### Customize behavior default API
+That's it. The api is ready to use in postman with the /products endpoint. Really easy.
 
-xxxxx
+#### Add Endpoint on existing Resource
+
+So how do we add endpoints to our resources ? very simple, you just type the logic in the service and call to your controller, but on this example i will write the logic directly in the controller just for brevity.
+
+Lets say i wanna add new endpoint **/products/reports/analytics** to the controller product.js. I can write like this.
+
+```
+module.exports = createCoreController("api::product.product", ({ strapi }) => ({
+  // * GET /products/reports/analytics
+  async productReports(ctx, next) {
+    // your logic .....
+    ctx.body = { data: { return data... } };
+  },
+}))
+```
+
+and on the route folder create custom.js file and you write route path there. Remember, now inside your route folder, there are 2 file product.js (the default one) & custom.js like below.
+
+```
+module.exports = {
+  routes: [
+    {
+      method: "GET",
+      path: "/products/repots/analytics",
+      handler: "product.productReports",
+      config: {
+        policies: [],
+        middlewares: [],
+      },
+    },
+  ],
+};
+```
+
+You may ask, what about the default CRUD function that already exist? it seems like the controller only has one endpoint. The answer is the default CRUD function is still running with no problem, because it located on different route file which is on folder route/product.js
+
+#### Ovveriding default API
+
+What if we want to customize the default CRUD function, for example create endpoint (POST /products). The answer is you must write the function with same built in function name.
+
+so for example, i wanna customize default GET /products endpoint, i must write the name of function in the controller with **"find"** name, just like this.
+
+```
+module.exports = createCoreController('api::product.product', ({strapi}) => ({
+      find: async (ctx, next) => {
+        // your logic here, for example.....
+        // destructure to get `data` and `meta` which strapi returns by default
+        const {data, meta} = await super.find(ctx)
+        // perform any other custom action
+        return {data, meta}
+      }
+}));
+```
+
+This will override the strapi's default function. For example again, i wanna ovveride DELETE /products endpoint. So i must create controller with the name of **"delete"** and write our logic there. That's it. You don't need to change anything in the route. Just leave it as the default.
+
+Then how do I know the names of other built in functions name ? such as endpoint for update product. Simple, You can see function list via dashboard, like this.
+
+![](https://i.postimg.cc/NMzHSrkN/Screenshot-2023-11-24-at-7-35-50-PM.png)
 
 ## Recap 👋
 
