@@ -2,8 +2,9 @@ title: Low Code Era - Meet Strapi The Headless CMS
 date: 2023-11-23 18:42:08
 tags:
 
-- cms
+- lowcode
 - backend
+- cms
 
 ---
 
@@ -57,7 +58,7 @@ Also if you look at the repository, the team is very active maintaining the code
 
 ![](https://i.postimg.cc/HnhpWY7k/github.pnghttps://i.postimg.cc/zBkvNYjy/Screenshot-2023-11-24-at-9-42-14-AM.pn)
 
-## Code Customization 👋
+## Customization 👋
 
 #### Quick setup
 
@@ -150,7 +151,11 @@ module.exports = {
 };
 ```
 
-You may ask, what about the default CRUD function that already exist? it seems like the controller only has one endpoint. The answer is the default CRUD function is still running with no problem, because it located on different route file which is on folder route/product.js
+You may ask, what about the default CRUD function that already exist? it seems like the controller only has one endpoint.
+
+![](https://i.postimg.cc/dtjwHcBX/meme2.jpg)
+
+The answer is the default CRUD function is still running with no problem, because it located on different route file which is on folder route/product.js
 
 #### Ovveriding default API
 
@@ -174,8 +179,8 @@ This will override the strapi's default function. For example again, i wanna ovv
 
 Then how do I know the names of other built in functions name ? such as endpoint for update product. Simple, You can see function list via dashboard, like this.
 
-![](https://i.postimg.cc/NMzHSrkN/Screenshot-2023-11-24-at-7-35-50-PM.png)
+![](https://i.postimg.cc/26RQSWZV/Screenshot-2023-11-24-at-11-15-00-PM.png)
 
 ## Recap 👋
 
-**If you feel like traditional CMS is too rigid for the project you're handling and puts too many constraints on you** , then headless CMS might be the way to go. While headless CMS is beneficial for developers especially in terms of user experience, it might not be needed for small websites with few pages. Using a traditional CMS for smaller projects is faster and more effective. Remember, all tools cannot solve all problems, always make sure to use right tools on the right place. Peace out.
+**If you feel like traditional CMS is too rigid for the project you're handling and puts too many constraints on you**, then headless CMS might be the way to go. While headless CMS is beneficial for developers especially for rapid development. It might not be needed for small websites with few pages. Using a traditional CMS for smaller projects is faster and more effective. Remember, all tools cannot solve all problems, always make sure to use right tools on the right place.
