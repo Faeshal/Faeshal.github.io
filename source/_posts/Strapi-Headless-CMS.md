@@ -115,6 +115,8 @@ const { createCoreRouter } = require('@strapi/strapi').factories;
 module.exports = createCoreRouter('api::contact.contact');
 ```
 
+![](https://i.postimg.cc/zGPm6zRd/Screenshot-2023-11-25-at-12-01-15-AM.png)
+
 That's it. The api is ready to use in postman with the /products endpoint. Really easy.
 
 #### Add Endpoint on existing Resource
