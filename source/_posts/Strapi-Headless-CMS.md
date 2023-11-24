@@ -7,7 +7,7 @@ tags:
 
 ---
 
-[https://giphy.com/embed/U6dwICuTbMaAHLs5Sw/video](https://)
+![](https://i.postimg.cc/Fz0rDgJj/meme.jpg)
 
 ## Headless ? What's that ? 🍹
 
@@ -34,14 +34,22 @@ This is the core difference between headless and traditional CMS. We are given f
 Actually, there are many headless CMS choices based on NodeJS, but in my opinion Strapi still the best one (at least when this post created). If there is a project that requires me to use headless cms, i will definitely choose strapi for that, here's why.
 
 1. Documentation
-   Guys, Strapi documentation is sooo good. The example of world-class quality documentation. Clean, Structure, modern with intuitive UI. Documentation is very important here. There is a lot of software that may be technically good, but because the documentation is disorganized, developer have difficulty during development or finding solutions, make it unproductive. So ya, Strapi good at this.
+
+Guys, Strapi documentation is sooo good. The example of world-class quality documentation. Clean, Structure, modern with intuitive UI. Documentation is very important here. There is a lot of software that may be technically good, but because the documentation is disorganized, developer have difficulty during development or finding solutions, make it unproductive. So ya, Strapi good at this.
 
 ![](https://i.postimg.cc/ZnHW8BDY/Screenshot-2023-11-24-at-2-17-18-PM.pnghttps://i.postimg.cc/C5zgQ36T/s-7-E0-CDF98-C8224-A710-ADADF2-AFD2360-BE291-C4097-D3580-E7-A564-BF1-A5-D07-D603-A-1651562077417-image.pnghttps://i.postimg.cc/kMYd8H6W/cms.p)
 
 2. Customization
-   In real world projects, 99% i can confirm that even if you use low code tools, you will definitely still customize the code. What I mean is not customize basic things like add field, edit text etc, but it's more like changing the default behavior of the software.![](https://i.postimg.cc/C5zgQ36T/s-7-E0-CDF98-C8224-A710-ADADF2-AFD2360-BE291-C4097-D3580-E7-A564-BF1-A5-D07-D603-A-1651562077417-image.pnghttps://i.postimg.cc/kMYd8H6W/cms.pn)Things like how to change the default login flow, how to extend the default query, how to extend the middleware etc. Very spesific things like that maybe will not cover in the documentation. This is very critical. The abilily to customize the software. I think strapi is pretty good at that, because the code style is easy to understand and not too much sugar syntax on it.
+
+In real world projects, 99% i can confirm that even if you use low code tools, you will definitely still customize the code. What I mean is not customize basic things like add field, edit text etc, but it's more like changing the default behavior of the software.
+
+![](https://i.postimg.cc/C5zgQ36T/s-7-E0-CDF98-C8224-A710-ADADF2-AFD2360-BE291-C4097-D3580-E7-A564-BF1-A5-D07-D603-A-1651562077417-image.pnghttps://i.postimg.cc/kMYd8H6W/cms.pn)
+
+Things like how to change the default login flow, how to extend the default query, how to extend the middleware etc. Very spesific things like that maybe will not cover in the documentation. This is very critical. The abilily to customize the software. I think strapi is pretty good at that, because the code style is easy to understand and not too much sugar syntax on it.
+
 3. Popularity
-   If there is a problem during development and we are looking for a solution, then the platform we use is not well known. Congratulations, you've got a headache. That's why popularity is important especially in open source software. Strapi is not as bad as think before, if you encounter problem when development, beside we use stackoverflow strapi provide forum platform which can be used for finding solutions. I got more answers there compare to Stackoferflow to be honest. So ya, that's another plus point.
+
+If there is a problem during development and we are looking for a solution, then the platform we use is not well known. Congratulations, you've got a headache. That's why popularity is important especially in open source software. Strapi is not as bad as think before, if you encounter problem when development, beside we use stackoverflow strapi provide forum platform which can be used for finding solutions. I got more answers there compare to Stackoferflow to be honest. So ya, that's another plus point.
 
 ![](https://i.postimg.cc/zBkvNYjy/Screenshot-2023-11-24-at-9-42-14-AM.png)
 
