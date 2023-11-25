@@ -16,7 +16,7 @@ The trend of low code is raising, especially for tech company in Singapore. My C
 
 In short, headless cms is cms **without frontend** so this type of cms focusing on the serving & managing content or we can say API. If you wanna consume the API, you must build the frontend by yourself whether is mobile, web etc. That's why i like it. **Headless CMS is very Backend Friendly & API Oriented.**
 
-![](https://i.postimg.cc/kMYd8H6W/cms.png)
+![](https://i.postimg.cc/LXC5GGLk/bush.jpg)
 
 Before, my first thought when I heard CMS, i was expecting something similar to WordPress, Wix, Drupal. Where we create content in the admin panel, then that content appears on the frontend page so the user can consume it. Tadaaaaa, i was wrong.
 
@@ -88,7 +88,7 @@ go to admin url & voila you get full feature backend admin panel ready to use.
 
 ### Add Resource 📚
 
-![](https://i.postimg.cc/ZqQXgc0B/x23.png)
+![](https://i.postimg.cc/90D021Y6/add.jpg)
 
 Every time you want to create a new resource / table structure you don't need to bother setup SQL manually, just go to the content type builder menu & use the ui. You can even set database relationships with content type builder. This features is pretty handy, everything is automatic.
 
