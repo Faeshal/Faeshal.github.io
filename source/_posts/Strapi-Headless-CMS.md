@@ -88,7 +88,7 @@ go to admin url & voila you get full feature backend admin panel ready to use.
 
 ### Add Resource 📚
 
-![](https://i.postimg.cc/90D021Y6/add.jpg)
+![](https://i.postimg.cc/Vs2n6b0q/food.jpg)
 
 Every time you want to create a new resource / table structure you don't need to bother setup SQL manually, just go to the content type builder menu & use the ui. You can even set database relationships with content type builder. This features is pretty handy, everything is automatic.
 
@@ -122,6 +122,8 @@ module.exports = createCoreRouter('api::contact.contact');
 That's it. The api is ready to use in postman with the /products endpoint. Really easy.
 
 ### Add API On Existing Resource 🪣
+
+![](https://i.postimg.cc/90D021Y6/add.jpg)
 
 So how do we add endpoints to our resources ? very simple, you just type the logic in the service and call to your controller, but on this example i will write the logic directly in the controller just for brevity.
 
