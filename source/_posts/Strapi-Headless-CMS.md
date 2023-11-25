@@ -11,7 +11,7 @@ tags:
 
 ## Headless ? 🤔
 
-The trend of low code is raising, especially for Tech Company in Singapore. My CEO told me to research about headless CMS in NodeJS for our team & the next project. The term is a little bit weird for me, headless ? what the heck is that. So, i write the results of my exploration here with simpler language.
+The trend of low code is raising, especially for Tech Company in Singapore. My CEO told me to research about headless CMS in NodeJS for our next project. The term is a little bit weird for me, headless ? what the heck is that. So, i write the results of my exploration here with simpler language.
 
 In short, headless CMS is CMS **without frontend** so this type of CMS focusing on the serving & managing content or we can say API. If you wanna consume the API, you must build the frontend by yourself whether is mobile, web etc. That's why i like it. **Headless CMS is very Backend Friendly & API Oriented.**
 
