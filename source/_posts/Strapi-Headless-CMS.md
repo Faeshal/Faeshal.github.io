@@ -11,9 +11,9 @@ tags:
 
 ## Headless ? 🤔
 
-The trend of low code is raising, especially for Tech Company in Singapore. My CEO told me to research about headless cms in NodeJS for our team & the next project. The term is a little bit weird for me, headless ? what the heck is that. So, i write the results of my exploration here with simpler language.
+The trend of low code is raising, especially for Tech Company in Singapore. My CEO told me to research about headless CMS in NodeJS for our team & the next project. The term is a little bit weird for me, headless ? what the heck is that. So, i write the results of my exploration here with simpler language.
 
-In short, headless cms is cms **without frontend** so this type of cms focusing on the serving & managing content or we can say API. If you wanna consume the API, you must build the frontend by yourself whether is mobile, web etc. That's why i like it. **Headless CMS is very Backend Friendly & API Oriented.**
+In short, headless CMS is CMS **without frontend** so this type of CMS focusing on the serving & managing content or we can say API. If you wanna consume the API, you must build the frontend by yourself whether is mobile, web etc. That's why i like it. **Headless CMS is very Backend Friendly & API Oriented.**
 
 Previously, my first thought when I heard CMS, i was expecting something similar to WordPress, Wix, Drupal. Where we create content in the admin panel, then that content appears on the frontend page so the user can consume it. Tadaaaaa, i was wrong.
 
@@ -29,7 +29,7 @@ This is the core difference between headless and traditional CMS. We are given f
 
 {% youtuber video BAAhEWbnOak %}{% endyoutuber %}
 
-Actually, there are many headless CMS choices based on NodeJS, but in my opinion Strapi is the best one (at least when this post created). I won't talk about too much detail about the features but i can say if there is a project that requires me to use headless cms, i will definitely choose strapi for that. Beside it's free & open source this is my 3 main considerations.
+Actually, there are many headless CMS choices based on NodeJS, but in my opinion Strapi is the best one (at least when this post created). I won't talk about too much detail about the features but i can say if there is a project that requires me to use headless CMS, i will definitely choose strapi for that. Beside it's free & open source this is my 3 main considerations.
 
 1. Documentation - [docs.strapi.io/dev-docs/intro](https://docs.strapi.io/dev-docs/intro) 📖
 
@@ -106,14 +106,14 @@ module.exports = createCoreController("api::product.product");
 
 ```
 const { createCoreService } = require('@strapi/strapi').factories;
-module.exports = createCoreService('api::product.product');
+module.exports = createCoreService("api::product.product");
 ```
 
 - route
 
 ```
 const { createCoreRouter } = require('@strapi/strapi').factories;
-module.exports = createCoreRouter('api::product.product');
+module.exports = createCoreRouter("api::product.product");
 ```
 
 ![](https://i.postimg.cc/zGPm6zRd/Screenshot-2023-11-25-at-12-01-15-AM.png)
@@ -171,7 +171,7 @@ What if we want to customize the default CRUD function, for example create endpo
 so for example, i wanna customize default GET /products endpoint, i must write the name of function in the controller with **"find"** name, just like this.
 
 ```
-module.exports = createCoreController('api::product.product', ({strapi}) => ({
+module.exports = createCoreController("api::product.product", ({strapi}) => ({
       find: async (ctx, next) => {
         // your logic here, for example.....
         // destructure to get `data` and `meta` which strapi returns by default
