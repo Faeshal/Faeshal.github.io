@@ -8,7 +8,7 @@ tags:
 
 ---
 
-![](https://i.postimg.cc/hPKVFRkx/lisa.jpg)
+![](https://i.postimg.cc/Fz0rDgJj/meme.jpg)
 
 ## Headless ? 🤔
 
