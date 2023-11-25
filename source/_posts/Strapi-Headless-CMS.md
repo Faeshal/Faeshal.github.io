@@ -10,9 +10,9 @@ tags:
 
 ![](https://i.postimg.cc/hPKVFRkx/lisa.jpg)
 
-# Headless ? 🤔
+## Headless ? 🤔
 
-The trend of low code is very massive, especially for tech company in Singapore. My CTO told me to research about headless cms in NodeJS for my team & for the next project. The term is a little bit weird for me, headless ? what the heck is that. So, i write the results of my exploration here with simpler language & straight to the point.
+The trend of low code is very massive, especially for tech company in Singapore. My CTO told me to research about headless cms in NodeJS for my team & for the next project. The term is a little bit weird for me, headless ? what the heck is that. So, i write the results of my explorat``ion here with simpler language & straight to the point.
 
 In short, headless cms is cms **without frontend** so this type of cms focusing on the serving & managing content or we can say API. If you wanna consume the API, you must build the frontend by yourself whether is mobile, web etc. That's why i like it. **Headless CMS is very Backend Friendly & API Oriented.**
 
@@ -22,7 +22,7 @@ Before, my first thought when I heard CMS, i was expecting something similar to 
 
 ![](https://i.postimg.cc/26Vw1YHK/wrong.jpg)
 
-CMS like WordPress, WIX etc that's call reguler / traditional CMS. On Headless we only got backend UI for managing content (API) most likely this is only for admin. What about page for external user ? **we make it separately**.
+CMS like WordPress, WIX etc that's call reguler / traditional CMS. On Headless we only got backend UI for managing content (API) most likely this is only for admin. What about page for external user ? **we make it separately** 😅.
 
 This is the core difference between headless and traditional CMS. We are given flexibility to choosing technology for our frontend applications. In contrast to traditional CMS which is very monolithic and strict. So we can combine like Strapi + React.js, Strapi + Flutter etc. Completely different codebase.
 
@@ -32,11 +32,11 @@ This is the core difference between headless and traditional CMS. We are given f
 
 {% youtuber video BAAhEWbnOak %}{% endyoutuber %}
 
-Actually, there are many headless CMS choices based on NodeJS, but in my opinion Strapi still the best one (at least when this post created). If there is a project that requires me to use headless cms, i will definitely choose strapi for that, here's why.
+Actually, there are many headless CMS choices based on NodeJS, but in my opinion Strapi is the best one (at least when this post created). I won't talk about too much detail about the features but i can say if there is a project that requires me to use headless cms, will definitely choose strapi for that. Beside it's free & open source this is my 3 main considerations.
 
-1. Documentation 📖
+1. Documentation - [docs.strapi.io/dev-docs/intro](https://docs.strapi.io/dev-docs/intro) 📖
 
-Guys, Strapi documentation is soooo good. The example of world-class quality documentation. Clean, Structure, modern with intuitive UI. Documentation is very important here. There is a lot of software that may be technically good, but because the documentation is disorganized, developer have difficulty during development or finding solutions, make it unproductive. So ya, Strapi good at this.
+Guys, Strapi documentation is soooo good. The example of world-class quality docs. Clean, structure, modern with intuitive UI. Documentation is very important aspect for me. There is a lot of software that may be technically good, but because the documentation is disorganized, developer have difficulty during development or finding solutions, make it unproductive. So ya, Strapi good at this.
 
 ![](https://i.postimg.cc/ZnHW8BDY/Screenshot-2023-11-24-at-2-17-18-PM.pnghttps://i.postimg.cc/C5zgQ36T/s-7-E0-CDF98-C8224-A710-ADADF2-AFD2360-BE291-C4097-D3580-E7-A564-BF1-A5-D07-D603-A-1651562077417-image.pnghttps://i.postimg.cc/kMYd8H6W/cms.p)
 
@@ -58,7 +58,7 @@ Also if you look at the repository, the team is very active maintaining the code
 
 ![](https://i.postimg.cc/HnhpWY7k/github.pnghttps://i.postimg.cc/zBkvNYjy/Screenshot-2023-11-24-at-9-42-14-AM.pn)
 
-## Customization🤔
+## Customization 🛺
 
 ### Quick Setup 🚅
 
@@ -74,7 +74,7 @@ npx create-strapi-app@latest my-project
 
 follow the prompt to choose your favorite Database & root user. After finising instalation you will get default codebase like this.
 
-![](https://i.postimg.cc/SsN6w4FK/Screenshot-2023-11-24-at-7-31-16-PM.pnghttps://i.postimg.cc/SsN6w4FK/Screenshot-2023-11-24-at-7-31-16-PM.pnghttps://i.postimg.cc/HnhpWY7k/github.pnghttps://i.postimg.cc/zBkvNYjy/Screenshot-2023-11-24-at-9-42-14-AM.)
+![](https://i.postimg.cc/SsN6w4FK/Screenshot-2023-11-24-at-7-31-16-PM.pnghttps://i.postimg.cc/SsN6w4FK/Screenshot-2023-11-24-at-7-31-16-PM.pnghttps://i.postimg.cc/HnhpWY7k/github.pnghttps://i.postimg.cc/zBkvNYjy/Screenshot-2023-11-24-at-9-42-14-AM.)Cu
 
 to run the server
 
@@ -119,7 +119,7 @@ module.exports = createCoreRouter('api::contact.contact');
 
 That's it. The api is ready to use in postman with the /products endpoint. Really easy.
 
-### Add Endpoint on existing Resource 🪣
+### Add API On Existing Resource 🪣
 
 So how do we add endpoints to our resources ? very simple, you just type the logic in the service and call to your controller, but on this example i will write the logic directly in the controller just for brevity.
 
@@ -159,7 +159,7 @@ You may ask, what about the default CRUD function that already exist? it seems l
 
 The answer is the default CRUD function is still running with no problem, because it located on different route file which is on folder route/product.js
 
-### Ovveriding default API ⏳
+### Ovveriding Default API ⏳
 
 What if we want to customize the default CRUD function, for example create endpoint (POST /products). The answer is you must write the function with same built in function name.
 
