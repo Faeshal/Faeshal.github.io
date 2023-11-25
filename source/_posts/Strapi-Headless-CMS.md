@@ -4,7 +4,6 @@ tags:
 
 - lowcode
 - backend
-- cms
 
 ---
 
@@ -12,15 +11,15 @@ tags:
 
 ## Headless ? 🤔
 
-The trend of low code is raising, especially for tech company in Singapore. My CTO told me to research about headless cms in NodeJS for our team & the next project. The term is a little bit weird for me, headless ? what the heck is that. So, i write the results of my exploration here with simpler language.
+The trend of low code is raising, especially for Tech Company in Singapore. My CEO told me to research about headless cms in NodeJS for our team & the next project. The term is a little bit weird for me, headless ? what the heck is that. So, i write the results of my exploration here with simpler language.
 
 In short, headless cms is cms **without frontend** so this type of cms focusing on the serving & managing content or we can say API. If you wanna consume the API, you must build the frontend by yourself whether is mobile, web etc. That's why i like it. **Headless CMS is very Backend Friendly & API Oriented.**
 
-Before, my first thought when I heard CMS, i was expecting something similar to WordPress, Wix, Drupal. Where we create content in the admin panel, then that content appears on the frontend page so the user can consume it. Tadaaaaa, i was wrong.
+Previously, my first thought when I heard CMS, i was expecting something similar to WordPress, Wix, Drupal. Where we create content in the admin panel, then that content appears on the frontend page so the user can consume it. Tadaaaaa, i was wrong.
 
 ![](https://i.postimg.cc/LXC5GGLk/bush.jpg)
 
-CMS like WordPress, WIX etc that's call reguler / traditional CMS. On Headless we only got backend UI for managing content (API) most likely this is only for admin. What about page for external user ? **we make it separately** 😅.
+CMS like WordPress, WIX etc that's call reguler / traditional CMS. On Headless we only got backend UI for managing content (API) most likely this is only for admin. What about page for external user ? **we make it separately** 🙂.
 
 This is the core difference between headless and traditional CMS. We are given flexibility to choosing technology for our frontend applications. In contrast to traditional CMS which is very monolithic and strict. So we can combine like Strapi + React.js, Strapi + Flutter etc. Completely different codebase.
 
@@ -30,23 +29,23 @@ This is the core difference between headless and traditional CMS. We are given f
 
 {% youtuber video BAAhEWbnOak %}{% endyoutuber %}
 
-Actually, there are many headless CMS choices based on NodeJS, but in my opinion Strapi is the best one (at least when this post created). I won't talk about too much detail about the features but i can say if there is a project that requires me to use headless cms, will definitely choose strapi for that. Beside it's free & open source this is my 3 main considerations.
+Actually, there are many headless CMS choices based on NodeJS, but in my opinion Strapi is the best one (at least when this post created). I won't talk about too much detail about the features but i can say if there is a project that requires me to use headless cms, i will definitely choose strapi for that. Beside it's free & open source this is my 3 main considerations.
 
 1. Documentation - [docs.strapi.io/dev-docs/intro](https://docs.strapi.io/dev-docs/intro) 📖
 
 Guys, Strapi documentation is soooo good. The example of world-class quality docs. Clean, structure, modern with intuitive UI. Documentation is very important aspect for me. There is a lot of software that may be technically good, but because the documentation is disorganized, developer have difficulty during development or finding solutions, make it unproductive. So ya, Strapi good at this.
 
-![](https://i.postimg.cc/ZnHW8BDY/Screenshot-2023-11-24-at-2-17-18-PM.pnghttps://i.postimg.cc/C5zgQ36T/s-7-E0-CDF98-C8224-A710-ADADF2-AFD2360-BE291-C4097-D3580-E7-A564-BF1-A5-D07-D603-A-1651562077417-image.pnghttps://i.postimg.cc/kMYd8H6W/cms.p)
+![](https://i.postimg.cc/ZnHW8BDY/Screenshot-2023-11-24-at-2-17-18-PM.png)
 
-2. Customization 🛠️
+2. Customization 🚀
 
 In real world projects, 99% i can confirm that even if you use low code tools, you will definitely still customize the code. What I mean is not customize basic things like add field, edit text etc, but it's more like changing the default behavior of the software.
 
-![](https://i.postimg.cc/C5zgQ36T/s-7-E0-CDF98-C8224-A710-ADADF2-AFD2360-BE291-C4097-D3580-E7-A564-BF1-A5-D07-D603-A-1651562077417-image.pnghttps://i.postimg.cc/kMYd8H6W/cms.pn)
+![](https://i.postimg.cc/C5zgQ36T/s-7-E0-CDF98-C8224-A710-ADADF2-AFD2360-BE291-C4097-D3580-E7-A564-BF1-A5-D07-D603-A-1651562077417-image.png)
 
-Things like how to change the default login flow, how to extend the default query, how to extend the middleware etc. Very spesific things like that maybe will not cover in the documentation. This is very critical. The abilily to customize the software. I think strapi is pretty good at that, because the code style is easy to understand and not too much sugar syntax on it.
+Things like how to change the default login flow, how to extend the default query, how to extend the middleware etc. Very spesific things like that maybe will not cover in the documentation. This is very critical. The abilily to customize the software. I think strapi is pretty good at that, the code style is easy to understand and not too much sugar syntax on it.
 
-3. Popularity 📈
+3. Popularity 🌍
 
 If there is a problem during development and we are looking for a solution, then the platform we use is not well known. Congratulations, you've got a headache. That's why popularity is important especially in open source software. Strapi is not as bad as think before, if you encounter problem when development, beside we use stackoverflow strapi provide forum platform which can be used for finding solutions. I got more answers there compare to Stackoferflow to be honest. So ya, that's another plus point.
 
@@ -72,7 +71,7 @@ npx create-strapi-app@latest my-project
 # 'my-project' is the name of your Strapi project
 ```
 
-follow the prompt to choose your favorite Database & root user. After finising instalation you will get default codebase like this.
+follow the prompt to choose your favorite Database & creating root user. After finising instalation you will get default codebase like this.
 
 ![](https://i.postimg.cc/SsN6w4FK/Screenshot-2023-11-24-at-7-31-16-PM.png)
 
@@ -90,11 +89,11 @@ go to admin url & voila you get full feature backend admin panel ready to use.
 
 ![](https://i.postimg.cc/Vs2n6b0q/food.jpg)
 
-Every time you want to create a new resource / table structure you don't need to bother setup SQL manually, just go to the content type builder menu & use the ui. You can even set database relationships with content type builder. This features is pretty handy, everything is automatic.
+Every time you want to create a new resource / table structure you don't need to setup SQL manually, just go to the content type builder menu & use the ui. You can even set database relationships with content type builder. This features is pretty handy, everything is automatic.
 
 ![](https://i.postimg.cc/s216h5xm/Screenshot-2023-11-24-at-10-26-22-PM.png)
 
-For example i will create **product** table & when i finish creating the structure & save it. Strapi will automatically create the table including CRUD (create, read, update & delete) functionality for us, so we don't need coding to create a basic CRUD on the **/products** endpoint. everything has been made by strapi. Cool isn't it ?. Anyway this is the dafault structure for /products API that already create.
+For example i will create **product** table & when i finish creating the structure & save it. Strapi will automatically create the table including CRUD (create, read, update & delete) functionality for us, so we don't need coding to create a basic CRUD on the **/products** endpoint. everything has been made by strapi. Cool isn't it ?. Anyway this is the default structure for /products API that already create.
 
 - controller
 
@@ -119,15 +118,15 @@ module.exports = createCoreRouter('api::product.product');
 
 ![](https://i.postimg.cc/zGPm6zRd/Screenshot-2023-11-25-at-12-01-15-AM.png)
 
-That's it. The api is ready to use in postman with the /products endpoint. Really easy.
+That's it. The API is ready to use with postman with on /products endpoint. Really easy.
 
 ### Add API On Existing Resource 🪣
 
 ![](https://i.postimg.cc/90D021Y6/add.jpg)
 
-So how do we add endpoints to our resources ? very simple, you just type the logic in the service and call to your controller, but on this example i will write the logic directly in the controller just for brevity.
+So how do we add endpoints to our resources ? very simple, you just type the logic in the service and call from your controller, but on this example i will write the logic directly in the controller just for brevity.
 
-Lets say i wanna add new endpoint **/products/reports/analytics** to the controller product.js. I can write like this.
+Lets say i wanna add new endpoint **/products/reports/analytics** with the name of controller is **productReports**. I can write like this on controller product.js.
 
 ```
 module.exports = createCoreController("api::product.product", ({ strapi }) => ({
@@ -139,7 +138,7 @@ module.exports = createCoreController("api::product.product", ({ strapi }) => ({
 }))
 ```
 
-and on the route folder create custom.js file and you write route path there. Remember, now inside your route folder, there are 2 file product.js (the default one) & custom.js like below.
+and on the route folder create **custom.js** file and you write route path there. Remember, now inside your route folder, there are 2 file product.js (the default one) & custom.js like below.
 
 ```
 module.exports = {
@@ -157,11 +156,11 @@ module.exports = {
 };
 ```
 
-You may ask, what about the default CRUD function that already exist? it seems like the controller only has one endpoint.
+You may ask, what about the default CRUD function that already exist ? it seems like the controller only has one endpoint.
 
 ![](https://i.postimg.cc/dtjwHcBX/meme2.jpg)
 
-The answer is the default CRUD function is still running with no problem, because it located on different route file which is on folder route/product.js
+The answer is the default CRUD function is still running without problem, because it located on different route file which is on folder **route/product.js**
 
 ### Ovveriding Default API ⏳
 
@@ -183,7 +182,7 @@ module.exports = createCoreController('api::product.product', ({strapi}) => ({
 }));
 ```
 
-This will override the strapi's default function. For example again, i wanna ovveride DELETE /products endpoint. So i must create controller with the name of **"delete"** and write our logic there. That's it. You don't need to change anything in the route. Just leave it as the default.
+This will override the Strapi's default function. Again, for example i wanna ovveride DELETE /products endpoint. So i must create controller with the name of **"delete"** and write our logic there. That's it. You don't need to change anything on the route. Just leave it as the default.
 
 Then how do I know the names of other built in functions name ? such as endpoint for update product. Simple, You can see function list via dashboard, like this.
 
