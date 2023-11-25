@@ -10,9 +10,9 @@ tags:
 
 ![](https://i.postimg.cc/hPKVFRkx/lisa.jpg)
 
-## Headless ? 🤔
+# Headless ? 🤔
 
-The trend of low code is very massive, especially for tech company in Singapore. My CTO told me to research about headless cms in NodeJS for my team & for the next project. The term is a little bit weird for me, headless ? what the heck is that. So, i write the results of my exploration here with language that may be simpler and straight to the point.
+The trend of low code is very massive, especially for tech company in Singapore. My CTO told me to research about headless cms in NodeJS for my team & for the next project. The term is a little bit weird for me, headless ? what the heck is that. So, i write the results of my exploration here with simpler language & straight to the point.
 
 In short, headless cms is cms **without frontend** so this type of cms focusing on the serving & managing content or we can say API. If you wanna consume the API, you must build the frontend by yourself whether is mobile, web etc. That's why i like it. **Headless CMS is very Backend Friendly & API Oriented.**
 
@@ -60,7 +60,7 @@ Also if you look at the repository, the team is very active maintaining the code
 
 ## Customization🤔
 
-#### Quick Setup 🚅
+### Quick Setup 🚅
 
 I just breakdown the main part cause too many things that can be customized. You can look at the official docs for details. First i will start with how to setup strapi. It start with pretty simple command:
 
@@ -86,7 +86,7 @@ go to admin url & voila you get full feature backend admin panel ready to use.
 
 ![](https://i.postimg.cc/NMzHSrkN/Screenshot-2023-11-24-at-7-35-50-PM.png)
 
-#### Add Resource 📚
+### Add Resource 📚
 
 Every time you want to create a new resource / table structure you don't need to bother setup SQL manually, just go to the content type builder menu & use the ui. You can even set database relationships with content type builder. This features is pretty handy, everything is automatic.
 
