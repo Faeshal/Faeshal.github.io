@@ -118,7 +118,7 @@ module.exports = createCoreRouter('api::product.product');
 
 ![](https://i.postimg.cc/zGPm6zRd/Screenshot-2023-11-25-at-12-01-15-AM.png)
 
-That's it. The API is ready to use with postman with on /products endpoint. Really easy.
+That's it. The API is ready to use with postman on /products endpoint. Really easy.
 
 ### Add API On Existing Resource 🪣
 
