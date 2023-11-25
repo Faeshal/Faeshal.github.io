@@ -88,6 +88,8 @@ go to admin url & voila you get full feature backend admin panel ready to use.
 
 ### Add Resource 📚
 
+![](https://i.postimg.cc/ZqQXgc0B/x23.png)
+
 Every time you want to create a new resource / table structure you don't need to bother setup SQL manually, just go to the content type builder menu & use the ui. You can even set database relationships with content type builder. This features is pretty handy, everything is automatic.
 
 ![](https://i.postimg.cc/s216h5xm/Screenshot-2023-11-24-at-10-26-22-PM.png)
