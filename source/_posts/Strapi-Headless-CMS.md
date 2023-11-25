@@ -16,11 +16,9 @@ The trend of low code is raising, especially for tech company in Singapore. My C
 
 In short, headless cms is cms **without frontend** so this type of cms focusing on the serving & managing content or we can say API. If you wanna consume the API, you must build the frontend by yourself whether is mobile, web etc. That's why i like it. **Headless CMS is very Backend Friendly & API Oriented.**
 
-![](https://i.postimg.cc/LXC5GGLk/bush.jpg)
-
 Before, my first thought when I heard CMS, i was expecting something similar to WordPress, Wix, Drupal. Where we create content in the admin panel, then that content appears on the frontend page so the user can consume it. Tadaaaaa, i was wrong.
 
-![](https://i.postimg.cc/26Vw1YHK/wrong.jpg)
+![](https://i.postimg.cc/LXC5GGLk/bush.jpg)
 
 CMS like WordPress, WIX etc that's call reguler / traditional CMS. On Headless we only got backend UI for managing content (API) most likely this is only for admin. What about page for external user ? **we make it separately** 😅.
 
@@ -60,6 +58,8 @@ Also if you look at the repository, the team is very active maintaining the code
 
 ## Customization 🛺
 
+![](https://i.postimg.cc/3w9xDzSM/customize.jpg)
+
 ### Quick Setup 🚅
 
 I just breakdown the main part cause too many things that can be customized. You can look at the official docs for details. First i will start with how to setup strapi. It start with pretty simple command:
@@ -74,7 +74,7 @@ npx create-strapi-app@latest my-project
 
 follow the prompt to choose your favorite Database & root user. After finising instalation you will get default codebase like this.
 
-![](https://i.postimg.cc/SsN6w4FK/Screenshot-2023-11-24-at-7-31-16-PM.pnghttps://i.postimg.cc/SsN6w4FK/Screenshot-2023-11-24-at-7-31-16-PM.pnghttps://i.postimg.cc/HnhpWY7k/github.pnghttps://i.postimg.cc/zBkvNYjy/Screenshot-2023-11-24-at-9-42-14-AM.)Cu
+![](https://i.postimg.cc/SsN6w4FKScreenshot-2023-11-24-at-7-31-16-PM.png)
 
 to run the server
 
