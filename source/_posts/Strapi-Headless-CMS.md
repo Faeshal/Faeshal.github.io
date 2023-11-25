@@ -116,7 +116,7 @@ module.exports = createCoreService('api::product.product');
 
 ```
 const { createCoreRouter } = require('@strapi/strapi').factories;
-module.exports = createCoreRouter('api::contact.contact');
+module.exports = createCoreRouter('api::product.product');
 ```
 
 ![](https://i.postimg.cc/zGPm6zRd/Screenshot-2023-11-25-at-12-01-15-AM.png)
