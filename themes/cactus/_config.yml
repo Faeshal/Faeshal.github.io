@@ -78,7 +78,7 @@ logo:
   enabled: true
   width: 65
   height: 65
-  url: "https://res.cloudinary.com/faeshal/image/upload/v1666187803/faeshalcom/date_uqdfaq.png"
+  url: "https://res.cloudinary.com/faeshal/image/upload/v1700893037/faeshalcom/vyze0udxa9i8gfwumdyj.png"
   gravatar: false
   grayout: false
 
@@ -93,13 +93,13 @@ logo:
 #   - gravatar: whether to create a favicon from your Gravatar
 favicon:
   desktop:
-    url: "https://res.cloudinary.com/faeshal/image/upload/v1665925482/faeshalcom/date_bpzweo.ico"
+    url: "https://res.cloudinary.com/faeshal/image/upload/v1700892803/faeshalcom/awomvadpzz0rba41xa8u.ico"
     gravatar: false
   android:
-    url: "https://res.cloudinary.com/faeshal/image/upload/v1666061366/faeshalcom/date-192x912_rb0osu.png"
+    url: "https://res.cloudinary.com/faeshal/image/upload/v1700892991/faeshalcom/oglv6ffqprnf8umiya3u.png"
     gravatar: false
   apple:
-    url: "https://res.cloudinary.com/faeshal/image/upload/v1666061366/faeshalcom/date-192x912_rb0osu.png"
+    url: "https://res.cloudinary.com/faeshal/image/upload/v1700892991/faeshalcom/oglv6ffqprnf8umiya3u.png"
     gravatar: false
 
 # The color scheme that should be used to highlight codeblocks.
