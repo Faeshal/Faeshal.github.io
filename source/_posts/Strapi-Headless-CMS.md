@@ -8,7 +8,7 @@ tags:
 
 ---
 
-[![meme.jpg](https://i.postimg.cc/Fz0rDgJj/meme.jpg)](https://postimg.cc/FksXKSpR)
+![](https://i.postimg.cc/Fz0rDgJj/meme.jpg)
 
 ## Headless ? 🤔
 
@@ -74,9 +74,7 @@ npx create-strapi-app@latest my-project
 
 follow the prompt to choose your favorite Database & root user. After finising instalation you will get default codebase like this.
 
-[structure](https://postimg.cc/4KqH9r3C)
-
-https://i.postimg.cc/SsN6w4FK/Screenshot-2023-11-24-at-7-31-16-PM.png
+![](https://i.postimg.cc/SsN6w4FK/Screenshot-2023-11-24-at-7-31-16-PM.png)
 
 to run the server
 
