@@ -161,6 +161,8 @@ The answer is the default CRUD function is still running with no problem, becaus
 
 ### Ovveriding Default API ⏳
 
+![](https://i.postimg.cc/d3bX1tGq/recap.png)
+
 What if we want to customize the default CRUD function, for example create endpoint (POST /products). The answer is you must write the function with same built in function name.
 
 so for example, i wanna customize default GET /products endpoint, i must write the name of function in the controller with **"find"** name, just like this.
@@ -184,5 +186,7 @@ Then how do I know the names of other built in functions name ? such as endpoint
 ![](https://i.postimg.cc/26RQSWZV/Screenshot-2023-11-24-at-11-15-00-PM.png)
 
 ## Recap 🎉
+
+![](https://i.postimg.cc/mkzJBFzX/x22.jpg)
 
 If you feel like traditional CMS is too rigid for the project & you need decoupled architecture for serving accross multiple platform, then headless CMS might be the way to go. While headless CMS is beneficial for developers it might not be needed for small websites with few pages & only need simple publish functionality. Using a traditional CMS for smaller projects is faster and more effective. Remember, each tools cannot solve all problems, always make sure to use right tools on the right place.
