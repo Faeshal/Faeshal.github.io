@@ -8,39 +8,39 @@ tags:
 
 ---
 
-![](https://i.postimg.cc/Fz0rDgJj/meme.jpg)
+![](https://i.postimg.cc/hPKVFRkx/lisa.jpg)
 
-## Headless ? What's that ? 🍹
+## Headless ? 🤔
 
-The trend of low code development is very massive, especially in Singapore. My CTO told me to research about headless cms in NodeJS ecosystem for our next project. The term is a little bit weird for me, headless ? what the heck is that. So, i write the results of my exploration here with language that may be simpler and straight forward.
+The trend of low code is very massive, especially for tech company in Singapore. My CTO told me to research about headless cms in NodeJS for my team & for the next project. The term is a little bit weird for me, headless ? what the heck is that. So, i write the results of my exploration here with language that may be simpler and straight to the point.
 
-In short, headless cms is cms without "frontend" so this type of cms focusing on the serving & managing the API. If you wanna consume the API, you must build the frontend by yourself whether is mobile, web etc. That's why i like the idea, **Headless CMS is very Backend Friendly & API Oriented.**
+In short, headless cms is cms **without frontend** so this type of cms focusing on the serving & managing content or we can say API. If you wanna consume the API, you must build the frontend by yourself whether is mobile, web etc. That's why i like it. **Headless CMS is very Backend Friendly & API Oriented.**
 
 ![](https://i.postimg.cc/kMYd8H6W/cms.png)
 
-Before, my first thought when I heard CMS, i was expecting something similar to WordPress, Wix, Drupal. Where we create content in the admin panel, then that content appears on the frontend page so the user can consume it. Tada, i was wrong.
+Before, my first thought when I heard CMS, i was expecting something similar to WordPress, Wix, Drupal. Where we create content in the admin panel, then that content appears on the frontend page so the user can consume it. Tadaaaaa, i was wrong.
 
 ![](https://i.postimg.cc/26Vw1YHK/wrong.jpg)
 
 CMS like WordPress, WIX etc that's call reguler / traditional CMS. On Headless we only got backend UI for managing content (API) most likely this is only for admin. What about page for external user ? **we make it separately**.
 
-This is the core difference between headless and traditional CMS. We are given flexibility to choosing technology for our frontend applications, regardless of platform. In contrast to traditional CMS which is very monolithic and strict. So we can combine like Strapi + React.js, Strapi + Flutter etc. Completely different codebase.
+This is the core difference between headless and traditional CMS. We are given flexibility to choosing technology for our frontend applications. In contrast to traditional CMS which is very monolithic and strict. So we can combine like Strapi + React.js, Strapi + Flutter etc. Completely different codebase.
 
 ![https://i.postimg.cc/kMYd8H6W/cms.png](https://i.postimg.cc/CLZp44kX/cms3.png)
 
-## Introduction, Strapi 👷‍♀️
+## Introducing, Strapi 🙋
 
 {% youtuber video BAAhEWbnOak %}{% endyoutuber %}
 
 Actually, there are many headless CMS choices based on NodeJS, but in my opinion Strapi still the best one (at least when this post created). If there is a project that requires me to use headless cms, i will definitely choose strapi for that, here's why.
 
-1. Documentation
+1. Documentation 📖
 
-Guys, Strapi documentation is sooo good. The example of world-class quality documentation. Clean, Structure, modern with intuitive UI. Documentation is very important here. There is a lot of software that may be technically good, but because the documentation is disorganized, developer have difficulty during development or finding solutions, make it unproductive. So ya, Strapi good at this.
+Guys, Strapi documentation is soooo good. The example of world-class quality documentation. Clean, Structure, modern with intuitive UI. Documentation is very important here. There is a lot of software that may be technically good, but because the documentation is disorganized, developer have difficulty during development or finding solutions, make it unproductive. So ya, Strapi good at this.
 
 ![](https://i.postimg.cc/ZnHW8BDY/Screenshot-2023-11-24-at-2-17-18-PM.pnghttps://i.postimg.cc/C5zgQ36T/s-7-E0-CDF98-C8224-A710-ADADF2-AFD2360-BE291-C4097-D3580-E7-A564-BF1-A5-D07-D603-A-1651562077417-image.pnghttps://i.postimg.cc/kMYd8H6W/cms.p)
 
-2. Customization
+2. Customization 🛠️
 
 In real world projects, 99% i can confirm that even if you use low code tools, you will definitely still customize the code. What I mean is not customize basic things like add field, edit text etc, but it's more like changing the default behavior of the software.
 
@@ -48,7 +48,7 @@ In real world projects, 99% i can confirm that even if you use low code tools, y
 
 Things like how to change the default login flow, how to extend the default query, how to extend the middleware etc. Very spesific things like that maybe will not cover in the documentation. This is very critical. The abilily to customize the software. I think strapi is pretty good at that, because the code style is easy to understand and not too much sugar syntax on it.
 
-3. Popularity
+3. Popularity 📈
 
 If there is a problem during development and we are looking for a solution, then the platform we use is not well known. Congratulations, you've got a headache. That's why popularity is important especially in open source software. Strapi is not as bad as think before, if you encounter problem when development, beside we use stackoverflow strapi provide forum platform which can be used for finding solutions. I got more answers there compare to Stackoferflow to be honest. So ya, that's another plus point.
 
@@ -58,9 +58,9 @@ Also if you look at the repository, the team is very active maintaining the code
 
 ![](https://i.postimg.cc/HnhpWY7k/github.pnghttps://i.postimg.cc/zBkvNYjy/Screenshot-2023-11-24-at-9-42-14-AM.pn)
 
-## Customization 👋
+## Customization🤔
 
-#### Quick setup
+#### Quick Setup 🚅
 
 I just breakdown the main part cause too many things that can be customized. You can look at the official docs for details. First i will start with how to setup strapi. It start with pretty simple command:
 
@@ -86,7 +86,7 @@ go to admin url & voila you get full feature backend admin panel ready to use.
 
 ![](https://i.postimg.cc/NMzHSrkN/Screenshot-2023-11-24-at-7-35-50-PM.png)
 
-#### Add Resource
+#### Add Resource 📚
 
 Every time you want to create a new resource / table structure you don't need to bother setup SQL manually, just go to the content type builder menu & use the ui. You can even set database relationships with content type builder. This features is pretty handy, everything is automatic.
 
@@ -119,7 +119,7 @@ module.exports = createCoreRouter('api::contact.contact');
 
 That's it. The api is ready to use in postman with the /products endpoint. Really easy.
 
-#### Add Endpoint on existing Resource
+### Add Endpoint on existing Resource 🪣
 
 So how do we add endpoints to our resources ? very simple, you just type the logic in the service and call to your controller, but on this example i will write the logic directly in the controller just for brevity.
 
@@ -159,7 +159,7 @@ You may ask, what about the default CRUD function that already exist? it seems l
 
 The answer is the default CRUD function is still running with no problem, because it located on different route file which is on folder route/product.js
 
-#### Ovveriding default API
+### Ovveriding default API ⏳
 
 What if we want to customize the default CRUD function, for example create endpoint (POST /products). The answer is you must write the function with same built in function name.
 
@@ -183,6 +183,6 @@ Then how do I know the names of other built in functions name ? such as endpoint
 
 ![](https://i.postimg.cc/26RQSWZV/Screenshot-2023-11-24-at-11-15-00-PM.png)
 
-## Recap 👋
+## Recap 🎉
 
-**If you feel like traditional CMS is too rigid for the project you're handling and puts too many constraints on you**, then headless CMS might be the way to go. While headless CMS is beneficial for developers especially for rapid development. It might not be needed for small websites with few pages. Using a traditional CMS for smaller projects is faster and more effective. Remember, all tools cannot solve all problems, always make sure to use right tools on the right place.
+If you feel like traditional CMS is too rigid for the project & you need decoupled architecture for serving accross multiple platform, then headless CMS might be the way to go. While headless CMS is beneficial for developers it might not be needed for small websites with few pages & only need simple publish functionality. Using a traditional CMS for smaller projects is faster and more effective. Remember, each tools cannot solve all problems, always make sure to use right tools on the right place.
