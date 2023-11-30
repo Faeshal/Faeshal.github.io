@@ -43,7 +43,7 @@ The tech stack that we are using are:
 
 ## 1. Setup VPC
 
-- search vpc
+- go to [aws console](https://aws.amazon.com/console/) & search vpc
 
 ![](https://i.postimg.cc/L8VcxYJc/Screenshot-2023-11-30-at-5-08-32-PM.png)
 
