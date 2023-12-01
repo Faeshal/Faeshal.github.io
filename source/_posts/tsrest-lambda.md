@@ -176,7 +176,7 @@ The tech stack that we're using are:
 
   - FUNCTION_NAME is your lambda function name
   - REGION is your region where you run lambda, for example: ap-southeast-1
-  - AWS_ACCESS_KEY_ID & ACCESS_KEY is your aws credentials, you can generate it from on [IAM Dashboard](https://aws.amazon.com/blogs/security/wheres-my-secret-access-key/).
+  - AWS_ACCESS_KEY_ID & ACCESS_KEY is your aws credentials, you can generate it on [IAM Dashboard](https://aws.amazon.com/blogs/security/wheres-my-secret-access-key/).
 
 ![](https://i.postimg.cc/BZ5nKGHt/Screenshot-2023-12-01-at-8-53-48-AM.png)
 
