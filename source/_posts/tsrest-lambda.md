@@ -19,11 +19,11 @@ In the simplest terms, serverless computing is a way to run code without worryin
 Advantages of serverless computing include:
 
 - Cost
-  You'll only pay for what you use. In some other cloud-based models, you'll reserve space (whether you use it or not).
+  You'll only pay for what you use. AWS Lambda per request or invocation.
 - Flexibility.
   Serverless models scale without your intervention.
 - Accuracy.
-  Developers can focus on a specific function rather than worrying about the back-end architecture that supports that action. This separation of powers could allow for cleaner code.
+  Developers can focus on a specific function rather than worrying about the back-end architecture that supports that action.
 - Speed.
   Developers don't need to waste time worrying about estimating and allocating server space.
 
@@ -35,11 +35,11 @@ Now our focus is deployment, not about developing Rest API. We gonna deploy Type
 
 The tech stack that we're using are:
 
-- Express Typescript Rest API ([Github Repo](https://))
-- [AWS Lambda](https://https://aws.amazon.com/lambda/)
+- Express Typescript Rest API ([Github Repo](https://github.com/Faeshal/tsnode-ci-cd-lambda))
+- [AWS Lambda](https://aws.amazon.com/lambda/)
 - [API Gateway](https://aws.amazon.com/api-gateway/)
 - [RDS (MySQL Server)](https://aws.amazon.com/rds/)
-- [AWS Parameter Store](https://https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html) (environment variable storage / cheap alternative for [secret manager](https://https://aws.amazon.com/secrets-manager/))
+- [AWS Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html) (environment variable storage / cheap alternative for [secret manager](https://aws.amazon.com/secrets-manager/))
 
 ## 1. Setup VPC
 
