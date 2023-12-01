@@ -171,7 +171,7 @@ The tech stack that we're using are:
 
 ![](https://i.postimg.cc/JnsS7pp8/Screenshot-2023-11-29-at-8-15-00-PM.png)
 
-- go to github repo -> setting & secrets & variables -> action
+- go to github repo select setting -> secrets & variables -> action
 - on the secret tabs, create new repository secret & type your secret like pic above.
 
   - FUNCTION_NAME is your lambda function name
@@ -227,7 +227,7 @@ uses: actions/checkout@v2
 
 ## Testing
 
-if your config corect, you can directly try accessing lambda via postman / the web. If you dont know the url, go back to lambda dashboard on tab configurations->triggers, dont forget to add /prod before the main api route.
+if your config corect, you can directly try accessing lambda via postman / the web. If you dont know the url, go back to lambda dashboard on tab configurations->triggers, dont forget to add "/prod" before the main api route.
 
 ![](https://i.postimg.cc/SKvtPWkv/Screenshot-2023-11-20-at-3-07-35-PM.png)
 
