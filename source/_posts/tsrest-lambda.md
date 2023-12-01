@@ -14,7 +14,7 @@ tags:
 
 According to [IBM](https://www.ibm.com/topics/serverless), Serverless is a cloud application development and execution model that lets developers build and run code without managing servers, and without paying for idle cloud infrastructure
 
-In the simplest terms, serverless computing is a way to run code without worrying about servers. You just make sure your code works, upload it and you're done. Let cloud provider in this case AWS take care the rest. Sound good ? it is.
+In the simplest terms, serverless computing is a way to run code without worrying about servers. You just make sure your code works, upload it and you're done. Let cloud provider in this case AWS take care the rest. Sounds good ? it is.
 
 Advantages of serverless computing include:
 
@@ -29,17 +29,17 @@ Advantages of serverless computing include:
 
 ## Architecture
 
-Our focus this time is deployment, not how to create the rest api. Today we gonna deploy Typescript REST API on top of AWS Cloud using serverless function with this kind of architecure.
+Now our focus is deployment, not about developing Rest API. We gonna deploy Typescript REST API on top of AWS Cloud using Lambda serverless function with this kind of architecure.
 
 ![](https://i.postimg.cc/QVZMJ9FB/aws-lambda-diagram-1.jpg)
 
-The tech stack that we are using are:
+The tech stack that we're using are:
 
 - Express Typescript Rest API ([Github Repo](https://))
 - [AWS Lambda](https://https://aws.amazon.com/lambda/)
 - [API Gateway](https://aws.amazon.com/api-gateway/)
 - [RDS (MySQL Server)](https://aws.amazon.com/rds/)
-- [Parameter Store](https://https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html) (environment variable storage & cheap alternative for secret manager)
+- [AWS Parameter Store](https://https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html) (environment variable storage / cheap alternative for [secret manager](https://https://aws.amazon.com/secrets-manager/))
 
 ## 1. Setup VPC
 
@@ -82,7 +82,7 @@ The tech stack that we are using are:
 
 ## 2. Setup Lambda
 
-- search lambda
+- again search lambda on aws console
 - click create function button
 - choose author from stratch
 
@@ -172,7 +172,14 @@ The tech stack that we are using are:
 ![](https://i.postimg.cc/JnsS7pp8/Screenshot-2023-11-29-at-8-15-00-PM.png)
 
 - go to github repo -> setting & secrets & variables -> action
-- on the secret tabs, create new repository secret & type your secret like this
+- on the secret tabs, create new repository secret & type your secret like pic above.
+
+  - FUNCTION_NAME is your lambda function name
+  - REGION is your region where you run lambda, for example: ap-southeast-1
+  - AWS_ACCESS_KEY_ID & ACCESS_KEY is your aws credentials, you can generate it from on [IAM Dashboard](https://aws.amazon.com/blogs/security/wheres-my-secret-access-key/).
+
+![](https://i.postimg.cc/BZ5nKGHt/Screenshot-2023-12-01-at-8-53-48-AM.png)
+
 - after that make sure main.yaml exist on the .github/workflows folders. That file basically contain instruction for github action to build, test & deploy to lambda.
 
 ```
@@ -214,13 +221,13 @@ uses: actions/checkout@v2
           zip_file: function.zip
 ```
 
-- Done. Now, everytime you push commit to repo (main branch), action will trigger & ci/cd will running.
+- Done. Now, everytime you push commit to repo (main branch), action will trigger & ci/cd will running, auto deploy to lambda.
 
 ![](https://i.postimg.cc/W1jRm61m/job.png)
 
 ## Testing
 
-if your config corect, you can directly try accessing lambda via postman / the web. If you dont know the url, go back to lambda dashboard on tab configurations->triggers, the url Dont forget to add /prod before the main api route.
+if your config corect, you can directly try accessing lambda via postman / the web. If you dont know the url, go back to lambda dashboard on tab configurations->triggers, dont forget to add /prod before the main api route.
 
 ![](https://i.postimg.cc/SKvtPWkv/Screenshot-2023-11-20-at-3-07-35-PM.png)
 
