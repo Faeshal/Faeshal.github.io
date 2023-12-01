@@ -19,7 +19,7 @@ In the simplest terms, serverless computing is a way to run code without worryin
 Advantages of serverless computing include:
 
 - Cost
-  You'll only pay for what you use. AWS Lambda per request or invocation.
+  You'll only pay for what you use. AWS Lambda charge per request or invocation.
 - Flexibility.
   Serverless models scale without your intervention.
 - Accuracy.
