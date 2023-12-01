@@ -161,7 +161,7 @@ The tech stack that we're using are:
 
 - search parameter store
 - click create parameter, fill up name & description
-- on type section, choose secure string, paste your database credential with comma separation
+- on type section, choose secure string, paste your database credential with comma separation, for example: **dbusername,dbpassword,dbname,dbhost**
 - leave rest as default setting
 - then click create parameter
 
