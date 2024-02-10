@@ -6,7 +6,6 @@ A responsive, clean and simple [Hexo](http://hexo.io) theme for a personal websi
 
 ![screenshot](https://user-images.githubusercontent.com/2175271/137625287-24a4ac77-fbc9-4c99-a4cd-90455d93d13c.png)
 
-
 ## Summary
 
 - [General](#general)
@@ -30,45 +29,46 @@ A responsive, clean and simple [Hexo](http://hexo.io) theme for a personal websi
 - Projects list
 - I18n support
 - Disqus / Utterances
-- Google analytics / Baidu Tongji / [Umami Analytics](https://umami.is) 
+- Google analytics / Baidu Tongji / [Umami Analytics](https://umami.is)
 - Font Awesome icons
 - Simplicity
 
 ## Install
+
 1. In the `root` directory:
 
-    ```git
-    $ git clone https://github.com/probberechts/hexo-theme-cactus.git themes/cactus
-    ```
+   ```git
+   $ git clone https://github.com/probberechts/hexo-theme-cactus.git themes/cactus
+   ```
 
 2. Change the `theme` property in the `config.yml` file.
 
-    ```yml
-    # theme: landscape
-    theme: cactus
-    ```
-    See below for more information on how to customize this theme.
-    
+   ```yml
+   # theme: landscape
+   theme: cactus
+   ```
+
+   See below for more information on how to customize this theme.
+
 3. Create pages and articles with the `hexo new [layout] <title>` command.
-    For example, to create an "about me" page, run:
-    ```sh
-    $ hexo new page about
-    ```
-    This will create a new file in `source/about/index.md`
-    Similary, you can create a new article with
-    ```sh
-    $ hexo new post "hello world"
-    ```
-    and add some interesting content in `source/_posts/hello-world.md`.
-    
+   For example, to create an "about me" page, run:
+   ```sh
+   $ hexo new page about
+   ```
+   This will create a new file in `source/about/index.md`
+   Similary, you can create a new article with
+   ```sh
+   $ hexo new post "hello world"
+   ```
+   and add some interesting content in `source/_posts/hello-world.md`.
 4. Run: `hexo generate` and `hexo server`
 
 5. [Publish your blog](https://hexo.io/docs/one-command-deployment.html)!
 
-
 ## Configuration
+
 You can (and should) modify a couple of settings. An overview of all settings
-can be found in  [_config.yml](_config.yml). The most important ones are
+can be found in [\_config.yml](_config.yml). The most important ones are
 discussed below.
 
 There are two possible methods to override the defaults. As a first option,
@@ -83,14 +83,12 @@ theme_config:
   colorscheme: white
 ```
 
-
 ```yml
 # themes/cactus/_config.yml
 colorscheme: dark
 ```
 
 This will override the default black colorscheme in `themes/cactus/_config.yml`.
-
 
 ### Color scheme
 
@@ -103,7 +101,6 @@ colorscheme: light
 
 Alternatively, you can easily create your own color scheme by creating a new
 file in `source/css/_colors`.
-
 
 ### Navigation
 
@@ -118,26 +115,24 @@ nav:
   LINK_NAME: URL
 ```
 
-
 ### Blog posts list on home page
 
 You have two options for the list of blog posts on the home page:
 
-  - Show only the 5 most recent posts (default)
+- Show only the 5 most recent posts (default)
 
-    ```yml
-    posts_overview:
-      show_all_posts: false
-      post_count: 5
-    ```
+  ```yml
+  posts_overview:
+    show_all_posts: false
+    post_count: 5
+  ```
 
-  - Show all posts
+- Show all posts
 
-    ```yml
-    posts_overview:
-      show_all_posts: true
-    ```
-
+  ```yml
+  posts_overview:
+    show_all_posts: true
+  ```
 
 ### Projects list
 
@@ -145,19 +140,18 @@ Create a projects file `source/_data/projects.json` to show a list of your proje
 
 ```json
 [
-    {
-       "name":"Hexo",
-       "url":"https://hexo.io/",
-       "desc":"A fast, simple & powerful blog framework"
-    },
-    {
-       "name":"Font Awesome",
-       "url":"http://fontawesome.io/",
-       "desc":"The iconic font and CSS toolkit"
-    }
+  {
+    "name": "Hexo",
+    "url": "https://hexo.io/",
+    "desc": "A fast, simple & powerful blog framework"
+  },
+  {
+    "name": "Font Awesome",
+    "url": "http://fontawesome.io/",
+    "desc": "The iconic font and CSS toolkit"
+  }
 ]
 ```
-
 
 ### Social media links
 
@@ -215,6 +209,7 @@ Otherwise, you can follow the steps below (E.g., to add a Japanese (ja) translat
 **Note: Cactus does not support multi-language sites.**
 
 ### RTL support
+
 This theme support RTL languages for Persian and Arabic language.
 If you would like to use RTL layout, change `direction` attribute in `_config.yml` to `rtl`.
 Note that this also will change the font to [Vazir](https://github.com/rastikerdar/vazir-font), which is a Persian font.
@@ -231,7 +226,6 @@ Set the `rss` field in the `_config.yml` to one of the following values:
 2. `rss: atom.xml` sets a specific feed link.
 3. `rss:`leave empty to use the [hexo-generator-feed](https://github.com/hexojs/hexo-generator-feed) plugin.
 
-
 ### Analytics
 
 Add you Google, Baidu, Cloudflare or Umami Analytics `tracking_id` to the `_config.yml`.
@@ -239,7 +233,7 @@ Add you Google, Baidu, Cloudflare or Umami Analytics `tracking_id` to the `_conf
 ```yml
 google_analytics:
   enabled: true
-  id: 'UA-49627206-1'
+  id: "UA-49627206-1"
 
 baidu_analytics:
   enabled: true
@@ -262,11 +256,11 @@ Load Javascript and CSS resources from a CDN. Enabled by default, loads all reso
 ```yml
 cdn:
   enable: true
-  jquery: 'url'
-  clipboard: 'url'
-  font_awesome: 'url'
-  justified_gallery_css: 'url'
-  justified_gallery_js: 'url'
+  jquery: "url"
+  clipboard: "url"
+  font_awesome: "url"
+  justified_gallery_css: "url"
+  justified_gallery_js: "url"
 ```
 
 Set `enable: false` to completely disable CDN and load all resources from your domain. If you want to disable it only for specific resource(s) then just remove the corresponding entry(s).
@@ -274,7 +268,7 @@ Set `enable: false` to completely disable CDN and load all resources from your d
 ```yml
 cdn:
   enable: true
-  jquery: 'url'
+  jquery: "url"
 ```
 
 Only JQuery will be loaded from the specified CDN.
@@ -314,10 +308,10 @@ utteranc:
 
 where each of the parameters are the respective values ​​provided during the configuration of the Utterances:
 
-* `repo`:  the repository Utterances will connect to.
-* `issue_term`: the mapping between blog posts and GitHub issues.
-* `label`: the label that will be assigned to issues created by Utterances
-* `theme`: the selected Utterances theme.
+- `repo`: the repository Utterances will connect to.
+- `issue_term`: the mapping between blog posts and GitHub issues.
+- `label`: the label that will be assigned to issues created by Utterances
+- `theme`: the selected Utterances theme.
 
 ### Code Highlighting
 
@@ -328,16 +322,19 @@ highlight: COLORSCHEME_NAME
 ```
 
 ### Tags and categories
+
 Tags and categories can be included in the front-matter of your posts. For example:
 
 ```markdown
 title: Tags and Categories
 date: 2017-12-24 23:29:53
 tags:
+
 - Foo
 - Bar
-categories: 
+  categories:
 - Baz
+
 ---
 
 This post contains 2 tags and 1 category.
@@ -358,7 +355,7 @@ Similarly, you can create a page with an overview of all categories by running:
 $ hexo new page categories
 ```
 
-and adding `type: categories` to the front-matter of `source/categories/index.md`. 
+and adding `type: categories` to the front-matter of `source/categories/index.md`.
 
 Finally, don't forget to create a link to these pages, for example in the navigation menu:
 
@@ -367,7 +364,6 @@ nav:
   tag: /tags/
   category: /categories/
 ```
-
 
 ### Local search
 
@@ -383,11 +379,13 @@ Next, create a page to display the search engine:
 ```sh
 $ hexo new page search
 ```
+
 and put `type: search` in the front-matter.
 
 ```markdown
 title: Search
 type: search
+
 ---
 ```
 
@@ -399,4 +397,5 @@ nav:
 ```
 
 ## License
+
 MIT
