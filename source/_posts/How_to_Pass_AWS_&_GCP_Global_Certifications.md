@@ -58,9 +58,9 @@ I did all the exams online, not at the test center. AWS use [**PearsonVue**](htt
 
 On 2024 my target is to get 2 [**Azure**](https://learn.microsoft.com/en-us/credentials/) certifications cause my current company is very massive using Azure technology lately. Hope the target achieved so i can share about azure exam here too. Hope you also pass whatever certification you are going to take, the important thing is don't forget to set your target, keep learning & keep adapting in IT industry. Good luck 💪👋
 
-### Update (5 march 2024) 🚨
+## Update (5 march 2024) 🚨
 
-On 5 march 2024 there is an urgent company need. I must skip Azure cert preparation for take [AWS Devops Engineer Professional Exam](https://aws.amazon.com/certification/certified-devops-engineer-professional/). I didn't expect that, very not confident to take that exam cause the exam was extremely difficult. Fortunately I passed, Alhamdulillah.
+On 5 march 2024 there is an urgent company need. I must skip Azure cert preparation for take [AWS Devops Engineer Professional Exam](https://aws.amazon.com/certification/certified-devops-engineer-professional/). I didn't expect that, very not confident to take that exam cause the exam was extremely difficult & expensive $333 USD including tax. Fortunately I passed, Alhamdulillah.
 
 ![cert](https://i.postimg.cc/DfNmZcht/AWS-Certified-Dev-Ops-Engineer-Professional-certificate-page-0001.jpg)
 
