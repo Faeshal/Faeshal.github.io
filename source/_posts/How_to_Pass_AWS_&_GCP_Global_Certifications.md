@@ -64,4 +64,4 @@ On 5 march 2024 there is an urgent company need. I must skip Azure cert preparat
 
 ![cert](https://i.postimg.cc/DfNmZcht/AWS-Certified-Dev-Ops-Engineer-Professional-certificate-page-0001.jpg)
 
-Hopefully next exam will be Azure [AZ-204](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-204/) and [AZ-400](https://learn.microsoft.com/en-us/credentials/certifications/devops-engineer/) as my previously planned. So moral story: Many things in life don't go according our plans. Always remember that this scenario will happen to everyone, not just me & you. So like it or not we must get used to it no matter what.
+Hopefully my next exam will be Azure [AZ-204](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-204/) and [AZ-400](https://learn.microsoft.com/en-us/credentials/certifications/devops-engineer/) so i can share to you later, like i said before.
