@@ -121,7 +121,7 @@ cdn:
   exclude_domains:
 
 lazyload:
-  enable: true
+  enable: false
   onlypost: true # optional
   loadingImg: # optional eg ./images/loading.gif
   isSPA: false # optional

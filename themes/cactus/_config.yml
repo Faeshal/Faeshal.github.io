@@ -26,8 +26,8 @@ nav:
 # only 'mail' is an exception.
 social_links:
   linkedin: https://www.linkedin.com/in/faeshal/
-  mail: mailto:faeshal@outlook.com
-
+  mail: mailto:faeshal@outlook.com 
+  
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
 tags_overview: false

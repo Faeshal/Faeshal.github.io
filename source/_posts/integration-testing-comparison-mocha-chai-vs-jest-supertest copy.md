@@ -1,5 +1,5 @@
 ---
-title: "Unit Testing : Mocha-Chai vs Jest-Supertest"
+title: "Integration Testing : Mocha-Chai vs Jest-Supertest"
 date: 2022-06-08 17:01:14
 tags:
   - Testing
@@ -7,26 +7,29 @@ tags:
   - CI/CD
 ---
 
-![ut2](https://res.cloudinary.com/faeshal/image/upload/v1666021343/faeshalcom/unittest_croeub.png)
+![ut2](https://bucket.faeshal.com/integration.png)
 
-## Intro Unit Testing ✨
+## Intro Integration Testing ✨
 
-Fast recap, Unit Testing is a type of software testing where individual units or components of a software are tested. The purpose is to validate that each unit of the software code performs as expected. Unit Testing is done during the development of an application by the developers. In this post i will just focus on the implementetion of unit testing for REST API.
+Fast recap, Integration Testing is a type of software testing where individual software modules or components are combined and tested as a group to ensure they work together seamlessly as intended. It focuses on verifying the interactions and interfaces between these modules to detect any defects or inconsistencies that may arise when they are integrated. In this post i will just focus on the implementetion of integration testing for REST API.
 
-Advantages to unit testing include:
+## Misconception Unit or Integration test ?
 
-- The earlier a problem is identified, the fewer compound errors occur.
-- Costs of fixing a problem early can quickly outweigh the cost of fixing it later.
-- Debugging processes are made easier.
-- Make CI/CD flow solid.
+Many articles on the internet spread false information. Some explain unit test by providing integration test implementations. Thats a FATAL mistake!. The main difference between unit tests and integration tests in REST API projects is seen from whether is use external component or not ? in this case a database.
+
+![missconcept](https://bucket.faeshal.com/integvsunit.png)
+
+**If a test uses or connect to a database it means it is an integration test NOT a Unit test**. Unit tests are strictly prohibited using a real database. **Everything must be mocked in unit testing** even there is a database operation on the code base.
 
 ## What is Mocha-Chai & Jest-Supertest ? 🪴
 
-**[Mocha](https://mochajs.org/) similiar with [Jest](https://jestjs.io/) is basically a JavaScript Test Framework** running on Node. js and in the browser. it allows asynchronous testing, test coverage reports and use of any assertion library.Whereas **[Chai](https://www.chaijs.com/) & [Supertest](https://www.npmjs.com/package/supertest) is an assertion library** for NodeJS and the browser that can be delightfully paired with any javascript testing framework. So in short **you can use any assertion library and combine it with testing framework like mocha, jest etc** as long as has the ability to call http service. But in general the biggest combo name in the unit testing field for REST API is Mocha combine with Chai and Jest combine with Supertest.
+**[Mocha](https://mochajs.org/) similiar with [Jest](https://jestjs.io/) is basically a JavaScript Test Framework** running on Node. js and in the browser. it allows asynchronous testing, test coverage reports and use of any assertion library.Whereas **[Chai](https://www.chaijs.com/) & [Supertest](https://www.npmjs.com/package/supertest) is an assertion library** for NodeJS and the browser that can be delightfully paired with any javascript testing framework. So in short **you can use any assertion library and combine it with testing framework like mocha, jest etc** as long as has the ability to call http service. But in general the biggest combo name in the integration testing field for REST API is Mocha combine with Chai and Jest combine with Supertest.
 
-## Unit Test Implementation 🚜
+## Integration Test Implementation 🚜
 
-As a test case in this example i will testing a simple REST API and show you how to write a test in Mocha-Chai style and Jest-Supertest style, so you can have an idea to choose which one you prefer based on the syntax style for your next project. You can get the full code from [Node-Mocha](https://github.com/Faeshal/node-mocha) & [Node-Jest](https://github.com/Faeshal/node-jest)
+As a test case in this example i will testing a simple REST API and show you how to write a test in Mocha-Chai style and Jest-Supertest style, so you can have an idea to choose which one you prefer based on the syntax style for your next project. You can get the full code from [Node-Mocha](https://github.com/Faeshal/node-mocha) & [Node-Jest](https://github.com/Faeshal/node-jest).
+
+**🆘 Beware : make sure you're using testing database when doing integration test on REST API project, don't forget to setup .env correctly!**
 
 ### Mocha-Chai
 
@@ -350,4 +353,4 @@ describe("Income API", () => {
 
 ## Conclusion 🔅
 
-Personally i love using Mocha-Chai, just because i already used it many times for daily project. Doesn't means Jest is bad, Jest is pretty good too, really cool especially if you play with React.js ecosystem. All depends on your needs, the point is dont forget to write unit test, peace out ✌️
+Personally i love using Mocha if the project using Javascript and love to use Jest if the project based on Typescript. Always pick the right tool on the right time. The important point is dont forget to write integration test, peace out ✌️
