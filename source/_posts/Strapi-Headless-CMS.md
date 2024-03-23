@@ -7,7 +7,7 @@ tags:
 
 ---
 
-![](https://i.postimg.cc/Fz0rDgJj/meme.jpg)
+![](https://bucket.faeshal.com/headless.jpg)
 
 ## Headless ? 🤔
 
