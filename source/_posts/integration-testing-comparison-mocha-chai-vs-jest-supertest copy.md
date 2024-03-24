@@ -21,6 +21,8 @@ Many articles on the internet spread false information. Some explain unit test b
 
 **If a test uses or connect to a database it means it is an integration test NOT a Unit test**. Unit tests are strictly prohibited using a real database. **Everything must be mocked in unit testing** even there is a database operation on the code base.
 
+Learn more about unit test here 👉 []()
+
 ## What is Mocha-Chai & Jest-Supertest ? 🪴
 
 **[Mocha](https://mochajs.org/) similiar with [Jest](https://jestjs.io/) is basically a JavaScript Test Framework** running on Node. js and in the browser. it allows asynchronous testing, test coverage reports and use of any assertion library.Whereas **[Chai](https://www.chaijs.com/) & [Supertest](https://www.npmjs.com/package/supertest) is an assertion library** for NodeJS and the browser that can be delightfully paired with any javascript testing framework. So in short **you can use any assertion library and combine it with testing framework like mocha, jest etc** as long as has the ability to call http service. But in general the biggest combo name in the integration testing field for REST API is Mocha combine with Chai and Jest combine with Supertest.
