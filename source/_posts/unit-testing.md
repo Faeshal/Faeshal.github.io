@@ -34,7 +34,7 @@ Mocking the database when performing unit testing in REST APIs is generally reco
 
 In this example i will testing a simple TypeScript REST API and show you how to write a unit test. You can use whatever test library, the concept is the same but this time I will use Jest + Supertest. Lets say we wanna test category service.
 
-First install [**Jest**](https://jestjs.io/) & [**Supertest**](https://www.npmjs.com/package/supertest) on the project. After that write [**config file**](https://jestjs.io/docs/configuration)** on root directory.
+First install [**Jest**](https://jestjs.io/) & [**Supertest**](https://www.npmjs.com/package/supertest) on the project. After that write [**config file**](https://jestjs.io/docs/configuration)on root directory.
 
 **jest.config.ts**
 ```
