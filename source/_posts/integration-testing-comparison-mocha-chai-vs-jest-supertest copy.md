@@ -13,7 +13,7 @@ tags:
 
 Fast recap, Integration Testing is a type of software testing where individual software modules or components are combined and tested as a group to ensure they work together seamlessly as intended. It focuses on verifying the interactions and interfaces between these modules to detect any defects or inconsistencies that may arise when they are integrated. In this post i will just focus on the implementetion of integration testing for REST API.
 
-## Misconception Unit or Integration test ?
+## Misconception Unit or Integration test ? ⏳
 
 Many articles on the internet spread false information. Some explain unit test by providing integration test implementations. Thats a FATAL mistake!. The main difference between unit tests and integration tests in REST API projects is seen from whether is use external component or not ? in this case a database.
 
@@ -21,7 +21,7 @@ Many articles on the internet spread false information. Some explain unit test b
 
 **If a test uses or connect to a database it means it is an integration test NOT a Unit test**. Unit tests are strictly prohibited using a real database. **Everything must be mocked in unit testing** even there is a database operation on the code base.
 
-Learn more about unit test here 👉 []()
+Learn more about unit test here 👉 [Mocking Databases for flawless unit tests with TypeORM](https://www.faeshal.com/posts/unit-testing-511deb07e5ee/)
 
 ## What is Mocha-Chai & Jest-Supertest ? 🪴
 

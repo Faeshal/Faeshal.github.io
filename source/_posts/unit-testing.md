@@ -20,7 +20,7 @@ Advantages of unit testing:
 - Debugging processes are made easier.
 - Make CI/CD flow solid.
 
-## Why we should mock the database ?
+## Why we should mock the database ? 🪲
 
 Mocking the database when performing unit testing in REST APIs is generally recommended. Here is why:
 
