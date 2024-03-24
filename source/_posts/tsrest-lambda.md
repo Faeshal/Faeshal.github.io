@@ -182,7 +182,7 @@ The tech stack that we're using are:
 
 - after that make sure main.yaml exist on the .github/workflows folders. That file basically contain instruction for github action to build, test & deploy to lambda.
 
-```
+```yaml
 name: Deploy
 on:
 push:

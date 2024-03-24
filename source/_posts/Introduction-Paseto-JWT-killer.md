@@ -59,7 +59,7 @@ What about paseto version ? until this post was released paseto have 4 version, 
 
 Very simple to using paseto library, if you're using public strategy you just need to use "sign" to generate token & "verify" to consume it. If you're using local strategy just use "encypt" & "decrypt". Example using Nodejs library:
 
-```
+```javascript
 const paseto = require('paseto')
 const { V3 } = paseto // set the version
 
@@ -105,8 +105,6 @@ const publicKey = <your public key location>
     const decoded = await V3.decrypt(token, process.env.PASETO_SECRET_KEY);
   }
 })()
-
-
 ```
 
 ## Final Words 🦚

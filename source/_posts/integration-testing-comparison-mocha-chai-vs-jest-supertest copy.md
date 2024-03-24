@@ -35,7 +35,7 @@ As a test case in this example i will testing a simple REST API and show you how
 
 ### Mocha-Chai
 
-```
+```javascript
 require("dotenv").config();
 process.env.NODE_ENV = "test";
 const server = require("../server");
@@ -201,7 +201,7 @@ describe("Income API", () => {
 
 ### Jest-Supertest
 
-```
+```javascript
 require("dotenv").config();
 process.env.NODE_ENV = "test";
 const server = require("../server");

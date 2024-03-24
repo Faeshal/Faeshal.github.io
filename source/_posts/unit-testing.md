@@ -37,7 +37,7 @@ In this example i will testing a simple TypeScript REST API and show you how to 
 First install [**Jest**](https://jestjs.io/) & [**Supertest**](https://www.npmjs.com/package/supertest) on the project. After that write [**config file**](https://jestjs.io/docs/configuration)on root directory.
 
 **jest.config.ts**
-```
+```typescript
 import type { Config } from "@jest/types";
 import dotenv from "dotenv";
 dotenv.config({
@@ -59,14 +59,14 @@ export default config;
 ```
 
 Don't forget to add test command script to **package.json** so you can **npm run test** later.
-```
+```json
 "scripts": {
     "test": "jest --watchAll --detectOpenHandles --runInBand --forceExit",
 },
 ```
 
 **category.ts** (category model / typeorm entity inside entities folder)
-```
+```typescript
 import {
   Entity,
   PrimaryGeneratedColumn,
@@ -126,7 +126,7 @@ export class Category {
 ```
 
 Then inside test folder on **category.test.ts**  you can write whatever test based on your imported service.
-```
+```typescript
 import * as categoryService from "../../services/category";
 import * as categoryRepo from "../../repositories/category";
 import { Category } from "../../entities/Category";

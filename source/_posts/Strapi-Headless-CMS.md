@@ -63,7 +63,7 @@ Also if you look at the repository, the team is very active maintaining the code
 
 I just breakdown the main part cause too many things that can be customized. You can look at the official docs for details. First i will start with how to setup strapi. It start with pretty simple command:
 
-```
+```bash
 npx create-strapi-app@latest my-project
 # 'npx' runs a command from an npm package
 # 'create-strapi-app' is the Strapi package
@@ -77,7 +77,7 @@ follow the prompt to choose your favorite Database & creating root user. After f
 
 to run the server
 
-```
+```bash
 npm run develop
 ```
 
@@ -97,21 +97,21 @@ For example i will create **product** table & when i finish creating the structu
 
 - controller
 
-```
+```javascript
 const { createCoreController } = require("@strapi/strapi").factories;
 module.exports = createCoreController("api::product.product");
 ```
 
 - service
 
-```
+```javascript
 const { createCoreService } = require('@strapi/strapi').factories;
 module.exports = createCoreService("api::product.product");
 ```
 
 - route
 
-```
+```javascript
 const { createCoreRouter } = require('@strapi/strapi').factories;
 module.exports = createCoreRouter("api::product.product");
 ```
@@ -128,7 +128,7 @@ So how do we add endpoints to our resources ? very simple, you just type the log
 
 Lets say i wanna add new endpoint **/products/reports/analytics** with the name of controller is **productReports**. I can write like this on controller product.js.
 
-```
+```javascript
 module.exports = createCoreController("api::product.product", ({ strapi }) => ({
   // * GET /products/reports/analytics
   async productReports(ctx, next) {
@@ -140,7 +140,7 @@ module.exports = createCoreController("api::product.product", ({ strapi }) => ({
 
 and on the route folder create **custom.js** file and you write route path there. Remember, now inside your route folder, there are 2 file product.js (the default one) & custom.js like below.
 
-```
+```javascript
 module.exports = {
   routes: [
     {
@@ -170,7 +170,7 @@ What if we want to customize the default CRUD function, for example create endpo
 
 so for example, i wanna customize default GET /products endpoint, i must write the name of function in the controller with **"find"** name, just like this.
 
-```
+```javascript
 module.exports = createCoreController("api::product.product", ({strapi}) => ({
       find: async (ctx, next) => {
         // your logic here, for example.....

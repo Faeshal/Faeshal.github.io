@@ -53,7 +53,7 @@ openssl rsa -in private.pem -pubout -out public.pem
 
 It's time to generate JWT token, this code called when your client hit the register / login endpoint.
 
-```
+```javascript
 const jwt = require("jsonwebtoken");
 const fs = require("fs");
 const secret = fs.readFileSync(__dirname + "/../cert/private.pem");
@@ -82,21 +82,20 @@ exports.generateAccessToken = (payload) => {
 
 That's it. When you wanna decrypt the token simply bring the public.pem copy paste it to another services and you ready to go for verification process. The code look like this:
 
-```
+```javascript
 const jwt = require("jsonwebtoken");
 const fs = require("fs");
 
 const publicPem = fs.readFileSync(__dirname + "/../cert/public.pem");
 
 const decoded = jwt.verify(token, publicPem, { algorithms: ["RS256"] });
-
 ```
 
 5. Generate JWK & Store in secure place 🗃️
 
 This is optional, you can just stop in previous step and use naked public.pem. But i think it's more secure if we use JWK. A JWK or JSON Web Key is a JSON data structure that represents a set of public keys. After we generate JWK we can store on some secure place, for example AWS S3 or something, so we dont need bring public.pem file / copy paste in each service anymore when doing decryption process. To generate PEM to JWK i'm using [rsa-pem-to-jwk](https://www.npmjs.com/package/rsa-pem-to-jwk) library, here is the code:
 
-```
+```javascript
 const fs = require("fs");
 
 const rsaPemToJwk = require("rsa-pem-to-jwk");
@@ -106,7 +105,6 @@ const privateKey = fs.readFileSync(\_\_dirname + "/../cert/private.pem");
 const jwk = rsaPemToJwk(privateKey, { use: "sig" }, "public");
 
 console.log(jwk);
-
 ```
 
 After that, we just execute the file with node filename.js and will print out the JWK on the console. Grab that JWK object, save as a json file and put on your trusted place, for the simple way i'm storing on Google Cloud Storage and expose the token so our microservice can grab the token with axios or another http call library.
@@ -119,7 +117,7 @@ After that, we just execute the file with node filename.js and will print out th
 
 Last thing we need verify the JWK, this middleware will execute when your client hit a protected route. grabJwk() function basically is http call function that targeting to our JWK url. The code look like this:
 
-```
+```javascript
 const jwt = require("jsonwebtoken");
 const jwkToPem = require("jwk-to-pem");
 const grabJwk = require("../util/grabJwk");
@@ -158,7 +156,6 @@ message: "unauthorized",
 });
 }
 });
-
 ```
 
 That's it, ready to use in every service. Hope this recap useful. Stay safe & Bye 👋
