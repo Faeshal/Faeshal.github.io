@@ -7,16 +7,16 @@ date: 2022-07-11 21:29:40
 
 This is all projects that i've been working on my entire career as a Backend Engineer. To note, In this list, i only include **Office Projects with Private Repository & Full Development Team ⛔ NOT personal freelance projects** to be more focused & relevant.
 
-## FINANCIAL ASSIST SYSTEM - NYP SINGAPORE 👨‍🎓
+## [current] FINANCIAL ASSIST SYSTEM - NYP SINGAPORE 👨‍🎓
 
 📰 Description:
 The Financial Assist System is a bursary finance solution designed to support economically disadvantaged students at **[Nanyang Polytechnic (NYP)](https://www.nyp.edu.sg/)** in Singapore. This system aims to streamline the application and awarding process for financial aid, ensuring that eligible students receive the necessary support to further their education.
 
 ⭐ Responsibility:
-As a Lead Backend Engineer, I was responsible for building the entire backend system and functionalities from the ground up, aligning with the project's specific requirements.
+As a Lead Backend Engineer, I was responsible for architecting and developing the complete backend system, ensuring all functionalities were built from the ground up to meet the project's specific requirements. Additionally, I ensured compliance with Singapore GovTech standards and IM8 regulations throughout the development process.
 
 🔥 Stack:
-Node.JS, Typescript, Express, Azure AD, AWS, Docker, Kubernetes, CI/CD Shiphat, CStack, Sonarcube, Singpass, PostgreSQL, Redis, BullMQ, Jest etc....
+Microservices Node.JS, Typescript, Express, Azure AD, AWS, Docker, Kubernetes, CI/CD Shiphat, CStack, Sonarcube, Singpass, PostgreSQL, Redis, BullMQ, Jest etc....
 
 ## SG Tender Scrapper (Telegram BOT)🔈
 
