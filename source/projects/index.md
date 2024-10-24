@@ -7,7 +7,7 @@ date: 2022-07-11 21:29:40
 
 This is all projects that i've been working on my entire career as a Backend Engineer. To note, In this list, i only include **Office Projects with Private Repository & Full Development Team ⛔ NOT personal freelance projects** to be more focused & relevant.
 
-## [current] FINANCIAL ASSIST SYSTEM - NYP SINGAPORE 👨‍🎓
+## FINANCIAL ASSIST SYSTEM - NYP SINGAPORE 👨‍🎓
 
 📰 Description:
 The Financial Assist System is a bursary finance solution designed to support economically disadvantaged students at **[Nanyang Polytechnic (NYP)](https://www.nyp.edu.sg/)** in Singapore. This system aims to streamline the application and awarding process for financial aid, ensuring that eligible students receive the necessary support to further their education.
