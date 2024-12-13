@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: faeshal.com
+title: faeshal.site
 subtitle: "Engineering Notes"
 description: "I'm Faeshal, Certified <a href='https://aws.amazon.com/certification/'><b>AWS</b></a> & <a href='https://cloud.google.com/learn/certification/cloud-engineer'><b>Google Cloud</b></a> Software Engineer. Most of the time working on the Back End using Node.JS ecosystem. Interested with Golang, Cloud Native Technology & Microservices Architecture. Share my learning & experiment here, especially server side."
 keywords: faeshal
@@ -13,7 +13,7 @@ timezone: "Asia/Jakarta"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://faeshal.com
+url: http://faeshal.site
 permalink: posts/:title-:hash/
 permalink_defaults:
 pretty_urls:
