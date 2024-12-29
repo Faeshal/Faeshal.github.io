@@ -7,7 +7,7 @@ tags:
 
 ---
 
-![](https://bucket.faeshal.com/headless.jpg)
+![](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/headless.jpg)
 
 ## Headless ? 🤔
 
@@ -105,14 +105,14 @@ module.exports = createCoreController("api::product.product");
 - service
 
 ```javascript
-const { createCoreService } = require('@strapi/strapi').factories;
+const { createCoreService } = require("@strapi/strapi").factories;
 module.exports = createCoreService("api::product.product");
 ```
 
 - route
 
 ```javascript
-const { createCoreRouter } = require('@strapi/strapi').factories;
+const { createCoreRouter } = require("@strapi/strapi").factories;
 module.exports = createCoreRouter("api::product.product");
 ```
 
@@ -171,14 +171,14 @@ What if we want to customize the default CRUD function, for example create endpo
 so for example, i wanna customize default GET /products endpoint, i must write the name of function in the controller with **"find"** name, just like this.
 
 ```javascript
-module.exports = createCoreController("api::product.product", ({strapi}) => ({
-      find: async (ctx, next) => {
-        // your logic here, for example.....
-        // destructure to get `data` and `meta` which strapi returns by default
-        const {data, meta} = await super.find(ctx)
-        // perform any other custom action
-        return {data, meta}
-      }
+module.exports = createCoreController("api::product.product", ({ strapi }) => ({
+  find: async (ctx, next) => {
+    // your logic here, for example.....
+    // destructure to get `data` and `meta` which strapi returns by default
+    const { data, meta } = await super.find(ctx);
+    // perform any other custom action
+    return { data, meta };
+  },
 }));
 ```
 

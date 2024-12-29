@@ -7,7 +7,7 @@ tags:
   - CI/CD
 ---
 
-![ut2](https://bucket.faeshal.com/unit.png)
+![ut2](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/unit.png)
 
 ## Intro Unit Testing ✨
 
@@ -37,6 +37,7 @@ In this example i will testing a simple TypeScript REST API and show you how to 
 First install [**Jest**](https://jestjs.io/) & [**Supertest**](https://www.npmjs.com/package/supertest) on the project. After that write [**config file**](https://jestjs.io/docs/configuration)on root directory.
 
 **jest.config.ts**
+
 ```typescript
 import type { Config } from "@jest/types";
 import dotenv from "dotenv";
@@ -59,6 +60,7 @@ export default config;
 ```
 
 Don't forget to add test command script to **package.json** so you can **npm run test** later.
+
 ```json
 "scripts": {
     "test": "jest --watchAll --detectOpenHandles --runInBand --forceExit",
@@ -66,6 +68,7 @@ Don't forget to add test command script to **package.json** so you can **npm run
 ```
 
 **category.ts** (category model / typeorm entity inside entities folder)
+
 ```typescript
 import {
   Entity,
@@ -125,7 +128,8 @@ export class Category {
 }
 ```
 
-Then inside test folder on **category.test.ts**  you can write whatever test based on your imported service.
+Then inside test folder on **category.test.ts** you can write whatever test based on your imported service.
+
 ```typescript
 import * as categoryService from "../../services/category";
 import * as categoryRepo from "../../repositories/category";
@@ -231,11 +235,10 @@ describe("UNIT:CATEGORY", () => {
 
 That's it. After that you can run the test **npm run test** and the result will pop up on the terminal.
 
-![img](https://bucket.faeshal.com/unit-test-result.png)
+![img](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/unit-test-result.png)
 
 For complete code you can see here 👉 [Unit test repository](https://github.com/Faeshal/nodets-layered-architecture)
 Want to know about other types of tests, read here 👉 [Integration test in action](https://www.faeshal.com/posts/integration-testing-comparison-mocha-chai-vs-jest-supertest%20copy-58d17d35057e/)
-
 
 ## Conclusion 🔅
 

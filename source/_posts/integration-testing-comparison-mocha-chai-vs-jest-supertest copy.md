@@ -7,7 +7,7 @@ tags:
   - CI/CD
 ---
 
-![ut2](https://bucket.faeshal.com/integration.png)
+![ut2](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/integration.png)
 
 ## Intro Integration Testing ✨
 
@@ -17,7 +17,7 @@ Fast recap, Integration Testing is a type of software testing where individual s
 
 Many articles on the internet spread false information. Some explain unit test by providing integration test implementations. Thats a FATAL mistake!. The main difference between unit tests and integration tests in REST API projects is seen from whether is use external component or not ? in this case a database.
 
-![missconcept](https://bucket.faeshal.com/integvsunit.png)
+![missconcept](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/integvsunit.png)
 
 **If a test uses or connect to a database it means it is an integration test NOT a Unit test**. Unit tests are strictly prohibited using a real database. **Everything must be mocked in unit testing** even there is a database operation on the code base.
 
