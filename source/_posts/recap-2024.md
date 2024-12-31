@@ -1,5 +1,5 @@
 ---
-title: Menutup 2024 - tahun ke 4 sebagai Engineer di Perusahaan IT Singapura
+title: Menutup 2024 - Tahun ke 4 Sebagai Remote Engineer di Perusahaan IT Singapura
 date: 2024-12-31 16:37:52
 tags:
   - life advice
@@ -12,7 +12,7 @@ categories:
 
 ![1](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/sg.png)
 
-Tulisan pertama saya dalam bahasa Indonesia, sekaligus kesempatan untuk kembali menulis setelah cukup lama terhenti karena kesibukan. Tahun ini adalah tahun ke-4 saya bekerja sebagai Lead Backend Engineer untuk perusahaan IT Konsultan di Singapura secara [Remote](https://id.wikipedia.org/wiki/Kerja_jarak_jauh) 💻
+Tulisan pertama saya dalam bahasa Indonesia, sekaligus kesempatan untuk kembali menulis setelah cukup lama terhenti karena kesibukan. Tahun ini adalah tahun ke-4 saya bekerja sebagai Lead Engineer dengan fokus Backend untuk perusahaan IT Konsultan di Singapura secara [Remote](https://id.wikipedia.org/wiki/Kerja_jarak_jauh) 💻
 
 Bekerja dari jarak jauh tanpa harus berada di kantor telah membawa saya pada banyak tantangan dan pelajaran berharga yang jarang diajarkan di bangku kuliah. Saya merasa ini waktu yang tepat untuk berbagi pengalaman. Semoga tulisan ini bermanfaat bagi siapa saja yang ingin berkarir di dunia IT yang luas ini, khususnya di perusahaan mancanegara 🌍
 
@@ -21,7 +21,7 @@ Bekerja dari jarak jauh tanpa harus berada di kantor telah membawa saya pada ban
 **1. Bahasa Inggris**
 
 ![x](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/fix-eng.png)
-Tanpa ragu, kemampuan bahasa Inggris saya tempatkan di urutan pertama. Tanpanya, peluang untuk diterima akan sangat kecil, terutama dalam hal listening dan speaking. Kemampuan listening yang baik sangat penting karena Anda akan sering mendengar aksen-aksen yang mungkin belum familiar, seperti aksen Singapura, China, atau Vietnam. Aksen-aksen ini tentu berbeda dari aksen US atau UK yang umumnya diajarkan di sekolah. Ini krusial karena Anda harus dapat memahami percakapan dengan pelafalan cepat dalam kolaborasi lintas negara.
+Tanpa ragu, kemampuan bahasa Inggris saya tempatkan di urutan pertama. Tanpanya, peluang untuk diterima akan sangat kecil, terutama dalam hal listening dan speaking. Kemampuan listening yang baik sangat penting karena Anda akan sering mendengar aksen-aksen yang tidak familiar, seperti aksen Singapura, China, atau Vietnam. Aksen-aksen ini tentu berbeda dari aksen US atau UK yang umumnya diajarkan di sekolah. Ini krusial karena Anda harus dapat memahami percakapan dengan pelafalan cepat dalam kolaborasi lintas negara.
 
 Kemampuan speaking juga tidak kalah penting. Dulu, saya berpikir bahwa sebagai Engineer, memahami bahasa Inggris secara pasif sudah cukup. Namun kenyataannya jauh berbeda. Kemampuan berbicara dan menyampaikan ide dengan jelas adalah kunci utama, terutama saat Anda harus memimpin tim, meyakinkan klien, atau mengusulkan ide dalam rapat. Bagaimana mungkin Anda bisa melakukan semua itu tanpa kemampuan speaking yang baik? Mustahil. Semua ini perlu pembiasaan, tidak bisa instan.
 
@@ -47,7 +47,7 @@ Saya sekarang memahami mengapa negara ini maju. Selain kompeten dan punya integr
 
 **1.Mempelajari Sesuatu yang Baru dengan Cepat**
 
-Industri IT, khususnya software development, bergerak sangat cepat. Teknologi baru muncul setiap saat. Anda akan sering dihadapkan pada proyek yang mengharuskan penggunaan teknologi yang tidak umum bahkan close source 🤢. Tantangannya adalah mempelajari hal ini dengan cepat agar proyek tetap berjalan sesuai rencana.
+Industri IT, khususnya software development, bergerak sangat cepat. Teknologi baru muncul setiap saat. Anda akan sering dihadapkan pada proyek yang mengharuskan penggunaan teknologi yang tidak umum bahkan closed source 🤢. Tantangannya adalah mempelajari hal ini dengan cepat agar proyek tetap berjalan sesuai rencana.
 
 **2.Estimasi Waktu dan Kesiapan Rencana Cadangan**
 
@@ -59,15 +59,15 @@ Setelah menghadapi teknologi baru yang asing, Anda perlu memperkirakan waktu imp
 
 ![x](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/hectic.jpeg)
 
-Jika perusahaan Anda adalah IT konsultan, Anda akan sering menghadapi tantangan ini. Bekerja remote tidak selalu santai; meeting dadakan dengan klien sering terjadi, dan Anda harus siap dengan jawaban yang cepat dan tepat. Di perusahaan IT konsultan, umumnya Anda akan menangani beberapa proyek sekaligus.
+Jika perusahaan Anda adalah IT konsultan umumnya Anda akan menangani beberapa proyek sekaligus. Anda akan sering menghadapi tantangan ini. Bekerja remote tidak selalu santai. Meeting mendadak dengan klien sering terjadi, dan Anda harus siap dengan pertanyaan yang akan ditembakan pada Anda.
 
-Misalnya, saat Project A sedang penuh dengan pekerjaan yang menumpuk, Project B membutuhkan persiapan untuk presentasi esok hari, dan Project C ada bug kritis yang harus segera diatasi. Situasi seperti inilah yang sangat menekan, terutama ketika proyek-proyek tersebut memiliki urgensi yang sama. Oleh karena itu, kemampuan untuk menetapkan skala prioritas dan menjaga kesehatan mental menjadi sangat amat penting untuk menghadapi tekanan semacam ini.
+Saat Project A sedang penuh dengan pekerjaan yang menumpuk, Project B membutuhkan persiapan untuk presentasi besok, dan Project C ada bug kritis yang harus segera diatasi. Bisa dibayangkan ya ?. Situasi seperti inilah yang sangat menekan, terutama ketika proyek-proyek tersebut memiliki urgensi yang sama. Oleh karena itu, kemampuan untuk menetapkan skala prioritas dan menjaga kesehatan mental menjadi sangat amat penting untuk menghadapi tekanan semacam ini.
 
 **4.Porsi Meeting yang Semakin Banyak**
 
 ![x](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/bart-meeting.jpg)
 
-Dulu, saya pikir urusan klien sepenuhnya akan diwakili oleh Project Manager (PM) atau manajemen lainnya, Engineer tinggal fokus coding. Ternyata salah besar, semakin naik level menjadi senior atau lead, porsi meeting justru semakin banyak, baik internal maupun eksternal dengan klien. Sebagai engineer, Anda sering kali harus menjelaskan aspek teknis, memberikan solusi, atau membahas kendala langsung dengan klien tanpa perantara PM.
+Dulu, saya pikir urusan klien sepenuhnya akan diwakili oleh Project Manager (PM), Engineer tinggal fokus coding. Ternyata salah besar, semakin naik level menjadi Senior atau Lead, porsi meeting justru semakin banyak, baik internal maupun eksternal dengan klien. Sebagai engineer, Anda sering kali harus menjelaskan aspek teknis, memberikan solusi, atau membahas kendala langsung dengan klien tanpa perantara PM.
 
 Saya sendiri masih membiasakan diri hingga hari ini, karena saya bukan tipe orang yang suka banyak meeting. Terlebih, meeting seringkali muncul mendadak tanpa persiapan sebelumnya. Di setiap meeting, dibutuhkan kemampuan berpikir cepat untuk menjawab semua gempuran pertanyaan teknis yang diarahkan pada anda.
 
@@ -89,9 +89,9 @@ Jika Anda masih pelajar atau mahasiswa, tidak ada masalah, eksplorasi teknologi 
 
 ![x](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/sim-pc.jpg)
 
-Di tahun-tahun pertama, saya sering mengorbankan akhir pekan untuk menyelesaikan pekerjaan. Misalnya, jika diberi deadline satu minggu, saya akan menyelesaikannya dalam dua hari kerja. Kenapa bisa lebih cepat? Karena saya kerjakan di akhir pekan! Bahkan, jika semua tugas dalam minggu itu sudah selesai, saya akan mencuri start dengan mengerjakan tugas yang seharusnya baru dikerjakan dua atau tiga minggu lagi.
+Di tahun-tahun pertama, saya sering mengorbankan akhir pekan untuk menyelesaikan pekerjaan. Misalnya, jika diberi deadline satu minggu, saya akan menyelesaikannya dalam dua hari kerja. Kenapa bisa lebih cepat? Karena saya kerjakan di akhir pekan!. Bahkan, jika semua tugas dalam minggu itu sudah selesai, saya akan mencuri start dengan mengerjakan tugas yang seharusnya baru dikerjakan dua atau tiga minggu lagi.
 
-Alibi yang saya beri pada diri sendiri waktu itu adalah, "Supaya hari Senin lebih santai..." padahal pada dasarnya saya memang seorang **[Workaholic](https://id.wikipedia.org/wiki/Pencandu_kerja)**.
+Alibi yang saya berikan pada diri saya waktu itu adalah, "Supaya hari Senin lebih santai..." padahal pada dasarnya saya memang seorang **[Workaholic](https://id.wikipedia.org/wiki/Pencandu_kerja)**.
 
 Efeknya? **[Burnout](https://id.wikipedia.org/wiki/Keletihan_mental)**. Saya akhirnya menyadari bahwa tubuh dan pikiran butuh waktu untuk istirahat. Sekarang, saya berusaha menjaga agar akhir pekan untuk recharge. Menikmati hobi dan waktu bersama keluarga. Kita hidup bukan hanya untuk bekerja, lalu mati.
 
@@ -99,9 +99,9 @@ Efeknya? **[Burnout](https://id.wikipedia.org/wiki/Keletihan_mental)**. Saya akh
 
 ![x](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/simpson-bike.jpg)
 
-Saya telat menyadari ini. Kamu boleh memiliki hobi apa saja, tapi saya sangat menyarankan untuk memiliki satu saja hobi olahraga yang benar-benar kamu lakukan secara rutin, bukan musiman. Dalam kasus saya, saya memilih bersepeda. Kenapa sepeda? Karena saya butuh olahraga yang bisa saya lakukan sendiri tanpa harus menunggu siapapun. Semakin dewasa, circle pertemanan semakin mengecil, dan saya sudah tidak terlalu relate dengan olahraga kelompok seperti sepak bola dan lainnya. Selain itu, saya juga membutuhkan olahraga yang dilakukan di luar ruangan, karena saya terlalu sering berada di dalam rumah karena pekerjaan remote.
+Saya telat menyadari ini. Kamu boleh memiliki hobi apa saja, tapi saya sarankan untuk memiliki satu saja hobi olahraga yang benar-benar kamu lakukan secara rutin, bukan musiman. Dalam kasus saya, saya memilih bersepeda. Kenapa sepeda? Karena saya butuh olahraga yang bisa saya lakukan sendiri tanpa harus menunggu siapapun. Semakin dewasa, circle pertemanan semakin mengecil, dan saya sudah tidak terlalu relate dengan olahraga kelompok seperti sepak bola dan lainnya. Selain itu, saya juga membutuhkan olahraga yang dilakukan di luar ruangan, karena saya terlalu sering berada di ruangan karena pekerjaan remote.
 
-Bersepeda bukan hanya membuat tubuh lebih sehat, tetapi juga sangat efektif untuk menurunkan stres. Olahraga ini memberi saya waktu untuk menjernihkan pikiran, pergi ke tempat yang menenangkan, jauh dari layar dan rutinitas pekerjaan. Saat ini, saya aktif bersepeda setidaknya tiga kali seminggu, dengan jarak rata-rata 130-170 KM per minggu. Dan percayalah, ini benar-benar bekerja!. Fokus saya semakin tajam. Saya menyesal tidak memulainya lebih awal. Kalau kamu belum punya satu hobi olahraga, segeralah miliki dan lakukan secara rutin.
+Bersepeda bukan hanya membuat tubuh lebih sehat, tetapi juga sangat efektif untuk menurunkan stres. Olahraga ini memberi saya waktu untuk menjernihkan pikiran, pergi ke tempat yang menenangkan, jauh dari layar dan rutinitas pekerjaan. Saat ini, saya aktif bersepeda setidaknya tiga kali seminggu, dengan jarak rata-rata 130-180 KM per minggu. Dan percayalah, ini benar-benar bekerja!. Fokus saya semakin tajam. Saya menyesal tidak memulainya lebih awal. Jika kamu belum punya satu hobi olahraga, segeralah miliki dan lakukan secara rutin.
 
 ![x](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/mybike-compress.jpg)
 
@@ -113,13 +113,13 @@ Bonus: Penampakan tunggangan saya yang sering keluar masuk hutan 🌳🤣
 
 **Untuk Fresh Graduate:**
 
-**Tingkatkan Bahasa Inggris dan Bangun Portofolio yang Kuat.** Kuasai bahasa Inggris sebagai modal komunikasi global. Selain itu, bangun portofolio yang mencerminkan kualitas karya terbaik Anda. Fokus pada beberapa proyek yang relevan dan menunjukkan keahlian mendalam, bukan hanya sekedar banyak proyek. Portofolio yang solid akan memberikan gambaran yang jelas mengenai kemampuan Anda. Percayalah umumnya pasar IT global lebih melihat portofolio atau penagalam anda daripada latar belakang tempat anda belajar.
+**Tingkatkan Bahasa Inggris dan Bangun Portofolio yang Kuat.** Kuasai bahasa Inggris sebagai modal komunikasi global. Selain itu, bangun portofolio yang mencerminkan kualitas karya terbaik Anda. Fokus pada beberapa proyek yang relevan dan menunjukkan keahlian mendalam, bukan hanya sekedar banyak proyek. Portofolio yang solid akan memberikan gambaran yang jelas mengenai kemampuan Anda. Percayalah umumnya pasar IT global lebih melihat portofolio atau pengalaman anda daripada almamater kampus anda.
 
 **Untuk Profesional / Berpengalaman:**
 
-Perkuat Profil dengan Sertifikasi Internasional. Untuk banyak role IT di Singapura bahkan pasar global, yang lebih penting bukanlah dari universitas mana Anda lulus, melainkan skill yang Anda miliki. Semua orang bisa mengatakan "saya bisa AWS", "saya mengerti Azure", atau "saya paham Google Cloud", tetapi masalahnya adalah, buktinya apa ? 😉
+Perkuat Profil dengan Sertifikasi Internasional. Untuk banyak role IT di Singapura bahkan pasar global, yang lebih penting bukanlah dari Universitas mana Anda lulus, melainkan skill yang Anda miliki. Semua orang bisa mengatakan "saya bisa AWS", "saya mengerti Azure", atau "saya paham Google Cloud", tetapi masalahnya adalah, buktinya apa ? 🙂
 
-Disinlah peran Sertifikasi. Ini adalah bukti konkrit kompetensi Anda diakui secara global, bukan hanya pengakuan anda sendiri. Saya tidak mengatakan bahwa orang yang tidak memiliki sertifikasi itu tidak kompeten, tetapi sertifikasi sangat membantu dalam proses seleksi dan menunjukkan komitmen Anda untuk terus berkembang dan punya niat belajar yang kuat. Pegang kata-kata saya, di pasar global, sertifikasi IT seperti AWS, Azure, GCP, dan lain-lain jauh lebih dihargai dibandingkan ijazah. **Ambil minimal dua sertifikasi setiap tahun untuk menjaga daya saing Anda.**
+Disinlah peran Sertifikasi. Ini adalah bukti konkrit kompetensi Anda diakui secara global, bukan hanya pengakuan anda sendiri. Saya tidak mengatakan bahwa orang yang tidak memiliki sertifikasi itu tidak kompeten, tetapi sertifikasi sangat membantu dalam proses seleksi dan menunjukkan komitmen Anda untuk terus berkembang dan punya niat belajar yang kuat. Pegang kata-kata saya, di pasar global IT, sertifikasi seperti AWS, Azure, GCP, dan lain-lain jauh lebih dihargai dibandingkan Ijazah. **Ambil minimal dua sertifikasi setiap tahun untuk menjaga daya saing Anda.**
 
 Saya sudah pernah menulis tips untuk menghadapi ujian sertifikasi. Anda bisa membacanya melalui tautan berikut ini:
 
