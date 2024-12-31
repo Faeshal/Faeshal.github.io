@@ -1,5 +1,5 @@
 ---
-title: Menutup 2024 - tahun ke 4 sebagai Lead Engineer di Perusahaan IT Singapura
+title: Menutup 2024 - tahun ke 4 sebagai Engineer di Perusahaan IT Singapura
 date: 2024-12-31 16:37:52
 tags:
   - life advice
@@ -103,11 +103,13 @@ Saya telat menyadari ini. Kamu boleh memiliki hobi apa saja, tapi saya sangat me
 
 Bersepeda bukan hanya membuat tubuh lebih sehat, tetapi juga sangat efektif untuk menurunkan stres. Olahraga ini memberi saya waktu untuk menjernihkan pikiran, pergi ke tempat yang menenangkan, jauh dari layar dan rutinitas pekerjaan. Saat ini, saya aktif bersepeda setidaknya tiga kali seminggu, dengan jarak rata-rata 130-170 KM per minggu. Dan percayalah, ini benar-benar bekerja!. Fokus saya semakin tajam. Saya menyesal tidak memulainya lebih awal. Kalau kamu belum punya satu hobi olahraga, segeralah miliki dan lakukan secara rutin.
 
-Bonus: Ini tunggangan saya yang sering saya ajak keluar masuk hutan, haha!
+![x](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/mybike-compress.jpg)
+
+Bonus: Penampakan tunggangan saya yang sering keluar masuk hutan 🌳🤣
 
 ## Tips Berkarir di Mancanegara 🛩️
 
-![2](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/sim-travelling.jpg)
+![x](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/sim-travelling.jpg)
 
 **Untuk Fresh Graduate:**
 
