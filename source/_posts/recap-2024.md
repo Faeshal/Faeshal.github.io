@@ -95,7 +95,7 @@ Alibi yang saya berikan pada diri saya waktu itu adalah, "Supaya hari Senin lebi
 
 Efeknya? **[Burnout](https://id.wikipedia.org/wiki/Keletihan_mental)**. Saya akhirnya menyadari bahwa tubuh dan pikiran butuh waktu untuk istirahat. Sekarang, saya berusaha menjaga agar akhir pekan untuk recharge. Menikmati hobi dan waktu bersama keluarga. Kita hidup bukan hanya untuk bekerja, lalu mati.
 
-**3. Olahraga Rutin: Lebih dari Sekadar Kesehatan** 🚵‍♀️
+**3. Olahraga Rutin: Lebih dari Sekedar Kesehatan** 🚵‍♀️
 
 ![x](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/simpson-bike.jpg)
 
