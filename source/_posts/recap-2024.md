@@ -27,6 +27,8 @@ Kemampuan speaking juga tidak kalah penting. Dulu, saya berpikir bahwa sebagai E
 
 **2. Skill teknis yang spesifik dan mendalam**
 
+![x](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/deep-skill-simpson.jpg)
+
 Menjadi spesialis di bidang tertentu sangat penting, terutama jika perusahaan sudah membuka posisi remote. Artinya, saingan Anda tidak hanya terbatas pada orang lokal, tetapi juga dari seluruh dunia. Oleh karena itu, Anda harus memiliki skill yang spesifik dan mendalam untuk bisa bersaing di pasar IT global.
 
 Jangan terjebak untuk menjadi generalis, kecuali memang posisi Anda menuntut demikian. Di Singapura, Anda akan dibayar mahal karena spesialisasi Anda. Fokus pada satu bidang dan pastikan Anda menguasainya hingga level mendalam. Spesialisasi Anda sebagai Engineer akan menjadi nilai jual utama yang membedakan Anda dari pesaing di pasar kerja Singapura maupun negara lain.
