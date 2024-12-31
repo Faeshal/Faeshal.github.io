@@ -1,5 +1,5 @@
 ---
-title: Menutup 2024 - tahun ke 4 menjadi Engineer Perusahaan IT Singapura
+title: Menutup 2024 - tahun ke 4 sebagai Lead Engineer di Perusahaan IT Singapura
 date: 2024-12-31 16:37:52
 tags:
   - life advice
@@ -12,11 +12,11 @@ categories:
 
 ![1](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/sg.png)
 
-Tulisan pertama saya dalam bahasa Indonesia, sekaligus kesempatan untuk kembali menulis setelah cukup lama terhenti karena kesibukan. Tahun ini adalah tahun ke-4 saya bekerja sebagai Lead Engineer untuk perusahaan IT konsultan di Singapura secara remote.
+Tulisan pertama saya dalam bahasa Indonesia, sekaligus kesempatan untuk kembali menulis setelah cukup lama terhenti karena kesibukan. Tahun ini adalah tahun ke-4 saya bekerja sebagai Lead Backend Engineer untuk perusahaan IT Konsultan di Singapura secara [Remote](https://id.wikipedia.org/wiki/Kerja_jarak_jauh) 💻
 
 Bekerja dari jarak jauh tanpa harus berada di kantor telah membawa saya pada banyak tantangan dan pelajaran berharga yang jarang diajarkan di bangku kuliah. Saya merasa ini waktu yang tepat untuk berbagi pengalaman. Semoga tulisan ini bermanfaat bagi siapa saja yang ingin berkarir di dunia IT yang luas ini, khususnya di perusahaan mancanegara 🌍
 
-## Keahlian yang dibutuhkan untuk berkarier di Singapura 🇸🇬
+## Keahlian yang Diperlukan untuk Berkarier di Singapura 🇸🇬
 
 **1. Bahasa Inggris**
 
@@ -39,7 +39,7 @@ Jangan terjebak untuk menjadi generalis, kecuali memang posisi Anda menuntut dem
 
 Umumnya, etos kerja orang Singapura sangat luar biasa. Kultur kerja di sini mendorong Anda untuk selalu memberikan yang terbaik. Sebagai contoh, beberapa hari lalu, meskipun hari libur Natal dan klien kami sedang cuti, mereka tetap bekerja untuk memastikan sistem mereka terintegrasi dengan sistem kami **tanpa kami minta**. Hal seperti ini sangat jarang saya temui di Indonesia.
 
-Saya sekarang memahami mengapa negara ini maju. Selain kompeten dan punya integritas, mereka juga memiliki sumber daya manusia yang benar-benar pekerja keras. Anda sangat dihargai di sini jika menunjukkan etos kerja yang sama, dan Anda pun selayaknya memberikan feedback yang setara, bekerja dengan dedikasi dan profesionalisme demi keberhasilan bersama. Negara sekompetitif ini tidak cocok untuk orang yang sering mengeluh.
+Saya sekarang memahami mengapa negara ini maju. Selain kompeten dan punya integritas, mereka juga memiliki sumber daya manusia yang benar-benar pekerja keras. Anda sangat dihargai di sini jika menunjukkan etos kerja yang sama, dan Anda pun selayaknya memberikan feedback yang setara, bekerja dengan dedikasi dan profesionalisme demi keberhasilan bersama. Negara sekompetitif ini tidak cocok untuk orang yang sering mengeluh 🚩
 
 ## Tantangan 🔥
 
@@ -85,7 +85,7 @@ Dulu, saya sering terjebak dalam keinginan untuk mempelajari tren teknologi terb
 
 Jika Anda masih pelajar atau mahasiswa, tidak ada masalah, eksplorasi teknologi justru penting. Namun, ketika sudah memasuki dunia profesional, waktu Anda sangat terbatas. Hindari membuang waktu untuk hal-hal yang Anda ragu atau bahkan tidak tahu apakah akan digunakan kedepannya. Sekarang, saya lebih selektif dan fokus pada teknologi yang benar-benar mendukung kebutuhan pekerjaan saya.
 
-**2. Weekend Adalah untuk Istirahat**
+**2. Weekend Harusnya Untuk Istirahat**
 
 ![x](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/sim-pc.jpg)
 
