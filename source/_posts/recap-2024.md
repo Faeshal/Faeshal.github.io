@@ -14,9 +14,9 @@ categories:
 
 Tulisan pertama saya dalam bahasa Indonesia, sekaligus kesempatan untuk kembali menulis setelah cukup lama terhenti karena kesibukan. Tahun ini adalah tahun ke-4 saya bekerja sebagai Lead Engineer untuk perusahaan IT konsultan di Singapura secara remote.
 
-Bekerja dari jarak jauh tanpa harus berada di kantor telah membawa saya pada banyak tantangan dan pelajaran berharga yang jarang diajarkan di bangku kuliah. Saya merasa ini waktu yang tepat untuk berbagi pengalaman. Semoga tulisan ini bermanfaat bagi siapa saja yang ingin berkarir di dunia IT yang luas ini, khususnya di perusahaan mancanegara.
+Bekerja dari jarak jauh tanpa harus berada di kantor telah membawa saya pada banyak tantangan dan pelajaran berharga yang jarang diajarkan di bangku kuliah. Saya merasa ini waktu yang tepat untuk berbagi pengalaman. Semoga tulisan ini bermanfaat bagi siapa saja yang ingin berkarir di dunia IT yang luas ini, khususnya di perusahaan mancanegara 🌍
 
-## Skill yang dibutuhkan untuk berkarir di Singapura 🇸🇬
+## Keahlian yang dibutuhkan untuk berkarier di Singapura 🇸🇬
 
 **1. Bahasa Inggris**
 
@@ -25,7 +25,7 @@ Tanpa ragu, kemampuan bahasa Inggris saya tempatkan di urutan pertama. Tanpanya,
 
 Kemampuan speaking juga tidak kalah penting. Dulu, saya berpikir bahwa sebagai Engineer, memahami bahasa Inggris secara pasif sudah cukup. Namun kenyataannya jauh berbeda. Kemampuan berbicara dan menyampaikan ide dengan jelas adalah kunci utama, terutama saat Anda harus memimpin tim, meyakinkan klien, atau mengusulkan ide dalam rapat. Bagaimana mungkin Anda bisa melakukan semua itu tanpa kemampuan speaking yang baik? Mustahil. Semua ini perlu pembiasaan, tidak bisa instan.
 
-**2. Skill teknis yang spesifik dan mendalam**
+**2. Keahlian Teknis yang Spesifik dan Mendalam**
 
 ![x](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/deep-skill-simpson.jpg)
 
@@ -69,19 +69,19 @@ Dulu, saya pikir urusan klien sepenuhnya akan diwakili oleh Project Manager (PM)
 
 Saya sendiri masih membiasakan diri hingga hari ini, karena saya bukan tipe orang yang suka banyak meeting. Terlebih, meeting seringkali muncul mendadak tanpa persiapan sebelumnya. Di setiap meeting, dibutuhkan kemampuan berpikir cepat untuk menjawab semua gempuran pertanyaan teknis yang diarahkan pada anda.
 
-## Hal yang Seharusnya Saya Sadari Sejak Awal
+## Hal yang Seharusnya Saya Sadari Sejak Awal 😔
 
 ![x](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/sad.png)
 
 Setelah 4 tahun bekerja, ada beberapa hal yang baru saya sadari. Hal-hal sederhana yang ternyata berdampak besar pada keseimbangan hidup. Saya harap Anda bisa menyadarinya lebih awal.
 
-**1. Belajar Teknologi Karena Tren, Bukan Karena Kebutuhan**
+**1. Belajar Teknologi Karena Kebutuhan, Bukan Karena Tren**
 
 ![x](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/simpson-stare.jpg)
 
-Dulu, saya sering terjebak dalam keinginan untuk mempelajari tren teknologi terbaru. Saya belajar framework atau tools tertentu hanya karena banyak dibicarakan, tanpa benar-benar memahami apakah itu relevan dengan pekerjaan atau kebutuhan. Akibatnya, banyak waktu yang terbuang untuk mempelajari hal-hal yang akhirnya jarang atau bahkan tidak saya gunakan. Dan percayalah sesuatu yang kamu pelajari itu jika jarang digunakan akan cepat lupanya.
+Dulu, saya sering terjebak dalam keinginan untuk mempelajari tren teknologi terbaru. Saya belajar tools tertentu hanya karena banyak dibicarakan, tanpa benar-benar memahami apakah itu relevan dengan pekerjaan atau kebutuhan. Akibatnya, banyak waktu yang terbuang untuk mempelajari hal-hal yang akhirnya jarang atau bahkan tidak saya gunakan. Dan percayalah sesuatu yang kamu pelajari jika jarang digunakan dipastikan akan cepat dilupakan.
 
-Jika Anda masih pelajar atau mahasiswa, tidak ada masalah, eksplorasi teknologi justru penting. Namun, ketika sudah memasuki dunia profesional, waktu Anda sangat terbatas. Hindari membuang waktu untuk hal-hal yang Anda ragu akan digunakan atau bahkan tidak tahu apakah akan dibutuhkan di masa depan. Sekarang, saya lebih selektif dan fokus pada teknologi yang benar-benar mendukung kebutuhan pekerjaan saya.
+Jika Anda masih pelajar atau mahasiswa, tidak ada masalah, eksplorasi teknologi justru penting. Namun, ketika sudah memasuki dunia profesional, waktu Anda sangat terbatas. Hindari membuang waktu untuk hal-hal yang Anda ragu atau bahkan tidak tahu apakah akan digunakan kedepannya. Sekarang, saya lebih selektif dan fokus pada teknologi yang benar-benar mendukung kebutuhan pekerjaan saya.
 
 **2. Weekend Adalah untuk Istirahat**
 
@@ -89,9 +89,9 @@ Jika Anda masih pelajar atau mahasiswa, tidak ada masalah, eksplorasi teknologi 
 
 Di tahun-tahun pertama, saya sering mengorbankan akhir pekan untuk menyelesaikan pekerjaan. Misalnya, jika diberi deadline satu minggu, saya akan menyelesaikannya dalam dua hari kerja. Kenapa bisa lebih cepat? Karena saya kerjakan di akhir pekan! Bahkan, jika semua tugas dalam minggu itu sudah selesai, saya akan mencuri start dengan mengerjakan tugas yang seharusnya baru dikerjakan dua atau tiga minggu lagi.
 
-Alibi yang saya beri pada diri sendiri waktu itu adalah, "Supaya hari Senin lebih santai" padahal pada dasarnya saya memang seorang **[Workaholic](https://id.wikipedia.org/wiki/Pencandu_kerja)**.
+Alibi yang saya beri pada diri sendiri waktu itu adalah, "Supaya hari Senin lebih santai..." padahal pada dasarnya saya memang seorang **[Workaholic](https://id.wikipedia.org/wiki/Pencandu_kerja)**.
 
-Efeknya? **[Burnout](https://id.wikipedia.org/wiki/Keletihan_mental)**. Saya akhirnya menyadari bahwa tubuh dan pikiran butuh waktu untuk istirahat. Sekarang, saya berusaha menjaga akhir pekan untuk recharge. Menikmati hobi dan waktu bersama keluarga. Kita hidup bukan hanya untuk bekerja, lalu mati.
+Efeknya? **[Burnout](https://id.wikipedia.org/wiki/Keletihan_mental)**. Saya akhirnya menyadari bahwa tubuh dan pikiran butuh waktu untuk istirahat. Sekarang, saya berusaha menjaga agar akhir pekan untuk recharge. Menikmati hobi dan waktu bersama keluarga. Kita hidup bukan hanya untuk bekerja, lalu mati.
 
 **3. Olahraga Rutin: Lebih dari Sekadar Kesehatan** 🚵‍♀️
 
@@ -99,27 +99,29 @@ Efeknya? **[Burnout](https://id.wikipedia.org/wiki/Keletihan_mental)**. Saya akh
 
 Saya telat menyadari ini. Kamu boleh memiliki hobi apa saja, tapi saya sangat menyarankan untuk memiliki satu saja olahraga yang benar-benar kamu lakukan secara rutin, bukan musiman. Dalam kasus saya, saya memilih bersepeda. Kenapa sepeda? Karena saya butuh olahraga yang bisa saya lakukan sendiri tanpa harus menunggu siapapun. Semakin dewasa, circle pertemanan semakin mengecil, dan saya sudah tidak terlalu relate dengan olahraga kelompok seperti sepak bola dan lainnya. Selain itu, saya juga membutuhkan olahraga yang dilakukan di luar ruangan, karena saya terlalu sering berada di dalam rumah karena pekerjaan remote.
 
-Bersepeda bukan hanya membuat tubuh saya lebih sehat, tetapi juga sangat efektif untuk menurunkan stres. Olahraga ini memberi saya waktu untuk menjernihkan pikiran, pergi ke tempat yang menenangkan, jauh dari layar dan rutinitas pekerjaan. Saat ini, saya aktif bersepeda setidaknya tiga kali seminggu, dengan jarak rata-rata 130-170 KM per minggu. Dan percayalah, ini benar-benar bekerja! Saya menyesal tidak memulainya lebih awal. Kalau kamu belum punya satu hobi olahraga, segeralah pilih dan lakukan secara rutin.
+Bersepeda bukan hanya membuat tubuh lebih sehat, tetapi juga sangat efektif untuk menurunkan stres. Olahraga ini memberi saya waktu untuk menjernihkan pikiran, pergi ke tempat yang menenangkan, jauh dari layar dan rutinitas pekerjaan. Saat ini, saya aktif bersepeda setidaknya tiga kali seminggu, dengan jarak rata-rata 130-170 KM per minggu. Dan percayalah, ini benar-benar bekerja!. Fokus saya semakin tajam. Saya menyesal tidak memulainya lebih awal. Kalau kamu belum punya satu hobi olahraga, segeralah miliki dan lakukan secara rutin.
 
 Bonus: Ini tunggangan saya yang sering saya ajak keluar masuk hutan, haha!
 
-## Saran jika ingin berkarir di mancanegara 🛩️
+## Tips Berkarir di Mancanegara 🛩️
 
 ![2](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/sim-travelling.jpg)
 
 **Untuk Fresh Graduate:**
 
-**Tingkatkan Bahasa Inggris dan Bangun Portofolio yang Kuat.** Kuasai bahasa Inggris sebagai modal komunikasi global. Selain itu, bangun portofolio yang mencerminkan kualitas karya terbaik Anda. Fokus pada beberapa proyek yang relevan dan menunjukkan keahlian mendalam, bukan hanya sekedar banyak proyek. Portofolio yang solid akan memberikan gambaran yang jelas mengenai kemampuan Anda. Percayalah umumnya pasar IT global lebih melihat portofolio atau penagalam anda daripada universitas tempat anda belajar.
+**Tingkatkan Bahasa Inggris dan Bangun Portofolio yang Kuat.** Kuasai bahasa Inggris sebagai modal komunikasi global. Selain itu, bangun portofolio yang mencerminkan kualitas karya terbaik Anda. Fokus pada beberapa proyek yang relevan dan menunjukkan keahlian mendalam, bukan hanya sekedar banyak proyek. Portofolio yang solid akan memberikan gambaran yang jelas mengenai kemampuan Anda. Percayalah umumnya pasar IT global lebih melihat portofolio atau penagalam anda daripada latar belakang tempat anda belajar.
 
 **Untuk Profesional / Berpengalaman:**
 
-Perkuat Profil dengan Sertifikasi Internasional. Untuk banyak role IT di Singapura bahkan pasar global, yang lebih penting bukanlah dari universitas mana Anda lulus, melainkan skill yang Anda miliki. Semua orang bisa mengatakan "saya bisa AWS", "saya mengerti Azure", atau "saya paham Google Cloud", tetapi masalahnya adalah, buktinya apa ?
+Perkuat Profil dengan Sertifikasi Internasional. Untuk banyak role IT di Singapura bahkan pasar global, yang lebih penting bukanlah dari universitas mana Anda lulus, melainkan skill yang Anda miliki. Semua orang bisa mengatakan "saya bisa AWS", "saya mengerti Azure", atau "saya paham Google Cloud", tetapi masalahnya adalah, buktinya apa ? 😉
 
 Disinlah peran Sertifikasi. Ini adalah bukti konkrit kompetensi Anda diakui secara global, bukan hanya pengakuan anda sendiri. Saya tidak mengatakan bahwa orang yang tidak memiliki sertifikasi itu tidak kompeten, tetapi sertifikasi sangat membantu dalam proses seleksi dan menunjukkan komitmen Anda untuk terus berkembang dan punya niat belajar yang kuat. Pegang kata-kata saya, di pasar global, sertifikasi IT seperti AWS, Azure, GCP, dan lain-lain jauh lebih dihargai dibandingkan ijazah. **Ambil minimal dua sertifikasi setiap tahun untuk menjaga daya saing Anda.**
 
 Saya sudah pernah menulis tips untuk menghadapi ujian sertifikasi. Anda bisa membacanya melalui tautan berikut ini:
 
-**[How to pass AWS & GCP Global Certification](https://www.faeshal.site/posts/How_to_Pass_AWS_&_GCP_Global_Certifications-3fb78cd9c5cd/)**
+**[How to pass AWS & GCP Global Certification](https://www.faeshal.site/posts/How_to_Pass_AWS_&_GCP_Global_Certifications-3fb78cd9c5cd/)** 🥗
+
+## Tak Ada Pelaut Hebat Dari Laut Yang Tenang 🌊
 
 ![x](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/2025-arab.png)
 
