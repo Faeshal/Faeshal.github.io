@@ -89,23 +89,23 @@ Jika Anda masih pelajar atau mahasiswa, tidak ada masalah, eksplorasi teknologi 
 
 ![x](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/sim-pc.jpg)
 
-Di tahun-tahun pertama, saya sering mengorbankan akhir pekan untuk menyelesaikan pekerjaan. Misalnya, jika diberi deadline satu minggu, saya akan menyelesaikannya dalam dua hari kerja. Kenapa bisa lebih cepat? Karena saya kerjakan di akhir pekan!. Bahkan, jika semua tugas dalam minggu itu sudah selesai, saya akan mencuri start dengan mengerjakan tugas yang seharusnya baru dikerjakan dua atau tiga minggu lagi.
+Saya sering mengorbankan akhir pekan untuk menyelesaikan pekerjaan. Misalnya, jika diberi deadline satu minggu, saya akan menyelesaikannya dalam dua hari kerja. Kenapa bisa lebih cepat? Karena saya kerjakan di akhir pekan!. Bahkan, jika semua tugas dalam minggu itu sudah selesai, saya akan mencuri start dengan mengerjakan semua tugas yang harusnya baru dikerjakan dua atau tiga minggu lagi.
 
 Alibi yang saya berikan pada diri saya waktu itu adalah, "Supaya hari Senin lebih santai..." padahal pada dasarnya saya memang seorang **[Workaholic](https://id.wikipedia.org/wiki/Pencandu_kerja)**.
 
-Efeknya? **[Burnout](https://id.wikipedia.org/wiki/Keletihan_mental)**. Saya akhirnya menyadari bahwa tubuh dan pikiran butuh waktu untuk istirahat. Sekarang, saya berusaha menjaga agar akhir pekan untuk recharge. Menikmati hobi dan waktu bersama keluarga. Kita hidup bukan hanya untuk bekerja, lalu mati.
+Efeknya? **[Burnout](https://id.wikipedia.org/wiki/Keletihan_mental)**. Saya akhirnya menyadari bahwa ini tidak sehat. Tubuh dan pikiran butuh waktu untuk istirahat. Sekarang, saya berusaha menjaga agar akhir pekan untuk recharge. Menikmati hobi dan waktu bersama keluarga. Kita hidup bukan hanya untuk bekerja, lalu mati.
 
 **3. Olahraga Rutin: Lebih dari Sekedar Kesehatan** 🚵‍♀️
 
 ![x](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/simpson-bike.jpg)
 
-Saya telat menyadari ini. Kamu boleh memiliki hobi apa saja, tapi saya sarankan untuk memiliki satu saja hobi olahraga yang benar-benar kamu lakukan secara rutin, bukan musiman. Dalam kasus saya, saya memilih bersepeda. Kenapa sepeda? Karena saya butuh olahraga yang bisa saya lakukan sendiri tanpa harus menunggu siapapun. Semakin dewasa, circle pertemanan semakin mengecil, dan saya sudah tidak terlalu relate dengan olahraga kelompok seperti sepak bola dan lainnya. Selain itu, saya juga membutuhkan olahraga yang dilakukan di luar ruangan, karena saya terlalu sering berada di ruangan karena pekerjaan remote.
+Saya telat menyadari ini. Kamu boleh memiliki hobi apa saja, tapi saya sarankan untuk memiliki satu saja hobi olahraga yang benar-benar kamu lakukan secara rutin, bukan musiman. Dalam kasus saya, saya memilih bersepeda. Kenapa sepeda? Karena saya butuh olahraga yang bisa saya lakukan sendirian, tanpa harus menunggu siapapun. Semakin dewasa, circle pertemanan semakin mengecil, dan saya sudah tidak terlalu relate dengan olahraga kelompok seperti sepak bola dan lainnya. Selain itu, saya butuh olahraga yang dilakukan di luar ruangan untuk menyegarkan otak dan mata setelah berjam-jam di depan komputer.
 
-Bersepeda bukan hanya membuat tubuh lebih sehat, tetapi juga sangat efektif untuk menurunkan stres. Olahraga ini memberi saya waktu untuk menjernihkan pikiran, pergi ke tempat yang menenangkan, jauh dari layar dan rutinitas pekerjaan. Saat ini, saya aktif bersepeda setidaknya tiga kali seminggu, dengan jarak rata-rata 130-180 KM per minggu. Dan percayalah, ini benar-benar bekerja!. Fokus saya semakin tajam. Saya menyesal tidak memulainya lebih awal. Jika kamu belum punya satu hobi olahraga, segeralah miliki dan lakukan secara rutin.
+Bersepeda bukan hanya membuat tubuh lebih sehat, tetapi juga sangat efektif untuk menurunkan stres. Olahraga ini memberi saya waktu untuk menjernihkan pikiran, pergi ke tempat yang menenangkan, jauh dari layar dan rutinitas pekerjaan. Saat ini, saya aktif bersepeda setidaknya tiga kali seminggu, dengan jarak rata-rata 130-180 KM per minggu. Dan percayalah, ini benar-benar bekerja!. Fokus saya semakin tajam juga tidak mudah lelah. Saya menyesal tidak memulainya sejak dulu. Jika kamu belum punya satu hobi olahraga, segeralah miliki dan lakukan secara rutin.
 
 ![x](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/mybike-compress.jpg)
 
-Bonus: Penampakan tunggangan saya yang sering keluar masuk hutan 🌳🤣
+Bonus: Penampakan kesayangan saya yang sering keluar masuk hutan 🌳🤣
 
 ## Tips Berkarir di Mancanegara 🛩️
 
