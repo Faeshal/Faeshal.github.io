@@ -117,9 +117,9 @@ Bonus: Penampakan kesayangan saya yang sering keluar masuk hutan 🌳🤣
 
 **Untuk Profesional / Berpengalaman:**
 
-Perkuat Profil dengan Sertifikasi Internasional. Untuk banyak role IT di Singapura bahkan pasar global, yang lebih penting bukanlah dari Universitas mana Anda lulus, melainkan skill yang Anda miliki. Semua orang bisa mengatakan "saya bisa AWS", "saya mengerti Azure", atau "saya paham Google Cloud", tetapi masalahnya adalah, buktinya apa ? 🙂
+**Perkuat Profil dengan Sertifikasi Internasional.** Untuk banyak role IT di Singapura bahkan pasar global, yang lebih penting bukanlah dari Universitas mana Anda lulus, melainkan skill yang Anda miliki. Semua orang bisa mengatakan "saya bisa AWS", "saya mengerti Azure", atau "saya paham Google Cloud", tetapi masalahnya adalah, buktinya mana ? 🙂
 
-Disinlah peran Sertifikasi. Ini adalah bukti konkrit kompetensi Anda diakui secara global, bukan hanya pengakuan anda sendiri. Saya tidak mengatakan bahwa orang yang tidak memiliki sertifikasi itu tidak kompeten, tetapi sertifikasi sangat membantu dalam proses seleksi dan menunjukkan komitmen Anda untuk terus berkembang dan punya niat belajar yang kuat. Pegang kata-kata saya, di pasar global IT, sertifikasi seperti AWS, Azure, GCP, dan lain-lain jauh lebih dihargai dibandingkan Ijazah. **Ambil minimal dua sertifikasi setiap tahun untuk menjaga daya saing Anda.**
+Disinlah peran Sertifikasi. Ini adalah bukti konkrit kompetensi Anda yang diakui secara global, bukan hanya pengakuan anda sendiri. Saya tidak mengatakan bahwa orang yang tidak memiliki sertifikasi itu tidak kompeten, tetapi sertifikasi sangat membantu dalam proses seleksi dan menunjukkan komitmen Anda untuk terus berkembang dan punya niat belajar yang kuat. **Pegang kata-kata saya, di pasar global IT, sertifikasi seperti AWS, Azure, GCP, dan lain-lain jauh lebih dihargai dibandingkan Ijazah. Ambil minimal dua sertifikasi setiap tahun untuk menjaga daya saing Anda.**
 
 Saya sudah pernah menulis tips untuk menghadapi ujian sertifikasi. Anda bisa membacanya melalui tautan berikut ini:
 
