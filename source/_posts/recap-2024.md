@@ -33,6 +33,8 @@ Jangan terjebak untuk menjadi generalis, kecuali memang posisi Anda menuntut dem
 
 **3. Etos Kerja dan Dedikasi Tinggi**
 
+![x](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/workholic.jpg)
+
 Umumnya, etos kerja orang Singapura sangat luar biasa. Kultur kerja di sini mendorong Anda untuk selalu memberikan yang terbaik. Sebagai contoh, beberapa hari lalu, meskipun hari libur Natal dan klien kami sedang cuti, mereka tetap bekerja untuk memastikan sistem mereka terintegrasi dengan sistem kami **tanpa kami minta**. Hal seperti ini sangat jarang saya temui di Indonesia.
 
 Saya sekarang memahami mengapa negara ini maju. Selain kompeten dan punya integritas, mereka juga memiliki sumber daya manusia yang benar-benar pekerja keras. Anda sangat dihargai di sini jika menunjukkan etos kerja yang sama, dan Anda pun selayaknya memberikan feedback yang setara, bekerja dengan dedikasi dan profesionalisme demi keberhasilan bersama. Negara sekompetitif ini tidak cocok untuk orang yang sering mengeluh.
@@ -47,13 +49,17 @@ Industri IT, khususnya software development, bergerak sangat cepat. Teknologi ba
 
 **2.Estimasi Waktu dan Kesiapan Rencana Cadangan**
 
+![x](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/frinkestein.png)
+
 Setelah menghadapi teknologi baru yang asing, Anda perlu memperkirakan waktu implementasinya dalam proyek. Tantangan ini melibatkan banyak ketidakpastian, seperti limitasi software, fitur yang tidak sesuai kebutuhan, atau cara meningkatkan performa di masa depan. Selain itu, Anda harus memiliki banyak solusi alternatif bilamana solusi utama yang Anda tawarkan gagal di tengah jalan. Kemampuan ini menjadi krusial untuk menjaga proyek tetap berada di jalur yang benar.
 
 **3.Bekerja dengan Banyak Proyek dalam Waktu Bersamaan**
 
-Jika perusahaan Anda adalah IT konsultan, Anda akan sering menghadapi tantangan ini. Bekerja remote tidak selalu santai; meeting dadakan dengan klien sering terjadi, dan Anda harus siap dengan jawaban yang cepat dan tepat. Di perusahaan IT konsultan, Anda mungkin menangani beberapa proyek sekaligus.
+![x](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/hectic.jpeg)
 
-Misalnya, saat Project A sedang penuh dengan pekerjaan yang menumpuk, Project B membutuhkan persiapan untuk presentasi esok hari, dan Project C ada bug kritis yang harus segera diatasi. Situasi seperti ini bisa sangat menekan, terutama ketika proyek-proyek tersebut memiliki urgensi yang sama. Oleh karena itu, kemampuan untuk menetapkan skala prioritas dan menjaga kesehatan mental menjadi sangat penting untuk menghadapi tekanan semacam ini.
+Jika perusahaan Anda adalah IT konsultan, Anda akan sering menghadapi tantangan ini. Bekerja remote tidak selalu santai; meeting dadakan dengan klien sering terjadi, dan Anda harus siap dengan jawaban yang cepat dan tepat. Di perusahaan IT konsultan, umumnya Anda akan menangani beberapa proyek sekaligus.
+
+Misalnya, saat Project A sedang penuh dengan pekerjaan yang menumpuk, Project B membutuhkan persiapan untuk presentasi esok hari, dan Project C ada bug kritis yang harus segera diatasi. Situasi seperti inilah yang sangat menekan, terutama ketika proyek-proyek tersebut memiliki urgensi yang sama. Oleh karena itu, kemampuan untuk menetapkan skala prioritas dan menjaga kesehatan mental menjadi sangat amat penting untuk menghadapi tekanan semacam ini.
 
 **4.Porsi Meeting yang Semakin Banyak**
 
@@ -67,13 +73,17 @@ Saya sendiri masih membiasakan diri hingga hari ini, karena saya bukan tipe oran
 
 Setelah 4 tahun bekerja, ada beberapa hal yang baru saya sadari. Hal-hal sederhana yang ternyata berdampak besar pada keseimbangan hidup. Saya harap Anda bisa menyadarinya lebih awal.
 
-**1. Belajar Teknologi Karena Tren, Bukan Kebutuhan**
+**1. Belajar Teknologi Karena Tren, Bukan Karena Kebutuhan**
+
+![x](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/simpson-stare.jpg)
 
 Dulu, saya sering terjebak dalam keinginan untuk mempelajari tren teknologi terbaru. Saya belajar framework atau tools tertentu hanya karena banyak dibicarakan, tanpa benar-benar memahami apakah itu relevan dengan pekerjaan atau kebutuhan. Akibatnya, banyak waktu yang terbuang untuk mempelajari hal-hal yang akhirnya jarang atau bahkan tidak saya gunakan. Dan percayalah sesuatu yang kamu pelajari itu jika jarang digunakan akan cepat lupanya.
 
 Jika Anda masih pelajar atau mahasiswa, tidak ada masalah, eksplorasi teknologi justru penting. Namun, ketika sudah memasuki dunia profesional, waktu Anda sangat terbatas. Hindari membuang waktu untuk hal-hal yang Anda ragu akan digunakan atau bahkan tidak tahu apakah akan dibutuhkan di masa depan. Sekarang, saya lebih selektif dan fokus pada teknologi yang benar-benar mendukung kebutuhan pekerjaan saya.
 
 **2. Weekend Adalah untuk Istirahat**
+
+![x](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/sim-pc.jpg)
 
 Di tahun-tahun pertama, saya sering mengorbankan akhir pekan untuk menyelesaikan pekerjaan. Misalnya, jika diberi deadline satu minggu, saya akan menyelesaikannya dalam dua hari kerja. Kenapa bisa lebih cepat? Karena saya kerjakan di akhir pekan! Bahkan, jika semua tugas dalam minggu itu sudah selesai, saya akan mencuri start dengan mengerjakan tugas yang seharusnya baru dikerjakan dua atau tiga minggu lagi.
 
@@ -83,7 +93,9 @@ Efeknya? **[Burnout](https://id.wikipedia.org/wiki/Keletihan_mental)**. Saya akh
 
 **3. Olahraga Rutin: Lebih dari Sekadar Kesehatan** 🚵‍♀️
 
-Saya telat menyadari ini. Kamu boleh memiliki hobi apa saja, tapi saya sangat menyarankan untuk memiliki satu hobi cabang olahraga yang benar-benar kamu lakukan secara rutin, bukan musiman. Dalam kasus saya, saya memilih bersepeda. Kenapa sepeda? Karena saya butuh olahraga yang bisa saya lakukan sendiri dan tidak membosankan. Semakin dewasa, circle pertemanan semakin mengecil, dan saya sudah tidak terlalu relate dengan olahraga kelompok seperti sepak bola dll. Selain itu, saya juga membutuhkan olahraga yang dilakukan di luar ruangan, karena saya terlalu sering berada di dalam rumah, tentu saja karena bekerja remote.
+![x](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/simpson-bike.jpg)
+
+Saya telat menyadari ini. Kamu boleh memiliki hobi apa saja, tapi saya sangat menyarankan untuk memiliki satu saja olahraga yang benar-benar kamu lakukan secara rutin, bukan musiman. Dalam kasus saya, saya memilih bersepeda. Kenapa sepeda? Karena saya butuh olahraga yang bisa saya lakukan sendiri tanpa harus menunggu siapapun. Semakin dewasa, circle pertemanan semakin mengecil, dan saya sudah tidak terlalu relate dengan olahraga kelompok seperti sepak bola dan lainnya. Selain itu, saya juga membutuhkan olahraga yang dilakukan di luar ruangan, karena saya terlalu sering berada di dalam rumah karena pekerjaan remote.
 
 Bersepeda bukan hanya membuat tubuh saya lebih sehat, tetapi juga sangat efektif untuk menurunkan stres. Olahraga ini memberi saya waktu untuk menjernihkan pikiran, pergi ke tempat yang menenangkan, jauh dari layar dan rutinitas pekerjaan. Saat ini, saya aktif bersepeda setidaknya tiga kali seminggu, dengan jarak rata-rata 130-170 KM per minggu. Dan percayalah, ini benar-benar bekerja! Saya menyesal tidak memulainya lebih awal. Kalau kamu belum punya satu hobi olahraga, segeralah pilih dan lakukan secara rutin.
 
@@ -106,5 +118,7 @@ Disinlah peran Sertifikasi. Ini adalah bukti konkrit kompetensi Anda diakui seca
 Saya sudah pernah menulis tips untuk menghadapi ujian sertifikasi. Anda bisa membacanya melalui tautan berikut ini:
 
 **[How to pass AWS & GCP Global Certification](https://www.faeshal.site/posts/How_to_Pass_AWS_&_GCP_Global_Certifications-3fb78cd9c5cd/)**
+
+![x](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/2025-arab.png)
 
 Akhir kata, semoga tahun 2025 membawa lebih banyak peluang, pelajaran baru, dan keberhasilan untuk kita semua. Jangan pernah berhenti belajar dan teruslah melangkah maju 🌤️
