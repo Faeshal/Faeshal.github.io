@@ -65,6 +65,8 @@ Misalnya, saat Project A sedang penuh dengan pekerjaan yang menumpuk, Project B 
 
 **4.Porsi Meeting yang Semakin Banyak**
 
+![x](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/bart-meeting.jpg)
+
 Dulu, saya pikir urusan klien sepenuhnya akan diwakili oleh Project Manager (PM) atau manajemen lainnya, Engineer tinggal fokus coding. Ternyata salah besar, semakin naik level menjadi senior atau lead, porsi meeting justru semakin banyak, baik internal maupun eksternal dengan klien. Sebagai engineer, Anda sering kali harus menjelaskan aspek teknis, memberikan solusi, atau membahas kendala langsung dengan klien tanpa perantara PM.
 
 Saya sendiri masih membiasakan diri hingga hari ini, karena saya bukan tipe orang yang suka banyak meeting. Terlebih, meeting seringkali muncul mendadak tanpa persiapan sebelumnya. Di setiap meeting, dibutuhkan kemampuan berpikir cepat untuk menjawab semua gempuran pertanyaan teknis yang diarahkan pada anda.
@@ -97,7 +99,7 @@ Efeknya? **[Burnout](https://id.wikipedia.org/wiki/Keletihan_mental)**. Saya akh
 
 ![x](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/simpson-bike.jpg)
 
-Saya telat menyadari ini. Kamu boleh memiliki hobi apa saja, tapi saya sangat menyarankan untuk memiliki satu saja olahraga yang benar-benar kamu lakukan secara rutin, bukan musiman. Dalam kasus saya, saya memilih bersepeda. Kenapa sepeda? Karena saya butuh olahraga yang bisa saya lakukan sendiri tanpa harus menunggu siapapun. Semakin dewasa, circle pertemanan semakin mengecil, dan saya sudah tidak terlalu relate dengan olahraga kelompok seperti sepak bola dan lainnya. Selain itu, saya juga membutuhkan olahraga yang dilakukan di luar ruangan, karena saya terlalu sering berada di dalam rumah karena pekerjaan remote.
+Saya telat menyadari ini. Kamu boleh memiliki hobi apa saja, tapi saya sangat menyarankan untuk memiliki satu saja hobi olahraga yang benar-benar kamu lakukan secara rutin, bukan musiman. Dalam kasus saya, saya memilih bersepeda. Kenapa sepeda? Karena saya butuh olahraga yang bisa saya lakukan sendiri tanpa harus menunggu siapapun. Semakin dewasa, circle pertemanan semakin mengecil, dan saya sudah tidak terlalu relate dengan olahraga kelompok seperti sepak bola dan lainnya. Selain itu, saya juga membutuhkan olahraga yang dilakukan di luar ruangan, karena saya terlalu sering berada di dalam rumah karena pekerjaan remote.
 
 Bersepeda bukan hanya membuat tubuh lebih sehat, tetapi juga sangat efektif untuk menurunkan stres. Olahraga ini memberi saya waktu untuk menjernihkan pikiran, pergi ke tempat yang menenangkan, jauh dari layar dan rutinitas pekerjaan. Saat ini, saya aktif bersepeda setidaknya tiga kali seminggu, dengan jarak rata-rata 130-170 KM per minggu. Dan percayalah, ini benar-benar bekerja!. Fokus saya semakin tajam. Saya menyesal tidak memulainya lebih awal. Kalau kamu belum punya satu hobi olahraga, segeralah miliki dan lakukan secara rutin.
 
