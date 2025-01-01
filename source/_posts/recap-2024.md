@@ -105,7 +105,7 @@ Bersepeda bukan hanya membuat tubuh lebih sehat, tetapi juga sangat efektif untu
 
 ![x](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/mybike-compress.jpg)
 
-Bonus: Penampakan kesayangan saya yang sering keluar masuk hutan 🌳🤣
+Bonus: Penampakan kesayangan saya yang sering keluar masuk hutan 🌳
 
 ## Tips Berkarir di Mancanegara 🛩️
 
