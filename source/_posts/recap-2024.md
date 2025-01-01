@@ -89,7 +89,7 @@ Jika Anda masih pelajar atau mahasiswa, tidak ada masalah, eksplorasi teknologi 
 
 ![x](https://pub-34a9b1bcc6c94303b5e1e63ce14832d3.r2.dev/sim-pc.jpg)
 
-Saya sering mengorbankan akhir pekan untuk menyelesaikan pekerjaan. Misalnya, jika diberi deadline satu minggu, saya akan menyelesaikannya dalam dua hari kerja. Kenapa bisa lebih cepat? Karena saya kerjakan di akhir pekan!. Bahkan, jika semua tugas dalam minggu itu sudah selesai, saya akan mencuri start dengan mengerjakan semua tugas yang harusnya baru dikerjakan dua atau tiga minggu lagi.
+Saya sering mengorbankan akhir pekan untuk menyelesaikan pekerjaan. Misalnya, jika diberi deadline satu minggu, saya akan menyelesaikannya dalam dua hari saja. Kenapa bisa lebih cepat? Karena saya kerjakan di akhir pekan!. Bahkan, jika semua tugas dalam minggu itu sudah selesai, saya akan mencuri start dengan mengerjakan semua tugas yang harusnya baru dikerjakan dua atau tiga minggu lagi.
 
 Alibi yang saya berikan pada diri saya waktu itu adalah, "Supaya hari Senin lebih santai..." padahal pada dasarnya saya memang seorang **[Workaholic](https://id.wikipedia.org/wiki/Pencandu_kerja)**.
 
