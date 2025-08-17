@@ -7,6 +7,17 @@ date: 2022-07-11 21:29:40
 
 This is all projects that i've been working on my entire career as a Backend Engineer. To note, In this list, i only include **Office Projects with Private Repository & Full Development Team ⛔ NOT personal freelance projects** to be more focused & relevant.
 
+## Appointment Management System - MINISTRY OF MANPOWER SINGAPORE 🇸🇬
+
+📰 Description:
+The **[mom.gov.sg](https://www.mom.gov.sg/)** is Singapore’s official government platform for managing and scheduling appointments with the Ministry of Manpower. This system plays a critical role in streamlining public services, handling high-volume traffic, and ensuring seamless digital interactions between citizens, residents, and government officers.
+
+⭐ Responsibility:
+As the Lead Backend Engineer, I was responsible for designing and building the core backend architecture from scratch, ensuring robustness, scalability, and security to meet strict GovTech and IM8 compliance standards. This project required a more advanced level of system design and implementation compared to previous projects, given its nationwide scope and government-grade requirements.
+
+🔥 Stack:
+Due to confidentiality, the specific technology stack cannot be disclosed. The system was developed using secure, enterprise-grade technologies and followed strict GovTech best practices for performance, compliance, and cybersecurity.
+
 ## FINANCIAL ASSIST SYSTEM - NYP SINGAPORE 👨‍🎓
 
 📰 Description:
