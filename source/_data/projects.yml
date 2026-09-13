@@ -1,0 +1,115 @@
+- title: Etonhouse AI Audit System 🤖
+  body: |
+    📰 Description:
+    An AI-powered document audit system built for **[Etonhouse International Education Group](https://www.etonhouse.edu.sg/)**. The system pulls compliance documents from each school centre's SharePoint, analyzes them using AI, and assesses whether they meet the requirements of Singapore's [SPARK Certification](https://www.ecda.gov.sg/sparkinfo/spark-certified) (a quality benchmark for early childhood centres set by ECDA), flagging gaps before the actual audit takes place.
+
+    ⭐ Responsibility:
+    As the Lead Backend Engineer, I designed and built the backend architecture from the ground up, including the SharePoint integration and the document analysis pipeline.
+
+    🔥 Stack:
+    Private & confidential.
+- title: SMU Cloud Portal ☁️
+  body: |
+    📰 Description:
+    An internal web portal built for **[Singapore Management University (SMU)](https://www.smu.edu.sg/)** to manage AWS cloud resources without requiring direct AWS Console access. The platform handles resource provisioning, requests and approvals, departmental budget allocation and calculation, and usage reporting, allowing staff without AWS access to manage their cloud resources entirely through our portal instead.
+
+    ⭐ Responsibility:
+    As the Lead Backend Engineer, I was responsible for designing and building the core backend architecture, including the AWS resource management workflows and the approval and budgeting system.
+
+    🔥 Stack:
+    Private & confidential.
+- title: Appointment Management System - MINISTRY OF MANPOWER SINGAPORE 🇸🇬
+  body: |
+    📰 Description:
+    **[mom.gov.sg](https://www.mom.gov.sg/)** is Singapore's official government platform for managing and scheduling appointments with the Ministry of Manpower. This system plays a critical role in streamlining public services, handling high-volume traffic, and ensuring seamless digital interactions between citizens, residents, and government officers.
+
+    ⭐ Responsibility:
+    As the Lead Backend Engineer, I was responsible for designing and building the core backend architecture from scratch, ensuring robustness, scalability, and security to meet strict GovTech and IM8 compliance standards. This project required a more advanced level of system design and implementation compared to previous projects, given its nationwide scope and government-grade requirements.
+
+    🔥 Stack:
+    Private & confidential. The system was developed using secure, enterprise-grade technologies and followed strict GovTech best practices for performance, compliance, and cybersecurity.
+- title: Financial Assist System - NYP SINGAPORE 👨‍🎓
+  body: |
+    📰 Description:
+    The Financial Assist System is a bursary finance solution designed to support economically disadvantaged students at **[Nanyang Polytechnic (NYP)](https://www.nyp.edu.sg/)** in Singapore. This system streamlines the application and awarding process for financial aid, ensuring that eligible students receive the necessary support to further their education.
+
+    ⭐ Responsibility:
+    As the Lead Backend Engineer, I was responsible for architecting and developing the complete backend system from the ground up, while ensuring compliance with Singapore GovTech standards and IM8 regulations throughout development.
+
+    🔥 Stack:
+    Microservices Node.JS, TypeScript, Express, Azure AD, AWS, Docker, Kubernetes, CI/CD Shiphat, CStack, SonarQube, Singpass, PostgreSQL, Redis, BullMQ, Jest, and more.
+- title: SG Tender Scraper (Telegram Bot) 🔈
+  body: |
+    📰 Description:
+    A Telegram bot that scrapes tender data from the Singapore government site. Subscribers receive the latest notifications when new tenders are published, can view tender details, subscribe to specific tenders for update alerts, and get notified of upcoming tender closing times, among other features.
+
+    ⭐ Responsibility:
+    As a Backend Engineer, I built the entire backend system and functionality from scratch based on the project requirements.
+
+    🔥 Stack:
+    Node.JS, Telegraf, MariaDB, AWS Serverless Stack, and more.
+- title: RMBEX (International Money Transfer System) 💸
+  body: |
+    📰 Description:
+    RMBEX is an enterprise money transfer platform for a client based in China with a newly opened office in Singapore, enabling secure, seamless money transfers across five regions: Singapore, China, the United States, Hong Kong, and Europe.
+
+    ⭐ Responsibility:
+    As a Backend Engineer, I built the entire backend system and functionality from scratch based on the project requirements.
+
+    🔥 Stack:
+    Node.JS, Alibaba Cloud, and the Microsoft Azure ecosystem.
+- title: UME (Dating App) 👫
+  body: |
+    📰 Description:
+    UME is a Singapore-based dating app that lets users connect and arrange dates, similar to Tinder. I handled the backend from scratch, including features such as explicit image detection to prevent inappropriate content, facial recognition to detect gender, automatic avatar generation based on the user's face, and a swipe-based recommendation system.
+
+    ⭐ Responsibility:
+    As a Backend Engineer, I built the entire backend system and functionality from scratch based on the project requirements.
+
+    🔥 Stack:
+    Node.JS, Express, PM2, Bull.js, Redis, MariaDB, Mocha, Chai, Artillery, Twilio, Mailgun, ConnectyCube, Firebase, Docker, Microsoft Azure VM, Azure Cognitive Services Computer Vision, Azure Face Recognition, Nginx, Flutter (Mobile App), React (Admin Web App).
+- title: Bigchain POC (Blockchain Proof of Concept) 🕸️
+  body: |
+    📰 Description:
+    A proof-of-concept blockchain system built for a Singapore government tender project, using the [BigchainDB](https://www.bigchaindb.com/) ecosystem.
+
+    ⭐ Responsibility:
+    As a Backend Engineer, I built the entire backend system and functionality from scratch based on the project requirements.
+
+    🔥 Stack:
+    Node.JS, Express, PM2, BigchainDB, Tendermint, MongoDB, Mocha, Supertest, Artillery, Docker, AWS, Nginx, React.JS (Web App).
+- title: Octofaya (Omnichannel Marketplace System) 💰
+  body: |
+    📰 Description:
+    An omnichannel marketplace platform built for our Singapore client, [Magnetiseme](https://www.magnetiseme.com/). Octofaya is a web and mobile application that lets e-commerce sellers manage items, stock, and orders across multiple marketplaces from a single platform, fully integrated with Lazada, Shopee, Magento, Shopify, and Xero Accounting.
+
+    ⭐ Responsibility:
+    As a Backend Engineer, I built the entire backend system and functionality from scratch based on the project requirements.
+
+    🔥 Stack:
+    Node.JS, Express, PM2, Bull.js, Redis, MariaDB, Mocha, Chai, Artillery, Twilio, Mailgun, Docker, AWS, Nginx, Flutter (Mobile App), Laravel (Admin Web App).
+- title: Ming Movers (Asset Tracking System) 🚚
+  body: |
+    📰 Description:
+    My first project at [Deeeplabs](https://deeeplabs.com/), an IT consulting company based in Singapore, for their client [Ming Movers](https://mingmovers.com.sg/), a delivery and logistics company. We built two platforms: a mobile app used by truck drivers to report the movement of items in transit and by customers to track their items, and a web app used by admins to manage client items, analytics, and reporting.
+
+    ⭐ Responsibility:
+    As a Backend Engineer, I built the entire backend system and functionality from scratch based on the project requirements.
+
+    🔥 Stack:
+    Node.JS, Express, PM2, Redis, MariaDB, Firebase, Mocha, Chai, Artillery, Twilio, Docker, AWS, Nginx, Flutter (Mobile App), Laravel (Admin Web App).
+- title: Daily Act (Social Media App) 🌟
+  body: |
+    📰 Description:
+    [Daily Act](https://jalantikus.com/news/26555/daily-act-sosial-media-baru-positif-inovatif-buatan-anak-bangsa/) is a startup based in Tangerang, Banten, with a social media app as its main product. Like most social media apps, it includes features such as feeds, an explorer page, galleries, chat, voice and video calls, and stories, similar to Instagram.
+
+    ⭐ Responsibility:
+    When I joined the development team, the backend was already built on a microservices architecture, so my role focused mostly on optimizing existing services rather than building from scratch or migrating from a monolith. In summary, I:
+
+    - Refactored the Express and Fastify REST APIs of several services to follow [Clean Code Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+    - Migrated several services to TypeScript and containerized them with Docker
+    - Maintained and optimized the performance of the Email, Location, and Feed services
+    - Built automation scripts, unit tests, and stress tests
+
+    🔥 Stack:
+    Node.JS (JavaScript and TypeScript across different services), Express, Fastify, Nest, PM2, Redis, Elasticsearch, Datadog, DigitalOcean, MongoDB Atlas, MariaDB, Mocha, Chai, Supertest, Docker, AWS, Nginx, React Native (Mobile App), React.JS (Internal Web App & Company Profile).

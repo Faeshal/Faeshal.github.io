@@ -5,7 +5,7 @@
 # Site
 title: faeshal.site
 subtitle: "Engineering Notes"
-description: "I'm Faeshal, Certified <a href='https://aws.amazon.com/certification/'><b>AWS</b></a> & <a href='https://cloud.google.com/learn/certification/cloud-engineer'><b>Google Cloud</b></a> Software Engineer. Most of the time working on the Back End using Node.JS ecosystem. Interested with Golang, Cloud Native Technology & Microservices Architecture. Share my learning & experiment here, especially server side."
+description: "I'm Faeshal, Certified <b>AWS</b>, <b>Google Cloud</b> & <b>Microsoft</b> Software Engineer. Most of the time working on the Back End using the Node.JS ecosystem. Interested in Golang, Cloud Native Technology & Microservices Architecture. I share my learnings & experiments here, especially on the server side."
 keywords: faeshal
 author: Faeshal.
 language: en
@@ -119,6 +119,11 @@ cdn:
   native: false # use cloudflare native image resize
   max_width:
   exclude_domains:
+    - https://media0.giphy.com
+    - https://media1.giphy.com
+    - https://media2.giphy.com
+    - https://media3.giphy.com
+    - https://media4.giphy.com
 
 lazyload:
   enable: false
