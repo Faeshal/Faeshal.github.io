@@ -581,11 +581,11 @@ Layanan AWS yang umum digunakan dalam skenario disaster recovery antara lain S3 
 
 ## Latihan Soal: Pola yang Paling Sering Saya Temui
 
-Selama proses latihan, saya mengumpulkan dan mengamati ratusan soal dari berbagai bank soal latihan SAA-C03 yang beredar secara publik di internet — **bukan soal ujian resmi AWS**, dan bukan pula representasi kata-per-kata dari ujian sesungguhnya. Soal-soal ini murni materi latihan pihak ketiga yang saya kurasi berdasarkan pola dan topik yang menurut pengamatan pribadi saya paling sering berulang, dengan tujuan membantu Anda mengenali jenis skenario yang umum diujikan — bukan menghafal jawaban secara mentah.
+Soal-soal berikut saya kumpulkan dari berbagai bank soal latihan SAA-C03 yang beredar di internet — **bukan soal ujian resmi AWS**, melainkan materi latihan pihak ketiga yang saya kurasi berdasarkan pola yang paling sering berulang, agar Anda mengenali skenario yang umum diujikan.
 
-Soal dan pilihan jawaban di bawah ini sengaja saya tuliskan dalam Bahasa Inggris apa adanya, sesuai format asli bank soal latihan tersebut, agar Anda juga terbiasa dengan istilah dan gaya penulisan soal yang akan dihadapi saat ujian sesungguhnya. Sebagai pelengkap, saya tambahkan topik singkat serta alasan jawaban dalam Bahasa Indonesia yang ringkas, agar lebih mudah dipahami.
+Soal dan pilihan jawaban ditulis apa adanya dalam Bahasa Inggris sesuai format aslinya, dengan tambahan topik dan alasan jawaban singkat dalam Bahasa Indonesia.
 
-Berikut 65 soal yang saya pilih sebagai representasi pola-pola yang paling sering saya temui.
+Berikut 65 soal yang saya pilih.
 
 ---
 
