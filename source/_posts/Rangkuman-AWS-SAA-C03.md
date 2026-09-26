@@ -9,7 +9,7 @@ categories:
   - cloud
 ---
 
-Saya baru saja lulus sertifikasi **[AWS Certified Solutions Architect – Associate (SAA-C03)](https://aws.amazon.com/id/certification/certified-solutions-architect-associate/)** untuk yang kedua kalinya, karena sertifikat AWS hanya berlaku 3 tahun dan sertifikat sebelumnya expired bulan ini, September 2026. Sebagai orang dengan latar belakang developer, jalur Solutions Architect terasa paling sulit bagi saya pribadi. Karena itu, saya susun catatan belajar ini dengan bahasa yang semoga mudah dipahami. Saya bagikan di sini agar tidak sekadar tersimpan sendiri — semoga menjadi amal jariyah dan bermanfaat bagi Anda.
+Saya baru saja lulus sertifikasi **[AWS Certified Solutions Architect – Associate (SAA-C03)](https://aws.amazon.com/id/certification/certified-solutions-architect-associate/)** untuk yang kedua kalinya, karena sertifikat AWS hanya berlaku 3 tahun dan sertifikat sebelumnya expired bulan ini, September 2026. Sebagai orang dengan latar belakang developer, jalur Solutions Architect terasa paling sulit bagi saya pribadi. Karena itu, saya susun catatan belajar ini dengan bahasa yang semoga mudah dipahami. Saya bagikan di sini agar tidak sekedar tersimpan sendiri — semoga menjadi amal jariyah & bermanfaat.
 
 Beberapa catatan sebelum masuk ke materi:
 
