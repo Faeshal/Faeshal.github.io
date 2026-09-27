@@ -9,4 +9,7 @@ $logo-width = 0px + (hexo-config("logo.width") || 0)
 $logo-height = 0px + (hexo-config("logo.height") || 0)
 $logo-grayout = hexo-config("logo.grayout") || false
 // Colors
-$colors = hexo-config("colorscheme") || "dark"
+// (?= only sets $colors if it isn't already set — lets style-light.styl force
+// "light" regardless of the theme's `colorscheme` config, so both a dark and
+// a light stylesheet can be compiled from the same style.styl)
+$colors ?= hexo-config("colorscheme") || "dark"

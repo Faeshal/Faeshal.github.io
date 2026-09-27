@@ -13,6 +13,21 @@ if (!!$.prototype.justifiedGallery) {
 $(document).ready(function() {
 
   /**
+   * Toggles between the default (dark) and light color scheme, and
+   * remembers the choice in localStorage for the next visit.
+   */
+  $("#theme-toggle").click(function(e) {
+    e.preventDefault();
+    var lightStylesheet = document.getElementById("theme-light-stylesheet");
+    if (!lightStylesheet) return;
+    var isLight = !lightStylesheet.disabled;
+    lightStylesheet.disabled = isLight;
+    try {
+      localStorage.setItem("theme", isLight ? "dark" : "light");
+    } catch (e) {}
+  });
+
+  /**
    * Shows the responsive navigation menu on mobile.
    */
   $("#header > #nav > ul > .icon").click(function() {

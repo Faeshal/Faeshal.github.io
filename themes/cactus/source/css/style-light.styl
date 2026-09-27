@@ -1,0 +1,6 @@
+// Forces the light color scheme regardless of the theme's `colorscheme`
+// config, so both style.css (default, e.g. dark) and style-light.css get
+// compiled from the same style.styl. See _variables.styl for how $colors
+// is protected from being overwritten on import.
+$colors = "light"
+@import "style"

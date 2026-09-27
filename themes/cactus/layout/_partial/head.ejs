@@ -51,6 +51,18 @@
     <title><%= page_title() %></title>
     <!-- styles -->
     <%- css('css/style') %>
+    <!-- light theme (toggled via the lightbulb button, disabled by default) -->
+    <link rel="stylesheet" href="<%- url_for('css/style-light.css') %>" id="theme-light-stylesheet" disabled>
+    <script>
+      // Applied before first paint to avoid a flash of the wrong theme.
+      (function () {
+        try {
+          if (localStorage.getItem('theme') === 'light') {
+            document.getElementById('theme-light-stylesheet').removeAttribute('disabled');
+          }
+        } catch (e) {}
+      })();
+    </script>
     <!-- persian styles -->
     <% if (theme.direction && theme.direction === 'rtl') { %>
       <%- css('css/rtl') %>
